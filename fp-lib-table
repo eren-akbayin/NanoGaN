@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "NanoGaN")(type "KiCad")(uri "${KIPRJMOD}/NanoGaN.pretty")(options "")(descr ""))
+)

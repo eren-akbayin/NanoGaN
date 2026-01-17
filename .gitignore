@@ -1,0 +1,12 @@
+# Backup folders
+NanoGaN-backups/
+*-bak/
+
+# KiCad backup files
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.bak
+
+# KiCad cache and temp files
+*-cache.lib
+fp-info-cache
