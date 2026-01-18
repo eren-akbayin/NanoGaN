@@ -891,7 +891,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector:Power_Welding_Pad_10x10mm"
+		(property "Footprint" "TerminalBlock_Wuerth:Wuerth_REDCUBE-THR_WP-THRBU_74650073_THR"
 			(at 205.74 93.98 0)
 			(effects
 				(font
@@ -924,6 +924,69 @@
 			(project "NanoGaN"
 				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 261.62 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c8f2c76-80d9-49d3-a0a9-21902d7bfb2d")
+		(property "Reference" "H6"
+			(at 264.795 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 264.795 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 261.62 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 261.62 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "NanoGaN"
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb"
+					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -1087,7 +1150,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector:Power_Welding_Pad_10x10mm"
+		(property "Footprint" "TerminalBlock_Wuerth:Wuerth_REDCUBE-THR_WP-THRBU_74650073_THR"
 			(at 205.74 68.58 0)
 			(effects
 				(font
@@ -1151,7 +1214,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector:Power_Welding_Pad_10x10mm"
+		(property "Footprint" "TerminalBlock_Wuerth:Wuerth_REDCUBE-THR_WP-THRBU_74650073_THR"
 			(at 205.74 123.19 0)
 			(effects
 				(font
@@ -1200,7 +1263,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 261.62 156.21 0)
+		(at 261.62 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1209,7 +1272,7 @@
 		(fields_autoplaced yes)
 		(uuid "5bd030cd-1c23-463f-a9ad-be832210b11c")
 		(property "Reference" "H4"
-			(at 264.795 154.94 0)
+			(at 264.795 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1218,7 +1281,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 264.795 157.48 0)
+			(at 264.795 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1227,7 +1290,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 261.62 156.21 0)
+			(at 261.62 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1236,7 +1299,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 261.62 156.21 0)
+			(at 261.62 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1245,7 +1308,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 261.62 156.21 0)
+			(at 261.62 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1256,6 +1319,69 @@
 			(project "NanoGaN"
 				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb"
 					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 261.62 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d07824b-35f9-4706-83e0-4c36b43cae06")
+		(property "Reference" "H5"
+			(at 264.795 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 264.795 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 261.62 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 261.62 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "NanoGaN"
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb"
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -1288,7 +1414,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector:Power_Welding_Pad_10x10mm"
+		(property "Footprint" "TerminalBlock_Wuerth:Wuerth_REDCUBE-THR_WP-THRBU_74650073_THR"
 			(at 205.74 138.43 0)
 			(effects
 				(font
@@ -1328,7 +1454,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 261.62 139.7 0)
+		(at 261.62 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1337,7 +1463,7 @@
 		(fields_autoplaced yes)
 		(uuid "898d32cc-245a-4b00-a953-22e14c97caa5")
 		(property "Reference" "H1"
-			(at 264.795 138.43 0)
+			(at 264.795 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1346,7 +1472,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 264.795 140.97 0)
+			(at 264.795 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1355,7 +1481,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 261.62 139.7 0)
+			(at 261.62 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1364,7 +1490,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 261.62 139.7 0)
+			(at 261.62 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1373,7 +1499,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 261.62 139.7 0)
+			(at 261.62 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1417,7 +1543,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector:Power_Welding_Pad_10x10mm"
+		(property "Footprint" "TerminalBlock_Wuerth:Wuerth_REDCUBE-THR_WP-THRBU_74650073_THR"
 			(at 205.74 43.18 0)
 			(effects
 				(font
@@ -1457,7 +1583,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 261.62 145.415 0)
+		(at 261.62 139.065 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1466,7 +1592,7 @@
 		(fields_autoplaced yes)
 		(uuid "c83c75aa-25f0-4d66-bb4c-187f71e11066")
 		(property "Reference" "H2"
-			(at 264.795 144.145 0)
+			(at 264.795 137.795 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1475,7 +1601,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 264.795 146.685 0)
+			(at 264.795 140.335 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1484,7 +1610,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 261.62 145.415 0)
+			(at 261.62 139.065 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1493,7 +1619,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 261.62 145.415 0)
+			(at 261.62 139.065 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1502,7 +1628,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 261.62 145.415 0)
+			(at 261.62 139.065 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1520,7 +1646,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 261.62 151.13 0)
+		(at 261.62 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1529,7 +1655,7 @@
 		(fields_autoplaced yes)
 		(uuid "fd29133c-740e-487c-ba8e-234e6b305992")
 		(property "Reference" "H3"
-			(at 264.795 149.86 0)
+			(at 264.795 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1538,7 +1664,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 264.795 152.4 0)
+			(at 264.795 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1547,7 +1673,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 261.62 151.13 0)
+			(at 261.62 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1556,7 +1682,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 261.62 151.13 0)
+			(at 261.62 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1565,7 +1691,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 261.62 151.13 0)
+			(at 261.62 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1787,7 +1913,7 @@
 	)
 	(sheet
 		(at 99.06 110.49)
-		(size 50.8 68.58)
+		(size 50.8 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1802,7 +1928,7 @@
 		)
 		(uuid "2aff88eb-0d92-4253-8876-ba05112be4d6")
 		(property "Sheetname" "Power"
-			(at 99.06 109.7784 0)
+			(at 98.3484 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1811,7 +1937,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 99.06 179.6546 0)
+			(at 150.4446 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -4395,156 +4395,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Push"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Push button switch, generic, two pins"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_Push_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
@@ -5079,17 +4929,6 @@
 		)
 		(uuid "0d8230e1-f5ca-4886-813d-c902892325ab")
 	)
-	(text "BOOT"
-		(exclude_from_sim no)
-		(at 193.548 145.034 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "16b6001d-a1c5-437c-b27b-3d80164bbff1")
-	)
 	(text "MCU"
 		(exclude_from_sim no)
 		(at 14.478 14.478 0)
@@ -5099,17 +4938,6 @@
 			)
 		)
 		(uuid "1dd5b58d-11de-4d50-af47-4858240d1401")
-	)
-	(text "USER Button2"
-		(exclude_from_sim no)
-		(at 234.188 148.336 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "2b9047ab-3871-434c-b4b2-e9f630dfa06a")
 	)
 	(text "Basic I/O, place it last"
 		(exclude_from_sim no)
@@ -5140,17 +4968,6 @@
 			)
 		)
 		(uuid "617a1f23-4e2f-4dcf-8a8c-b7e30fc34b29")
-	)
-	(text "USER RESET"
-		(exclude_from_sim no)
-		(at 157.734 151.892 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "6db2d248-70dc-4a67-9f3e-39ae4dc0a376")
 	)
 	(text "SPI number can change for layout improvements"
 		(exclude_from_sim no)
@@ -5192,17 +5009,6 @@
 		)
 		(uuid "df98f135-66ec-46c2-bce3-4748fd2da2ac")
 	)
-	(text "USER Button1"
-		(exclude_from_sim no)
-		(at 207.518 148.59 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "e00097cf-fa8f-4cfd-8a85-1088b1504e0e")
-	)
 	(text "IMU"
 		(exclude_from_sim no)
 		(at 156.972 14.224 0)
@@ -5213,9 +5019,9 @@
 		)
 		(uuid "e3bce339-57b9-443d-800f-d67574048159")
 	)
-	(text "Buttons"
+	(text "RST and BOOT0"
 		(exclude_from_sim no)
-		(at 157.988 132.334 0)
+		(at 162.306 132.588 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5295,18 +5101,6 @@
 		(uuid "49c1d3ae-c8e7-474a-8617-968efdaa2303")
 	)
 	(junction
-		(at 172.72 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4c78129f-8967-43a9-9c64-8145a8ee186d")
-	)
-	(junction
-		(at 166.37 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "55cf98ea-e042-4201-8607-4a0a601ed996")
-	)
-	(junction
 		(at 166.37 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5329,12 +5123,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "607dff96-3f88-4a81-82e3-43d93dd4929b")
-	)
-	(junction
-		(at 187.96 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "657e6e68-3399-4591-8165-585b37dfa1ed")
 	)
 	(junction
 		(at 25.4 63.5)
@@ -5391,22 +5179,10 @@
 		(uuid "7bea5596-6319-42bb-966f-2e50506416c7")
 	)
 	(junction
-		(at 220.98 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7ebdfb16-4925-4350-8828-435bd98d76d5")
-	)
-	(junction
 		(at 19.05 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f1b5c3c-4f66-4447-a9c0-eb4e5a7e2eb3")
-	)
-	(junction
-		(at 247.65 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "82ba41bd-4800-4854-91c7-933d87c7665e")
 	)
 	(junction
 		(at 166.37 35.56)
@@ -5457,12 +5233,6 @@
 		(uuid "bddfc0b6-5fd2-4a7f-ad12-33d6cb83e27a")
 	)
 	(junction
-		(at 220.98 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c1ae33aa-492e-41d2-88cc-5ed4e0bfb6df")
-	)
-	(junction
 		(at 158.75 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5473,12 +5243,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2711dad-479b-4765-8850-b4cd37c1a99f")
-	)
-	(junction
-		(at 247.65 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dcb67a18-0031-497a-887e-e4ce60871b12")
 	)
 	(junction
 		(at 102.87 184.15)
@@ -5608,16 +5372,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 151.13) (xy 247.65 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0575104e-dc76-49c3-b194-bc16ff5d1003")
-	)
-	(wire
-		(pts
 			(xy 213.36 45.72) (xy 214.63 45.72)
 		)
 		(stroke
@@ -5645,16 +5399,6 @@
 			(type default)
 		)
 		(uuid "087a5aa1-d4d8-4fbd-9c0a-113514c88e7f")
-	)
-	(wire
-		(pts
-			(xy 252.73 139.7) (xy 252.73 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "090d458d-4612-4af9-b589-dafed0a8c422")
 	)
 	(wire
 		(pts
@@ -5718,16 +5462,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 138.43) (xy 166.37 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1429378b-2738-40af-a920-7e6c4154a7eb")
-	)
-	(wire
-		(pts
 			(xy 260.35 74.93) (xy 260.35 69.85)
 		)
 		(stroke
@@ -5735,16 +5469,6 @@
 			(type default)
 		)
 		(uuid "1447dce8-d1f9-4917-aa45-f97328136d55")
-	)
-	(wire
-		(pts
-			(xy 245.11 139.7) (xy 247.65 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1793009e-ed70-455d-86f9-e0d05be77b2d")
 	)
 	(wire
 		(pts
@@ -6008,16 +5732,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 138.43) (xy 203.2 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36748341-4990-417e-850f-8abafab963a3")
-	)
-	(wire
-		(pts
 			(xy 255.27 43.18) (xy 260.35 43.18)
 		)
 		(stroke
@@ -6118,16 +5832,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 139.7) (xy 220.98 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4008110c-913b-4180-b604-f86c531828d1")
-	)
-	(wire
-		(pts
 			(xy 213.36 27.94) (xy 213.36 25.4)
 		)
 		(stroke
@@ -6158,7 +5862,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 138.43) (xy 163.83 138.43)
+			(xy 168.91 138.43) (xy 172.72 138.43)
 		)
 		(stroke
 			(width 0)
@@ -6358,16 +6062,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 149.86) (xy 226.06 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "569d840e-d2ac-41ff-8e63-eb420cdbe129")
-	)
-	(wire
-		(pts
 			(xy 166.37 25.4) (xy 166.37 26.67)
 		)
 		(stroke
@@ -6375,16 +6069,6 @@
 			(type default)
 		)
 		(uuid "57a3fffb-81a3-4301-b66f-f810cc2471aa")
-	)
-	(wire
-		(pts
-			(xy 187.96 138.43) (xy 190.5 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "591f8ee1-9a5a-4f24-8d1c-1f16b5b43ded")
 	)
 	(wire
 		(pts
@@ -6428,7 +6112,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 149.86) (xy 172.72 152.4)
+			(xy 172.72 148.59) (xy 172.72 152.4)
 		)
 		(stroke
 			(width 0)
@@ -6545,16 +6229,6 @@
 			(type default)
 		)
 		(uuid "69b83387-474d-4f4f-b568-85b1aca9a52e")
-	)
-	(wire
-		(pts
-			(xy 226.06 139.7) (xy 226.06 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b828f18-d4a1-4b06-bb4b-962c19c90bce")
 	)
 	(wire
 		(pts
@@ -6768,16 +6442,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 149.86) (xy 172.72 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "881a7d13-d649-45db-bf61-c99b78a829b4")
-	)
-	(wire
-		(pts
 			(xy 182.88 102.87) (xy 175.26 102.87)
 		)
 		(stroke
@@ -6785,16 +6449,6 @@
 			(type default)
 		)
 		(uuid "89812b34-e4a4-4259-b5d1-080861f75e6c")
-	)
-	(wire
-		(pts
-			(xy 226.06 151.13) (xy 220.98 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ac5c05a-b0ff-41a5-8323-f07822a34dd0")
 	)
 	(wire
 		(pts
@@ -6928,16 +6582,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 149.86) (xy 252.73 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97d4c873-5e79-4b8b-8948-a3f65f8ad9bd")
-	)
-	(wire
-		(pts
 			(xy 72.39 182.88) (xy 72.39 184.15)
 		)
 		(stroke
@@ -6955,26 +6599,6 @@
 			(type default)
 		)
 		(uuid "98549cb4-95b1-49d9-93cc-ba36d1227e19")
-	)
-	(wire
-		(pts
-			(xy 166.37 139.7) (xy 166.37 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f905293-de98-4f2a-9ab5-0d43fe83e972")
-	)
-	(wire
-		(pts
-			(xy 166.37 149.86) (xy 172.72 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a10cbdb6-3f9e-48fe-baef-3590c1239800")
 	)
 	(wire
 		(pts
@@ -7005,16 +6629,6 @@
 			(type default)
 		)
 		(uuid "a2e445e0-3848-4f1d-a7f7-ef5cb0b143ea")
-	)
-	(wire
-		(pts
-			(xy 247.65 151.13) (xy 247.65 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a330a929-cd9d-4818-b98f-24dea8492db6")
 	)
 	(wire
 		(pts
@@ -7105,16 +6719,6 @@
 			(type default)
 		)
 		(uuid "af625e76-2d7c-42d2-900a-4d4462cf3fe8")
-	)
-	(wire
-		(pts
-			(xy 218.44 139.7) (xy 220.98 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b151b250-cd2b-4ed2-b7c2-b5e3f8cc219c")
 	)
 	(wire
 		(pts
@@ -7288,16 +6892,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 139.7) (xy 247.65 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4bc89a2-9353-4402-ad3b-2ca7f1395079")
-	)
-	(wire
-		(pts
 			(xy 25.4 58.42) (xy 25.4 63.5)
 		)
 		(stroke
@@ -7355,16 +6949,6 @@
 			(type default)
 		)
 		(uuid "d11e8ead-bfa1-44bd-98a2-33da8b1f3ae6")
-	)
-	(wire
-		(pts
-			(xy 220.98 151.13) (xy 220.98 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d17d64b6-0194-4b1d-983e-d63ca313224b")
 	)
 	(wire
 		(pts
@@ -7598,16 +7182,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 139.7) (xy 252.73 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec42ef0d-34ea-4371-b61f-b6cef192ebb4")
-	)
-	(wire
-		(pts
 			(xy 116.84 107.95) (xy 121.92 107.95)
 		)
 		(stroke
@@ -7645,16 +7219,6 @@
 			(type default)
 		)
 		(uuid "f06591b3-c81d-4847-afc3-1c56ac6b8d47")
-	)
-	(wire
-		(pts
-			(xy 220.98 139.7) (xy 226.06 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0aa2f95-ba90-4438-a27f-87cb5f6a9d3b")
 	)
 	(wire
 		(pts
@@ -7790,28 +7354,6 @@
 			)
 		)
 	)
-	(global_label "USR_BTN2"
-		(shape output)
-		(at 245.11 139.7 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0fc78257-066c-468e-9311-c6d8ecb693ea")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.5696 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SPI4_MISO"
 		(shape input)
 		(at 52.07 67.31 180)
@@ -7825,28 +7367,6 @@
 		(uuid "14a96c45-8782-4e21-8ae9-7b88dd5139ee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 39.2272 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USR_BTN1"
-		(shape output)
-		(at 218.44 139.7 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2059719d-103a-4dc8-bf60-fc785d0c8fc3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 205.8996 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8815,7 +8335,7 @@
 	)
 	(hierarchical_label "NRST"
 		(shape input)
-		(at 163.83 138.43 180)
+		(at 168.91 138.43 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10500,84 +10020,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 247.65 146.05 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4ab1324d-0667-482f-a80b-509d589e7bea")
-		(property "Reference" "SW4"
-			(at 242.316 143.002 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 242.57 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "NanoGaN:SW_TS-1088_XNP"
-			(at 242.57 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 242.57 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 247.65 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C720477"
-			(at 247.65 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0814d2df-5860-4a96-81dd-97d31933f140")
-		)
-		(pin "1"
-			(uuid "cd4b728a-c750-4488-a90c-f35ff7af53b2")
-		)
-		(instances
-			(project "NanoGaN"
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/ac0a01b7-48dd-40d5-85d0-d2ed24ad85a4"
-					(reference "SW4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 187.96 152.4 0)
 		(unit 1)
@@ -10797,138 +10239,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 247.65 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "576e37a3-e215-40c7-8f12-48a8ec3f9560")
-		(property "Reference" "#PWR0116"
-			(at 247.65 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 247.65 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 247.65 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 247.65 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "abed832f-c758-41be-98bb-9091ad83652a")
-		)
-		(instances
-			(project "NanoGaN"
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/ac0a01b7-48dd-40d5-85d0-d2ed24ad85a4"
-					(reference "#PWR0116")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 220.98 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "595b51d3-c438-4c18-b35f-007a65981557")
-		(property "Reference" "#PWR0115"
-			(at 220.98 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 220.98 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 220.98 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 220.98 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 220.98 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "03ac7b19-c9ac-4748-8fdb-06f6aefc455d")
-		)
-		(instances
-			(project "NanoGaN"
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/ac0a01b7-48dd-40d5-85d0-d2ed24ad85a4"
-					(reference "#PWR0115")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 167.64 74.93 0)
 		(unit 1)
@@ -11010,93 +10320,6 @@
 			(project "NanoGaN"
 				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/ac0a01b7-48dd-40d5-85d0-d2ed24ad85a4"
 					(reference "C59")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 252.73 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "63d238cb-9b3a-40ff-abc4-5ebec8b8a1c7")
-		(property "Reference" "C81"
-			(at 255.27 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "10n"
-			(at 253.746 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 253.6952 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 252.73 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10nF 6.3V X7R ±10% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 252.73 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C309453"
-			(at 252.73 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rating" "6.3V"
-			(at 255.524 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7b2d637e-29eb-4d71-a355-ea44f518e5d2")
-		)
-		(pin "2"
-			(uuid "f7de61ce-292c-4b41-a36f-7730d7b07bec")
-		)
-		(instances
-			(project "NanoGaN"
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/ac0a01b7-48dd-40d5-85d0-d2ed24ad85a4"
-					(reference "C81")
 					(unit 1)
 				)
 			)
@@ -11329,84 +10552,6 @@
 			(project "NanoGaN"
 				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/ac0a01b7-48dd-40d5-85d0-d2ed24ad85a4"
 					(reference "C54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 220.98 146.05 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "85ac0c4d-1e37-4dd5-b7ea-ecf7cab56007")
-		(property "Reference" "SW3"
-			(at 215.392 142.494 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 215.9 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "NanoGaN:SW_TS-1088_XNP"
-			(at 215.9 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 215.9 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 220.98 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C720477"
-			(at 220.98 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "58ac5ff1-88ba-4ed8-b43f-f710f9121c6c")
-		)
-		(pin "1"
-			(uuid "9f1dbdcc-f631-4163-8ee2-056f8d3e27f7")
-		)
-		(instances
-			(project "NanoGaN"
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/ac0a01b7-48dd-40d5-85d0-d2ed24ad85a4"
-					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -12618,71 +11763,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 203.2 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bbe05777-e89f-484c-9622-bb916ad9658a")
-		(property "Reference" "#PWR0114"
-			(at 203.2 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 203.2 134.874 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 203.2 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "11c8ca5c-7d7c-4b4a-875d-d28db18bf393")
-		)
-		(instances
-			(project "NanoGaN"
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/ac0a01b7-48dd-40d5-85d0-d2ed24ad85a4"
-					(reference "#PWR0114")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 34.29 58.42 0)
 		(unit 1)
@@ -13370,249 +12450,6 @@
 			(project "NanoGaN"
 				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/ac0a01b7-48dd-40d5-85d0-d2ed24ad85a4"
 					(reference "C71")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 166.37 144.78 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d42dcab7-079a-4cf2-b752-041369fafd7f")
-		(property "Reference" "SW1"
-			(at 163.322 139.954 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 161.29 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "NanoGaN:SW_TS-1088_XNP"
-			(at 161.29 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 161.29 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 166.37 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C720477"
-			(at 166.37 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6ed8da50-3528-4abf-80c9-950ff19a1066")
-		)
-		(pin "1"
-			(uuid "572a73ee-79fd-4f32-8229-3cb4af88ac67")
-		)
-		(instances
-			(project "NanoGaN"
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/ac0a01b7-48dd-40d5-85d0-d2ed24ad85a4"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 195.58 138.43 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d7cb574d-8692-4d45-a8a9-7fc8c3b1862c")
-		(property "Reference" "SW2"
-			(at 190.754 141.478 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 195.58 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "NanoGaN:SW_TS-1088_XNP"
-			(at 195.58 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 195.58 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 195.58 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C720477"
-			(at 195.58 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "88648bb6-10b7-45a1-b4e4-e177bedbd209")
-		)
-		(pin "1"
-			(uuid "b810b080-c4e6-4358-acb9-14818ee19edf")
-		)
-		(instances
-			(project "NanoGaN"
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/ac0a01b7-48dd-40d5-85d0-d2ed24ad85a4"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 226.06 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "da085d5f-2026-47d9-8c4e-1024263edc45")
-		(property "Reference" "C82"
-			(at 228.6 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "10n"
-			(at 227.076 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 227.0252 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 226.06 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10nF 6.3V X7R ±10% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 226.06 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C309453"
-			(at 226.06 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rating" "6.3V"
-			(at 228.854 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "976affce-b038-4f53-882a-5079c65843fe")
-		)
-		(pin "2"
-			(uuid "2ce8b217-f204-4c58-8310-48f89f7bcf55")
-		)
-		(instances
-			(project "NanoGaN"
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/ac0a01b7-48dd-40d5-85d0-d2ed24ad85a4"
-					(reference "C82")
 					(unit 1)
 				)
 			)

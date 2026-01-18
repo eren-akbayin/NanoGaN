@@ -990,14 +990,14 @@
 				(pin passive line
 					(at 5.08 5.08 270)
 					(length 5.08)
-					(name "D1"
+					(name "D2"
 						(effects
 							(font
 								(size 0 0)
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 0 0)
@@ -1008,14 +1008,14 @@
 				(pin passive line
 					(at 5.08 5.08 270)
 					(length 5.08)
-					(name "D2"
+					(name "D1"
 						(effects
 							(font
 								(size 0 0)
 							)
 						)
 					)
-					(number "2"
+					(number "4"
 						(effects
 							(font
 								(size 0 0)
@@ -1033,7 +1033,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "3"
 						(effects
 							(font
 								(size 0 0)
@@ -1089,7 +1089,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1205,386 +1205,6 @@
 				)
 				(pin passive line
 					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "NanoGaN:SN74LVC1G66DCKR"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 20.32 10.16 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "SN74LVC1G66DCKR"
-				(at 20.32 7.62 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "NanoGaN:DCK5"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/gpn/sn74lvc1g66"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "-40℃~+85℃ 1 1.65V~5.5V 13pF 195MHz 1:1 4.2ns 5.5Ω 5ns 600ps SC-70-5 Analog Switches, Multiplexers ROHS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C113518"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "SN74LVC1G66DCKR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "DCK5 DCK5-M DCK5-L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SN74LVC1G66DCKR_0_1"
-				(pin power_in line
-					(at 0 3.81 0)
-					(length 7.62)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 0 0)
-					(length 7.62)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -3.81 0)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 33.02 3.81 180)
-					(length 7.62)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 33.02 -3.81 180)
-					(length 7.62)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SN74LVC1G66DCKR_1_1"
-				(rectangle
-					(start 7.62 6.35)
-					(end 25.4 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "WSLF25121L000FEA_1"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at -2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1m"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "NanoGaN:RES_00FEA_VIS-L"
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.vishay.com/doc?30193"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "1mΩ 5W Current Sense Resistor SMD ±1% ±170ppm/℃ 2512 Current Sense Resistors / Shunt Resistors ROHS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C844907"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res shunt resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*Shunt*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "WSLF25121L000FEA_1_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "WSLF25121L000FEA_1_1_1"
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 2.54 180)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -2.54 180)
 					(length 1.27)
 					(name "~"
 						(effects
@@ -2158,7 +1778,7 @@
 	)
 	(text "Gain 20V/V"
 		(exclude_from_sim no)
-		(at 150.368 121.412 0)
+		(at 150.876 125.476 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2225,16 +1845,34 @@
 		(uuid "0323a378-46be-4fdd-a57c-f46ad518556e")
 	)
 	(junction
-		(at 246.38 107.95)
+		(at 138.43 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0be7beef-9385-4d99-8da5-2fe92848b463")
+		(uuid "07043db9-ec5c-4a9f-bc58-f68107869959")
+	)
+	(junction
+		(at 27.94 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1693e996-2a2b-43b2-9f74-02510e9d7380")
 	)
 	(junction
 		(at 22.86 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "25c5eae0-5ed1-4023-b5fb-23527c4fcf8a")
+	)
+	(junction
+		(at 146.05 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c758a61-53f6-4a7d-8bfb-45708dd55242")
+	)
+	(junction
+		(at 128.27 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32b6089d-cac5-404f-b5cd-30e5b2e9721b")
 	)
 	(junction
 		(at 57.15 81.28)
@@ -2267,10 +1905,10 @@
 		(uuid "66e8ab31-7103-4f1a-9506-02a833bd9503")
 	)
 	(junction
-		(at 234.95 123.19)
+		(at 154.94 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "809dbe96-1d1e-41fb-8dda-94f39cce0246")
+		(uuid "6e91f13d-3ef0-4d1d-b37b-ead63bc632ca")
 	)
 	(junction
 		(at 58.42 81.28)
@@ -2309,6 +1947,12 @@
 		(uuid "b081e5f6-22a7-4ff5-9849-97ced177bc58")
 	)
 	(junction
+		(at 27.94 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b74c9138-79b4-4991-bbcf-59c6f242daff")
+	)
+	(junction
 		(at 81.28 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2321,16 +1965,16 @@
 		(uuid "e1b2a6e4-3d60-4367-90c8-361df80d481d")
 	)
 	(junction
+		(at 19.05 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f05fa326-1d67-4a93-91f3-c7aa1e87a000")
+	)
+	(junction
 		(at 34.29 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f3e8177d-cb1b-46ad-9914-849526000463")
-	)
-	(junction
-		(at 19.05 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f66ea1db-9dd5-468c-832a-3f7b224abf24")
 	)
 	(junction
 		(at 118.11 114.3)
@@ -2436,16 +2080,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 115.57) (xy 196.85 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20617fcc-4312-4e90-8476-3a7f33abb977")
-	)
-	(wire
-		(pts
 			(xy 69.85 91.44) (xy 69.85 93.98)
 		)
 		(stroke
@@ -2463,26 +2097,6 @@
 			(type default)
 		)
 		(uuid "212e5c1f-2c03-4977-93d9-0b62c7bda276")
-	)
-	(wire
-		(pts
-			(xy 138.43 99.06) (xy 138.43 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "247bf830-c4f2-4530-832e-f7464dba82c8")
-	)
-	(wire
-		(pts
-			(xy 196.85 111.76) (xy 199.39 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24c67a72-0e55-4677-bd24-518c3049f509")
 	)
 	(wire
 		(pts
@@ -2516,23 +2130,13 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 124.46) (xy 234.95 123.19)
+			(xy 137.16 93.98) (xy 138.43 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "30a3ec7b-c4f4-41ed-b3d0-87a2b32cfd73")
-	)
-	(wire
-		(pts
-			(xy 232.41 115.57) (xy 234.95 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36a84c11-497d-4cd7-81f2-32e9e73d331c")
+		(uuid "36f0df94-f358-4a07-8865-5b8e77f5aef3")
 	)
 	(wire
 		(pts
@@ -2546,13 +2150,23 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 107.95) (xy 246.38 107.95)
+			(xy 146.05 118.11) (xy 146.05 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3fea088f-ae5d-4c73-b0c9-c9f4ea3c81d8")
+		(uuid "3d2671ef-7109-4b59-895a-070340f61e21")
+	)
+	(wire
+		(pts
+			(xy 154.94 109.22) (xy 158.75 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3edf9eb8-590a-4516-bab3-cf12d493ffc2")
 	)
 	(wire
 		(pts
@@ -2576,6 +2190,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 96.52) (xy 36.83 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46253d4c-5117-4da0-aea8-115e7bd49a13")
+	)
+	(wire
+		(pts
 			(xy 22.86 168.91) (xy 22.86 171.45)
 		)
 		(stroke
@@ -2596,6 +2220,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 99.06) (xy 138.43 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49c589d0-1b51-4bb4-b973-81e73756ec3e")
+	)
+	(wire
+		(pts
 			(xy 69.85 116.84) (xy 69.85 119.38)
 		)
 		(stroke
@@ -2603,6 +2237,16 @@
 			(type default)
 		)
 		(uuid "4bdbb3f4-53c2-4502-b208-521d740a3696")
+	)
+	(wire
+		(pts
+			(xy 19.05 86.36) (xy 19.05 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f4f18f1-5c7b-4e3a-b3f4-5606a732f31e")
 	)
 	(wire
 		(pts
@@ -2676,6 +2320,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 86.36) (xy 36.83 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e7774d2-e328-41c4-a552-3f783b8529f9")
+	)
+	(wire
+		(pts
 			(xy 19.05 96.52) (xy 19.05 97.79)
 		)
 		(stroke
@@ -2696,16 +2350,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 106.68) (xy 196.85 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68377dc2-68ed-46ec-8cfa-8a586d9d6a86")
-	)
-	(wire
-		(pts
 			(xy 19.05 33.02) (xy 19.05 34.29)
 		)
 		(stroke
@@ -2713,16 +2357,6 @@
 			(type default)
 		)
 		(uuid "6869941c-3a22-4a00-9d59-b94451f911f2")
-	)
-	(wire
-		(pts
-			(xy 246.38 107.95) (xy 251.46 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cbed4f6-8763-40ed-ae46-8769a74fc087")
 	)
 	(wire
 		(pts
@@ -2766,13 +2400,13 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 99.06) (xy 128.27 96.52)
+			(xy 27.94 86.36) (xy 36.83 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8786cfcf-8620-4e61-81bd-45995ef2db72")
+		(uuid "86222837-4526-4b04-9851-9534cc3c63a2")
 	)
 	(wire
 		(pts
@@ -2816,7 +2450,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 109.22) (xy 158.75 109.22)
+			(xy 143.51 109.22) (xy 154.94 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2883,6 +2517,16 @@
 			(type default)
 		)
 		(uuid "a10c3d9c-07b2-4588-ba81-7b784a21dff7")
+	)
+	(wire
+		(pts
+			(xy 27.94 86.36) (xy 27.94 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2cd1866-82b3-4222-ba4c-f29d355a3f0a")
 	)
 	(wire
 		(pts
@@ -2976,7 +2620,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 85.09) (xy 19.05 87.63)
+			(xy 19.05 85.09) (xy 19.05 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3006,13 +2650,13 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 96.52) (xy 130.81 96.52)
+			(xy 128.27 93.98) (xy 128.27 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "be3eeb7f-0bdd-41b2-a77b-c18616fa73b3")
+		(uuid "bf8b42eb-5f88-4203-865e-d6f61d3510ad")
 	)
 	(wire
 		(pts
@@ -3046,7 +2690,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 111.76) (xy 146.05 113.03)
+			(xy 146.05 111.76) (xy 146.05 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3073,16 +2717,6 @@
 			(type default)
 		)
 		(uuid "c5b6ee2b-e29c-4989-8e26-31022669bdb9")
-	)
-	(wire
-		(pts
-			(xy 234.95 123.19) (xy 246.38 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6fc0b2e-44f8-4508-b4e4-a4c89deca208")
 	)
 	(wire
 		(pts
@@ -3156,6 +2790,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 116.84) (xy 154.94 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df3fb482-679b-4915-8d2b-c53a3e13570a")
+	)
+	(wire
+		(pts
 			(xy 19.05 31.75) (xy 19.05 33.02)
 		)
 		(stroke
@@ -3176,26 +2820,6 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 93.98) (xy 138.43 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e81e53c8-8f3e-4473-a90f-5fc7a52bbcf0")
-	)
-	(wire
-		(pts
-			(xy 196.85 115.57) (xy 199.39 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e950aae1-e1f9-49a0-9c57-c74608922973")
-	)
-	(wire
-		(pts
 			(xy 143.51 111.76) (xy 146.05 111.76)
 		)
 		(stroke
@@ -3206,13 +2830,23 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 87.63) (xy 27.94 87.63)
+			(xy 19.05 86.36) (xy 27.94 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "eb7419d1-307a-47de-b90a-f5c42dd618e7")
+	)
+	(wire
+		(pts
+			(xy 128.27 93.98) (xy 129.54 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebdf1b16-4f86-4624-aceb-4eeada3f5d31")
 	)
 	(wire
 		(pts
@@ -3256,6 +2890,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 93.98) (xy 270.51 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3c36c48-54f8-43f3-a684-1e51d46bee3f")
+	)
+	(wire
+		(pts
 			(xy 118.11 115.57) (xy 118.11 114.3)
 		)
 		(stroke
@@ -3286,16 +2930,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 107.95) (xy 196.85 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f837f37f-2bb5-4e8c-9008-626ba5488543")
-	)
-	(wire
-		(pts
 			(xy 59.69 22.86) (xy 59.69 26.67)
 		)
 		(stroke
@@ -3316,23 +2950,13 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 115.57) (xy 246.38 107.95)
+			(xy 36.83 95.25) (xy 36.83 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fd7bdd09-bacb-4920-8095-409bf52854aa")
-	)
-	(wire
-		(pts
-			(xy 138.43 96.52) (xy 135.89 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdc7fc5c-a055-4d82-936b-d425710b252c")
+		(uuid "ffa339bb-e1aa-4cf7-909b-ee5bba85e9cc")
 	)
 	(hierarchical_label "HOH"
 		(shape bidirectional)
@@ -3510,17 +3134,6 @@
 		)
 		(uuid "d75d667f-0ca7-4b56-9dc0-0ef0bb2953da")
 	)
-	(hierarchical_label "ENABLE_CURR_FILTER"
-		(shape input)
-		(at 196.85 111.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e327e0c4-d8e6-40e4-89d8-c827e5492c46")
-	)
 	(hierarchical_label "PHASE"
 		(shape bidirectional)
 		(at 270.51 93.98 0)
@@ -3531,17 +3144,6 @@
 			(justify left)
 		)
 		(uuid "eb6c73c2-a61d-4d1b-b910-206afa92a033")
-	)
-	(hierarchical_label "I_CURR_SENS"
-		(shape output)
-		(at 251.46 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ee890446-0b20-4be9-a175-bc966f5c1b41")
 	)
 	(symbol
 		(lib_id "power:+3.3VA")
@@ -3870,6 +3472,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 52.07 109.22 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "16578833-1487-419e-8160-35c8a814d2bb")
+		(property "Reference" "R9"
+			(at 50.8 107.442 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1"
+			(at 52.07 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 52.07 110.998 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 1Ω 200mW 50V Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 52.07 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2077491"
+			(at 52.07 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a8f20422-0e2d-4f2b-aa95-222efbb259ec")
+		)
+		(pin "1"
+			(uuid "bd88bd12-79b0-4839-8413-d47cf3f10225")
+		)
+		(instances
+			(project "NanoGaN"
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/0e1bfe70-a2e5-4ef1-9f8e-8f502719987a"
+					(reference "R25")
+					(unit 1)
+				)
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/26073e15-610a-4a81-ba6b-5ca706574d3c"
+					(reference "R18")
+					(unit 1)
+				)
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/6f3a55d2-28c8-407e-8c9d-28f4ee320cbb"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 71.12 22.86 90)
 		(unit 1)
@@ -4065,7 +3751,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 134.62 118.11 0)
 			(effects
 				(font
@@ -4128,78 +3814,6 @@
 				)
 				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/6f3a55d2-28c8-407e-8c9d-28f4ee320cbb"
 					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3VA")
-		(at 196.85 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2bde6035-3ce6-4778-821d-3c2e649acb7b")
-		(property "Reference" "#PWR036"
-			(at 196.85 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3A"
-			(at 196.85 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 196.85 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 196.85 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "edfab713-8d82-4eb0-91a1-be61937f3de7")
-		)
-		(instances
-			(project "NanoGaN"
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/0e1bfe70-a2e5-4ef1-9f8e-8f502719987a"
-					(reference "#PWR060")
-					(unit 1)
-				)
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/26073e15-610a-4a81-ba6b-5ca706574d3c"
-					(reference "#PWR044")
-					(unit 1)
-				)
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/6f3a55d2-28c8-407e-8c9d-28f4ee320cbb"
-					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -4299,78 +3913,6 @@
 				)
 				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/6f3a55d2-28c8-407e-8c9d-28f4ee320cbb"
 					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 196.85 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "45540e6c-ff0c-4282-a16f-950884d5f764")
-		(property "Reference" "#PWR035"
-			(at 196.85 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "AGND"
-			(at 196.85 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 196.85 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 196.85 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "330c0b29-4d42-4326-9cd7-641effc99044")
-		)
-		(instances
-			(project "NanoGaN"
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/0e1bfe70-a2e5-4ef1-9f8e-8f502719987a"
-					(reference "#PWR061")
-					(unit 1)
-				)
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/26073e15-610a-4a81-ba6b-5ca706574d3c"
-					(reference "#PWR045")
-					(unit 1)
-				)
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/6f3a55d2-28c8-407e-8c9d-28f4ee320cbb"
-					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -4570,7 +4112,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 56.642 114.3 90)
 			(effects
 				(font
@@ -4648,7 +4190,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 56.642 87.63 90)
 			(effects
 				(font
@@ -4693,6 +4235,93 @@
 				)
 				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/6f3a55d2-28c8-407e-8c9d-28f4ee320cbb"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 133.35 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a9e387d-f88e-469f-a844-4b5f5ba41cf7")
+		(property "Reference" "R11"
+			(at 132.08 92.202 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "1m"
+			(at 133.35 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NanoGaN:RES_00FEA_VIS-L"
+			(at 133.35 95.758 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/doc?30193"
+			(at 133.35 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1mΩ 5W Current Sense Resistor SMD ±1% ±170ppm/℃ 2512 Current Sense Resistors / Shunt Resistors ROHS"
+			(at 133.35 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C844907"
+			(at 133.35 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1d9e161c-2f51-47c1-85fd-ae2478f6e05e")
+		)
+		(pin "1"
+			(uuid "132bf4ea-2bf3-47b6-b184-62caedc5a4ae")
+		)
+		(instances
+			(project "NanoGaN"
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/0e1bfe70-a2e5-4ef1-9f8e-8f502719987a"
+					(reference "R42")
+					(unit 1)
+				)
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/26073e15-610a-4a81-ba6b-5ca706574d3c"
+					(reference "R21")
+					(unit 1)
+				)
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/6f3a55d2-28c8-407e-8c9d-28f4ee320cbb"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -4866,7 +4495,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 146.05 113.03 0)
+		(at 146.05 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4874,7 +4503,7 @@
 		(dnp no)
 		(uuid "61ea2459-9bb4-4701-9b3a-0c9e91bfdd6c")
 		(property "Reference" "#PWR030"
-			(at 146.05 119.38 0)
+			(at 146.05 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4883,7 +4512,7 @@
 			)
 		)
 		(property "Value" "AGND"
-			(at 146.05 116.84 0)
+			(at 146.05 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4891,7 +4520,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 113.03 0)
+			(at 146.05 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4900,7 +4529,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 113.03 0)
+			(at 146.05 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4909,7 +4538,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 113.03 0)
+			(at 146.05 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4931,101 +4560,6 @@
 				)
 				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/6f3a55d2-28c8-407e-8c9d-28f4ee320cbb"
 					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 234.95 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6cb6b293-b1bc-4702-8d2e-0604b21e051b")
-		(property "Reference" "C27"
-			(at 237.49 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "10n"
-			(at 235.966 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 235.9152 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 234.95 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10nF 6.3V X7R ±10% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 234.95 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C309453"
-			(at 234.95 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rating" "6.3V"
-			(at 237.744 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "234d850a-308b-44b0-b1c4-c42782bd7408")
-		)
-		(pin "2"
-			(uuid "60c72245-f9c6-416b-bab2-42a9a5c0feb7")
-		)
-		(instances
-			(project "NanoGaN"
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/0e1bfe70-a2e5-4ef1-9f8e-8f502719987a"
-					(reference "C44")
-					(unit 1)
-				)
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/26073e15-610a-4a81-ba6b-5ca706574d3c"
-					(reference "C35")
-					(unit 1)
-				)
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/6f3a55d2-28c8-407e-8c9d-28f4ee320cbb"
-					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -5289,7 +4823,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0508_1220Metric_Pad1.12x2.15mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 52.07 83.058 90)
 			(effects
 				(font
@@ -5307,7 +4841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 1Ω 500mW Thick Film Resistor ±1% ±150ppm/℃ 0508 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 1Ω 200mW 50V Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 52.07 81.28 0)
 			(effects
 				(font
@@ -5316,7 +4850,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C510151"
+		(property "LCSC" "C2077491"
 			(at 52.07 81.28 0)
 			(effects
 				(font
@@ -5423,102 +4957,6 @@
 		)
 	)
 	(symbol
-		(lib_name "WSLF25121L000FEA_1")
-		(lib_id "NanoGaN:WSLF25121L000FEA")
-		(at 133.35 93.98 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7b0ea822-e206-4df1-b6df-527969d3347e")
-		(property "Reference" "R11"
-			(at 133.35 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "1m"
-			(at 133.35 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "NanoGaN:RES_00FEA_VIS-L"
-			(at 133.35 92.202 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/doc?30193"
-			(at 133.35 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1mΩ 5W Current Sense Resistor SMD ±1% ±170ppm/℃ 2512 Current Sense Resistors / Shunt Resistors ROHS"
-			(at 133.35 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C844907"
-			(at 133.35 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ba5aa618-40b0-42d4-b7cb-68772823efd3")
-		)
-		(pin "1"
-			(uuid "c3154ee9-4df1-4074-8a2d-c056f85d2965")
-		)
-		(pin "1"
-			(uuid "e27caef2-fa65-4c96-8b84-2bb0a0dec69c")
-		)
-		(pin "2"
-			(uuid "da50908d-11e3-4f18-b44c-d56ea6aa94bb")
-		)
-		(instances
-			(project "NanoGaN"
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/0e1bfe70-a2e5-4ef1-9f8e-8f502719987a"
-					(reference "R28")
-					(unit 1)
-				)
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/26073e15-610a-4a81-ba6b-5ca706574d3c"
-					(reference "R21")
-					(unit 1)
-				)
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/6f3a55d2-28c8-407e-8c9d-28f4ee320cbb"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 19.05 97.79 0)
 		(unit 1)
@@ -5585,6 +5023,172 @@
 				)
 				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/6f3a55d2-28c8-407e-8c9d-28f4ee320cbb"
 					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 36.83 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7f7b83a6-dbf9-48c1-9831-913aa812e1ab")
+		(property "Reference" "C15"
+			(at 40.64 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Value" "100n"
+			(at 38.862 89.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 37.7952 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/DKDS-19/374389.pdf"
+			(at 36.83 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "- CAP, 0.1UF, 100V, MLCC, 0805, -SAMSUNG ELECTRO-MECHANICS - CL21B104KCFNNNE"
+			(at 36.83 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "CL21B104KCFNNNE"
+			(at 36.83 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.35"
+			(at 36.83 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "187-CL21B104KCFNNNE"
+			(at 36.83 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21B104KCFNNNE?qs=lptGheUA4EwiEGVRX9oguw%3D%3D"
+			(at 36.83 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SAMSUNG"
+			(at 36.83 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL21B104KCFNNNE"
+			(at 36.83 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "100V"
+			(at 38.608 93.472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 36.83 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C28233"
+			(at 36.83 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "35bf6df1-330d-42b6-a437-a360d1b67373")
+		)
+		(pin "1"
+			(uuid "7df37f60-5d76-4015-8285-e810eab23801")
+		)
+		(instances
+			(project "NanoGaN"
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/0e1bfe70-a2e5-4ef1-9f8e-8f502719987a"
+					(reference "C85")
+					(unit 1)
+				)
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/26073e15-610a-4a81-ba6b-5ca706574d3c"
+					(reference "C16")
+					(unit 1)
+				)
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/6f3a55d2-28c8-407e-8c9d-28f4ee320cbb"
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -5855,78 +5459,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 234.95 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "afd2617e-aceb-4eaf-82a7-5b96644c1630")
-		(property "Reference" "#PWR031"
-			(at 234.95 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "AGND"
-			(at 234.95 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 234.95 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.95 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 234.95 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "57f18d6c-bc4c-40c4-8825-02115d511009")
-		)
-		(instances
-			(project "NanoGaN"
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/0e1bfe70-a2e5-4ef1-9f8e-8f502719987a"
-					(reference "#PWR066")
-					(unit 1)
-				)
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/26073e15-610a-4a81-ba6b-5ca706574d3c"
-					(reference "#PWR050")
-					(unit 1)
-				)
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/6f3a55d2-28c8-407e-8c9d-28f4ee320cbb"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 19.05 38.1 0)
 		(unit 1)
@@ -6016,101 +5548,6 @@
 				)
 				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/6f3a55d2-28c8-407e-8c9d-28f4ee320cbb"
 					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NanoGaN:SN74LVC1G66DCKR")
-		(at 199.39 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "baf25b4b-102c-42a2-9af4-9e88824ae21c")
-		(property "Reference" "U6"
-			(at 208.788 103.886 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "SN74LVC1G66DCKR"
-			(at 215.138 120.142 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "NanoGaN:DCK5"
-			(at 199.39 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/sn74lvc1g66"
-			(at 199.39 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "-40℃~+85℃ 1 1.65V~5.5V 13pF 195MHz 1:1 4.2ns 5.5Ω 5ns 600ps SC-70-5 Analog Switches, Multiplexers ROHS"
-			(at 199.39 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C113518"
-			(at 199.39 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "9e8c4188-8caa-40d1-b06a-12b869827669")
-		)
-		(pin "3"
-			(uuid "c26ed441-a8c0-4dc6-88f0-2982cfee4d9a")
-		)
-		(pin "1"
-			(uuid "6ff8a06a-6037-4a26-b205-ae1ad85033bd")
-		)
-		(pin "4"
-			(uuid "4d53f009-e2ad-4191-8427-941ff0e2737e")
-		)
-		(pin "2"
-			(uuid "b9ea881d-04fb-4e9c-8c97-d6ad4e27675a")
-		)
-		(instances
-			(project "NanoGaN"
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/0e1bfe70-a2e5-4ef1-9f8e-8f502719987a"
-					(reference "U11")
-					(unit 1)
-				)
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/26073e15-610a-4a81-ba6b-5ca706574d3c"
-					(reference "U8")
-					(unit 1)
-				)
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/6f3a55d2-28c8-407e-8c9d-28f4ee320cbb"
-					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -6454,92 +5891,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 52.07 109.22 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cb099d46-e659-419b-a365-bdc92c7ad5cc")
-		(property "Reference" "R9"
-			(at 50.8 107.442 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1"
-			(at 52.07 109.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0508_1220Metric_Pad1.12x2.15mm_HandSolder"
-			(at 52.07 110.998 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 52.07 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "-55℃~+155℃ 1Ω 500mW Thick Film Resistor ±1% ±150ppm/℃ 0508 Chip Resistor - Surface Mount ROHS"
-			(at 52.07 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C510151"
-			(at 52.07 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "61040947-cebc-47ac-833a-814a3b22644f")
-		)
-		(pin "1"
-			(uuid "9b4f11b7-29c2-46bf-9e81-6389e65f7552")
-		)
-		(instances
-			(project "NanoGaN"
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/0e1bfe70-a2e5-4ef1-9f8e-8f502719987a"
-					(reference "R25")
-					(unit 1)
-				)
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/26073e15-610a-4a81-ba6b-5ca706574d3c"
-					(reference "R18")
-					(unit 1)
-				)
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/6f3a55d2-28c8-407e-8c9d-28f4ee320cbb"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 246.38 119.38 0)
+		(at 154.94 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6547,7 +5900,7 @@
 		(dnp no)
 		(uuid "e161dc49-d6f4-4b9d-b499-ede009ae4ba7")
 		(property "Reference" "C28"
-			(at 248.92 118.11 0)
+			(at 157.48 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6557,7 +5910,7 @@
 			)
 		)
 		(property "Value" "1n"
-			(at 247.396 116.84 0)
+			(at 155.956 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6566,7 +5919,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 247.3452 123.19 0)
+			(at 155.9052 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6575,7 +5928,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 246.38 119.38 0)
+			(at 154.94 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6584,7 +5937,7 @@
 			)
 		)
 		(property "Description" "1nF 6.3V X7R ±10% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 246.38 119.38 0)
+			(at 154.94 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6593,7 +5946,7 @@
 			)
 		)
 		(property "LCSC" "C541214"
-			(at 246.38 119.38 0)
+			(at 154.94 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6602,7 +5955,7 @@
 			)
 		)
 		(property "Voltage Rating" "6.3V"
-			(at 249.174 121.92 0)
+			(at 157.734 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)

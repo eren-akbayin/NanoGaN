@@ -2351,6 +2351,12 @@
 		(uuid "1140301c-28c3-4d67-9b9a-2cc1531e89f7")
 	)
 	(junction
+		(at 49.53 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18c6ec13-cc43-43ac-a529-3df06e176968")
+	)
+	(junction
 		(at 19.05 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2375,10 +2381,10 @@
 		(uuid "32bb5f8c-90f1-498d-be5a-1f3c8342931b")
 	)
 	(junction
-		(at 76.2 125.73)
+		(at 49.53 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3a00f5a8-dc4d-4f19-b2c8-bd94420bf2f2")
+		(uuid "367a749a-80aa-4fb0-8767-20299d5d2f56")
 	)
 	(junction
 		(at 36.83 25.4)
@@ -2405,12 +2411,6 @@
 		(uuid "4fa33f43-3af5-4574-b45d-93c5a4f80329")
 	)
 	(junction
-		(at 88.9 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "597486f4-5675-4637-9582-a042f2da8395")
-	)
-	(junction
 		(at 27.94 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2435,18 +2435,6 @@
 		(uuid "7f503adc-3e75-4c66-8cfb-ef828b8b7963")
 	)
 	(junction
-		(at 88.9 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "843c6e16-136a-4e9b-9589-5144ca0e6e9b")
-	)
-	(junction
-		(at 50.8 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "86a5a8e3-1d17-4d87-8dfc-50b6191fd6be")
-	)
-	(junction
 		(at 45.72 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2457,6 +2445,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88ad6409-376b-429c-a37c-f05ba675ff99")
+	)
+	(junction
+		(at 60.96 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "902c0843-9ddd-4fc4-a9de-1fafda75247e")
 	)
 	(junction
 		(at 38.1 125.73)
@@ -2471,12 +2465,6 @@
 		(uuid "9d76ad0e-1589-4686-817b-0672c5bcbb86")
 	)
 	(junction
-		(at 63.5 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a0e97fdb-a9d0-4287-9ffa-34ffbab425d7")
-	)
-	(junction
 		(at 121.92 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2489,22 +2477,10 @@
 		(uuid "ae720b92-f384-4291-af0c-77525cf2beab")
 	)
 	(junction
-		(at 50.8 140.97)
+		(at 60.96 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ba2d2a74-a635-46b3-b9f9-7649b2d7e0fd")
-	)
-	(junction
-		(at 76.2 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c9a8f6f9-41b7-4e28-ac6d-e9bc98dfd4e4")
-	)
-	(junction
-		(at 63.5 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cb39af1e-3cb7-4858-915a-0d5d2adabc0d")
+		(uuid "be3e89b8-a694-4563-868d-a9e346252cde")
 	)
 	(junction
 		(at 100.33 81.28)
@@ -2572,26 +2548,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 125.73) (xy 63.5 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0edc8d7c-e5d8-4ff0-927f-c407f4a98c32")
-	)
-	(wire
-		(pts
-			(xy 101.6 125.73) (xy 101.6 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "141d4b76-0c4e-4976-a02f-39b64d98c280")
-	)
-	(wire
-		(pts
 			(xy 100.33 91.44) (xy 100.33 93.98)
 		)
 		(stroke
@@ -2622,6 +2578,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 137.16) (xy 60.96 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2069ba8d-64be-41a2-9c3e-42f86466b338")
+	)
+	(wire
+		(pts
 			(xy 121.92 35.56) (xy 121.92 36.83)
 		)
 		(stroke
@@ -2629,16 +2595,6 @@
 			(type default)
 		)
 		(uuid "23e7e225-c6b4-44c6-8dba-81e80ca14fa2")
-	)
-	(wire
-		(pts
-			(xy 50.8 125.73) (xy 63.5 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24295e74-4f5d-4084-9ef3-6eee2aef2e9c")
 	)
 	(wire
 		(pts
@@ -2722,6 +2678,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 125.73) (xy 72.39 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33eca78f-c9aa-4423-b5c1-b9d9716d09c8")
+	)
+	(wire
+		(pts
 			(xy 85.09 87.63) (xy 85.09 86.36)
 		)
 		(stroke
@@ -2749,16 +2715,6 @@
 			(type default)
 		)
 		(uuid "37a26f92-c494-4481-b21d-fbc663754953")
-	)
-	(wire
-		(pts
-			(xy 50.8 137.16) (xy 50.8 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "387e81d9-b61b-477d-9689-751842a31c17")
 	)
 	(wire
 		(pts
@@ -2832,13 +2788,13 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 125.73) (xy 76.2 125.73)
+			(xy 60.96 140.97) (xy 72.39 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "54aab1b8-c813-4490-a215-a39b0e02290c")
+		(uuid "5bd14225-87a1-44cf-98bd-772e1a4aff78")
 	)
 	(wire
 		(pts
@@ -2892,26 +2848,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 125.73) (xy 50.8 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6bd181fa-4b6a-4cbf-8496-bd12708588cb")
-	)
-	(wire
-		(pts
-			(xy 50.8 140.97) (xy 63.5 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d2a478f-3509-4def-89b9-840121494a2a")
-	)
-	(wire
-		(pts
 			(xy 121.92 33.02) (xy 121.92 35.56)
 		)
 		(stroke
@@ -2919,6 +2855,16 @@
 			(type default)
 		)
 		(uuid "6d47ca6e-ec8f-420b-a163-9d2b8072954e")
+	)
+	(wire
+		(pts
+			(xy 49.53 125.73) (xy 60.96 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6de8af2d-e068-47f7-9695-9f058313f9d4")
 	)
 	(wire
 		(pts
@@ -2962,6 +2908,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 125.73) (xy 60.96 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82045626-243a-4e33-b83c-6f1dc797d660")
+	)
+	(wire
+		(pts
 			(xy 49.53 93.98) (xy 57.15 93.98)
 		)
 		(stroke
@@ -2972,13 +2928,13 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 125.73) (xy 88.9 125.73)
+			(xy 72.39 125.73) (xy 72.39 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "85e83435-c5e2-4f07-af27-8e548ede8747")
+		(uuid "8817208c-0a93-49a4-b042-3755a7f2f94b")
 	)
 	(wire
 		(pts
@@ -2999,16 +2955,6 @@
 			(type default)
 		)
 		(uuid "954619e6-745e-4eea-a47f-8e9035e3c5b6")
-	)
-	(wire
-		(pts
-			(xy 76.2 137.16) (xy 76.2 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "959be493-2b6d-4770-ad26-d126e9194da2")
 	)
 	(wire
 		(pts
@@ -3042,16 +2988,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 137.16) (xy 101.6 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a25e5ba7-e3ca-4897-9f8e-46473e8dec68")
-	)
-	(wire
-		(pts
 			(xy 90.17 30.48) (xy 105.41 30.48)
 		)
 		(stroke
@@ -3069,26 +3005,6 @@
 			(type default)
 		)
 		(uuid "a3b85f5f-fccc-4edb-a98c-46a4cb0e6502")
-	)
-	(wire
-		(pts
-			(xy 76.2 125.73) (xy 76.2 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a49d8410-38c9-4210-afc1-cfdf8957d976")
-	)
-	(wire
-		(pts
-			(xy 63.5 137.16) (xy 63.5 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4e69400-e6a1-4d0c-98f3-1d015bb2c634")
 	)
 	(wire
 		(pts
@@ -3132,16 +3048,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 125.73) (xy 88.9 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b52e6847-916b-4819-8d55-b9c9a0e84379")
-	)
-	(wire
-		(pts
 			(xy 90.17 25.4) (xy 93.98 25.4)
 		)
 		(stroke
@@ -3152,7 +3058,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 125.73) (xy 101.6 125.73)
+			(xy 38.1 125.73) (xy 49.53 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3162,7 +3068,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 140.97) (xy 101.6 140.97)
+			(xy 38.1 140.97) (xy 49.53 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3219,6 +3125,16 @@
 			(type default)
 		)
 		(uuid "c90c3300-12ab-4c69-b854-6ed87a7e10b4")
+	)
+	(wire
+		(pts
+			(xy 49.53 140.97) (xy 60.96 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9474811-6012-4bfd-8a9c-fa6f0dfc466c")
 	)
 	(wire
 		(pts
@@ -3332,13 +3248,13 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 140.97) (xy 50.8 140.97)
+			(xy 49.53 137.16) (xy 49.53 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e1ff1df5-780d-4c93-847f-6a007363ea26")
+		(uuid "e4a3664f-9ec2-41c4-a010-ba674905a9b6")
 	)
 	(wire
 		(pts
@@ -3392,26 +3308,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 140.97) (xy 76.2 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f248bee3-7cdc-4020-a1ea-5cffbcccbbef")
-	)
-	(wire
-		(pts
-			(xy 76.2 140.97) (xy 88.9 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2f11f91-03eb-4422-8e8b-648d1e1d855d")
-	)
-	(wire
-		(pts
 			(xy 19.05 21.59) (xy 19.05 25.4)
 		)
 		(stroke
@@ -3429,16 +3325,6 @@
 			(type default)
 		)
 		(uuid "f4753d9d-eba1-4caa-865b-c501468e21af")
-	)
-	(wire
-		(pts
-			(xy 88.9 137.16) (xy 88.9 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7ac43af-390b-4ecf-a8e5-871fe21c0a74")
 	)
 	(wire
 		(pts
@@ -3462,16 +3348,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 125.73) (xy 38.1 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcc9797a-bb4e-42f4-8870-af036e4d221c")
-	)
-	(wire
-		(pts
 			(xy 27.94 25.4) (xy 36.83 25.4)
 		)
 		(stroke
@@ -3479,6 +3355,26 @@
 			(type default)
 		)
 		(uuid "fd9a5173-7642-4ab6-be01-f94d8e50d91e")
+	)
+	(wire
+		(pts
+			(xy 49.53 129.54) (xy 49.53 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd9f06ed-3271-4ece-8fa0-38fc94b72636")
+	)
+	(wire
+		(pts
+			(xy 72.39 137.16) (xy 72.39 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fffd986a-aebb-499b-a7ca-de84c494450a")
 	)
 	(hierarchical_label "U_DC_SENS"
 		(shape input)
@@ -3510,7 +3406,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220u"
+		(property "Value" "150u"
 			(at 41.91 132.4609 0)
 			(effects
 				(font
@@ -3519,7 +3415,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10.5"
 			(at 39.0652 137.16 0)
 			(effects
 				(font
@@ -3537,7 +3433,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-55℃~+105℃ 12.5mm 13.5mm 160mΩ 220uF 5000hrs@105℃ 63V 800mA ±20% SMD,D12.5xL13.5mm Aluminum Electrolytic Capacitors - SMD ROHS"
+		(property "Description" "10.5mm 10mm 150uF 450mA@100kHz 63V ±20% SMD,D10xL10.5mm Aluminum Electrolytic Capacitors - SMD ROHS"
 			(at 38.1 133.35 0)
 			(effects
 				(font
@@ -3546,7 +3442,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5260762"
+		(property "LCSC" "C22383765"
 			(at 38.1 133.35 0)
 			(effects
 				(font
@@ -3647,16 +3543,16 @@
 	)
 	(symbol
 		(lib_id "NanoGaN:C_Polarized_FZ1J221M1313")
-		(at 88.9 133.35 0)
+		(at 49.53 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "14c3d0a1-2097-48ed-b803-542ac4db4380")
-		(property "Reference" "C15"
-			(at 92.71 129.9209 0)
+		(uuid "15daa918-48c1-4d13-95d1-996220f6312c")
+		(property "Reference" "C12"
+			(at 53.34 129.9209 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3664,8 +3560,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220u"
-			(at 92.71 132.4609 0)
+		(property "Value" "150u"
+			(at 53.34 132.4609 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3673,8 +3569,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 89.8652 137.16 0)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10.5"
+			(at 50.4952 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3683,7 +3579,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 133.35 0)
+			(at 49.53 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3691,8 +3587,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-55℃~+105℃ 12.5mm 13.5mm 160mΩ 220uF 5000hrs@105℃ 63V 800mA ±20% SMD,D12.5xL13.5mm Aluminum Electrolytic Capacitors - SMD ROHS"
-			(at 88.9 133.35 0)
+		(property "Description" "10.5mm 10mm 150uF 450mA@100kHz 63V ±20% SMD,D10xL10.5mm Aluminum Electrolytic Capacitors - SMD ROHS"
+			(at 49.53 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3700,8 +3596,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5260762"
-			(at 88.9 133.35 0)
+		(property "LCSC" "C22383765"
+			(at 49.53 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3710,7 +3606,7 @@
 			)
 		)
 		(property "Voltage Rating" "63V"
-			(at 92.71 135.0009 0)
+			(at 53.34 135.0009 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3719,15 +3615,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "5a5be8fb-0c14-4b61-bb94-f1349e6c34bb")
+			(uuid "61159a55-3143-45a0-97e3-ebfd9592dfc2")
 		)
 		(pin "2"
-			(uuid "3f39a038-1315-457d-bc66-a7c82be18559")
+			(uuid "c9adc5b0-fefc-460f-96ac-f3e47ac029bd")
 		)
 		(instances
 			(project "NanoGaN"
 				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/2aff88eb-0d92-4253-8876-ba05112be4d6"
-					(reference "C15")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -4295,95 +4191,6 @@
 		)
 	)
 	(symbol
-		(lib_id "NanoGaN:C_Polarized_FZ1J221M1313")
-		(at 101.6 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3881d6e9-1ab7-4284-b770-f7d2beafdfda")
-		(property "Reference" "C16"
-			(at 105.41 129.9209 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220u"
-			(at 105.41 132.4609 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 102.5652 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "-55℃~+105℃ 12.5mm 13.5mm 160mΩ 220uF 5000hrs@105℃ 63V 800mA ±20% SMD,D12.5xL13.5mm Aluminum Electrolytic Capacitors - SMD ROHS"
-			(at 101.6 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5260762"
-			(at 101.6 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rating" "63V"
-			(at 105.41 135.0009 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "5f54f5a0-e7c5-4a52-a6a3-2fc9fb2073ad")
-		)
-		(pin "2"
-			(uuid "46c4aaf7-5a93-44e4-98df-5541dbb8b502")
-		)
-		(instances
-			(project "NanoGaN"
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/2aff88eb-0d92-4253-8876-ba05112be4d6"
-					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3VA")
 		(at 114.3 80.01 0)
 		(unit 1)
@@ -4442,94 +4249,6 @@
 			(project "NanoGaN"
 				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/2aff88eb-0d92-4253-8876-ba05112be4d6"
 					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NanoGaN:C_Polarized_FZ1J221M1313")
-		(at 50.8 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3bb01a73-22a0-4eed-a724-bcf81395d7b2")
-		(property "Reference" "C12"
-			(at 54.61 129.9209 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220u"
-			(at 54.61 132.4609 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 51.7652 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "-55℃~+105℃ 12.5mm 13.5mm 160mΩ 220uF 5000hrs@105℃ 63V 800mA ±20% SMD,D12.5xL13.5mm Aluminum Electrolytic Capacitors - SMD ROHS"
-			(at 50.8 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5260762"
-			(at 50.8 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rating" "63V"
-			(at 54.61 135.0009 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "693fa73d-d534-459d-bf0a-65dddae857f4")
-		)
-		(pin "2"
-			(uuid "b6ec3023-5c4f-4a22-a463-0b65287ad62c")
-		)
-		(instances
-			(project "NanoGaN"
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/2aff88eb-0d92-4253-8876-ba05112be4d6"
-					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -5225,6 +4944,94 @@
 			(project "NanoGaN"
 				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/2aff88eb-0d92-4253-8876-ba05112be4d6"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NanoGaN:C_Polarized_FZ1J221M1313")
+		(at 72.39 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6564c58a-94ad-4aed-8bfe-e0de249d66ee")
+		(property "Reference" "C14"
+			(at 76.2 129.9209 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "150u"
+			(at 76.2 132.4609 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10.5"
+			(at 73.3552 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10.5mm 10mm 150uF 450mA@100kHz 63V ±20% SMD,D10xL10.5mm Aluminum Electrolytic Capacitors - SMD ROHS"
+			(at 72.39 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22383765"
+			(at 72.39 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "63V"
+			(at 76.2 135.0009 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "72faf46b-b1d2-47b3-8908-ef7043024618")
+		)
+		(pin "2"
+			(uuid "a3d8bf21-a8da-494c-824c-141b5e598050")
+		)
+		(instances
+			(project "NanoGaN"
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/2aff88eb-0d92-4253-8876-ba05112be4d6"
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -6164,94 +5971,6 @@
 		)
 	)
 	(symbol
-		(lib_id "NanoGaN:C_Polarized_FZ1J221M1313")
-		(at 63.5 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a6fbd908-e1d7-4994-b646-ace446d91241")
-		(property "Reference" "C13"
-			(at 67.31 129.9209 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220u"
-			(at 67.31 132.4609 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 64.4652 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 63.5 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "-55℃~+105℃ 12.5mm 13.5mm 160mΩ 220uF 5000hrs@105℃ 63V 800mA ±20% SMD,D12.5xL13.5mm Aluminum Electrolytic Capacitors - SMD ROHS"
-			(at 63.5 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5260762"
-			(at 63.5 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rating" "63V"
-			(at 67.31 135.0009 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "c7efb1c7-5b90-4839-b746-482b6592db73")
-		)
-		(pin "2"
-			(uuid "662b2033-da21-4741-bdb0-8c30e9f6de2f")
-		)
-		(instances
-			(project "NanoGaN"
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/2aff88eb-0d92-4253-8876-ba05112be4d6"
-					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "STM32F4_REV2-rescue:+3.3V-power")
 		(at 74.93 77.47 0)
 		(unit 1)
@@ -7088,94 +6807,6 @@
 		)
 	)
 	(symbol
-		(lib_id "NanoGaN:C_Polarized_FZ1J221M1313")
-		(at 76.2 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eca6dcea-0414-43c2-ab5b-9522d8521e2e")
-		(property "Reference" "C14"
-			(at 80.01 129.9209 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220u"
-			(at 80.01 132.4609 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.1652 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 76.2 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "-55℃~+105℃ 12.5mm 13.5mm 160mΩ 220uF 5000hrs@105℃ 63V 800mA ±20% SMD,D12.5xL13.5mm Aluminum Electrolytic Capacitors - SMD ROHS"
-			(at 76.2 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5260762"
-			(at 76.2 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rating" "63V"
-			(at 80.01 135.0009 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "842e37bf-fb05-4690-931a-b7883293bb02")
-		)
-		(pin "2"
-			(uuid "e738b539-54a4-4a06-a57f-0ad0c9066d38")
-		)
-		(instances
-			(project "NanoGaN"
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/2aff88eb-0d92-4253-8876-ba05112be4d6"
-					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 38.1 142.24 0)
 		(unit 1)
@@ -7466,6 +7097,94 @@
 			(project "NanoGaN"
 				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/2aff88eb-0d92-4253-8876-ba05112be4d6"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NanoGaN:C_Polarized_FZ1J221M1313")
+		(at 60.96 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe19a057-c117-44b0-8770-63dc431a81d4")
+		(property "Reference" "C13"
+			(at 64.77 129.9209 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "150u"
+			(at 64.77 132.4609 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10.5"
+			(at 61.9252 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10.5mm 10mm 150uF 450mA@100kHz 63V ±20% SMD,D10xL10.5mm Aluminum Electrolytic Capacitors - SMD ROHS"
+			(at 60.96 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22383765"
+			(at 60.96 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "63V"
+			(at 64.77 135.0009 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "bbb453de-7acf-4e50-9d99-1c47225f975e")
+		)
+		(pin "2"
+			(uuid "6fd969be-baf4-4c2e-9a12-316954ada573")
+		)
+		(instances
+			(project "NanoGaN"
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/2aff88eb-0d92-4253-8876-ba05112be4d6"
+					(reference "C13")
 					(unit 1)
 				)
 			)
