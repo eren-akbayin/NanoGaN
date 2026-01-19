@@ -3651,12 +3651,6 @@
 		(uuid "7f9c17d0-8d4a-4dc2-9578-fbb4b8861721")
 	)
 	(junction
-		(at 143.51 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "843746ff-6aa9-4e68-8da1-9f57dd7855fa")
-	)
-	(junction
 		(at 38.1 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3667,12 +3661,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9100a0b2-728a-49c5-83c3-eb2ded76c6b2")
-	)
-	(junction
-		(at 133.35 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "96678dea-2af9-431d-b771-f29df4c17aaa")
 	)
 	(junction
 		(at 63.5 83.82)
@@ -3691,6 +3679,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a06521e4-2816-4703-b2df-08ac3de6093c")
+	)
+	(junction
+		(at 139.7 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6750077-0dc4-4d23-8005-d095e5129d4f")
+	)
+	(junction
+		(at 146.05 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a82b7acb-c8c3-470f-adf4-9a5f43075be2")
 	)
 	(junction
 		(at 55.88 154.94)
@@ -3880,7 +3880,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 95.25) (xy 143.51 100.33)
+			(xy 146.05 74.93) (xy 146.05 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3900,17 +3900,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 111.76) (xy 143.51 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18dc56c5-e88b-4325-b770-add475215769")
-	)
-	(wire
-		(pts
-			(xy 143.51 107.95) (xy 143.51 111.76)
+			(xy 146.05 107.95) (xy 146.05 111.76)
 		)
 		(stroke
 			(width 0)
@@ -4027,16 +4017,6 @@
 			(type default)
 		)
 		(uuid "32f39a20-bdc9-4fe7-9692-e42eb0aa7f53")
-	)
-	(wire
-		(pts
-			(xy 143.51 111.76) (xy 153.67 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "331d7f4f-7fb1-40e6-abcc-d4fe414e7f6c")
 	)
 	(wire
 		(pts
@@ -4167,6 +4147,16 @@
 			(type default)
 		)
 		(uuid "48997152-60bb-4ee1-a708-ba2675157f51")
+	)
+	(wire
+		(pts
+			(xy 139.7 111.76) (xy 146.05 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a20be04-5d11-4fc4-bf9b-d64cd74e8e83")
 	)
 	(wire
 		(pts
@@ -4330,6 +4320,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 74.93) (xy 130.81 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f801c58-9f0a-47d8-87d5-a429549a5d01")
+	)
+	(wire
+		(pts
 			(xy 27.94 144.78) (xy 29.21 144.78)
 		)
 		(stroke
@@ -4410,16 +4410,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 95.25) (xy 143.51 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ef581b4-a12f-4242-a4dd-5eebf8f0602d")
-	)
-	(wire
-		(pts
 			(xy 133.35 87.63) (xy 133.35 90.17)
 		)
 		(stroke
@@ -4450,7 +4440,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 111.76) (xy 133.35 111.76)
+			(xy 115.57 111.76) (xy 139.7 111.76)
 		)
 		(stroke
 			(width 0)
@@ -4590,6 +4580,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 77.47) (xy 139.7 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0dbc3df-365d-41dc-9e58-803f91a0b678")
+	)
+	(wire
+		(pts
 			(xy 55.88 135.89) (xy 55.88 137.16)
 		)
 		(stroke
@@ -4637,6 +4637,16 @@
 			(type default)
 		)
 		(uuid "a906c3e0-80c1-464c-a02a-11c976b2e924")
+	)
+	(wire
+		(pts
+			(xy 146.05 111.76) (xy 153.67 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9ecbb1e-7648-4b89-9745-ea024daf77b8")
 	)
 	(wire
 		(pts
@@ -4730,7 +4740,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 107.95) (xy 133.35 111.76)
+			(xy 139.7 107.95) (xy 139.7 111.76)
 		)
 		(stroke
 			(width 0)
@@ -4840,7 +4850,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 97.79) (xy 133.35 100.33)
+			(xy 139.7 77.47) (xy 139.7 100.33)
 		)
 		(stroke
 			(width 0)
@@ -4897,16 +4907,6 @@
 			(type default)
 		)
 		(uuid "debde6f6-4a5e-4be8-83f2-49c5d64f3985")
-	)
-	(wire
-		(pts
-			(xy 130.81 97.79) (xy 133.35 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e34bc12d-4819-43aa-9226-23743bb5f31b")
 	)
 	(wire
 		(pts
@@ -4977,6 +4977,46 @@
 			(type default)
 		)
 		(uuid "fca838c3-4201-496f-a307-15caf659bd2a")
+	)
+	(label "D-"
+		(at 162.56 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "14183add-7a08-48c5-b437-405f85c5e6f7")
+	)
+	(label "D-"
+		(at 140.97 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "396e1383-f67e-4a6a-b397-25f64cf25921")
+	)
+	(label "D+"
+		(at 162.56 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7fac5657-82e1-457e-85ee-37a27de445d0")
+	)
+	(label "D+"
+		(at 140.97 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f8666a31-805a-4cce-ac05-4138ce2e88ba")
 	)
 	(hierarchical_label "D+"
 		(shape bidirectional)
@@ -5686,7 +5726,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 143.51 104.14 0)
+		(at 146.05 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5694,7 +5734,7 @@
 		(dnp no)
 		(uuid "23e6da18-cf48-4de3-87bb-bc02414f6a60")
 		(property "Reference" "R38"
-			(at 145.034 102.87 0)
+			(at 147.574 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5703,7 +5743,7 @@
 			)
 		)
 		(property "Value" "5k1"
-			(at 145.034 105.41 0)
+			(at 147.574 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5712,7 +5752,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 141.732 104.14 90)
+			(at 144.272 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5721,7 +5761,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 143.51 104.14 0)
+			(at 146.05 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5730,7 +5770,7 @@
 			)
 		)
 		(property "Description" "-55℃~+155℃ 5.1kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 143.51 104.14 0)
+			(at 146.05 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5739,7 +5779,7 @@
 			)
 		)
 		(property "LCSC" "C25905"
-			(at 143.51 104.14 0)
+			(at 146.05 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7751,7 +7791,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 133.35 104.14 0)
+		(at 139.7 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7759,7 +7799,7 @@
 		(dnp no)
 		(uuid "a0c90a20-6886-487e-9c5b-21ffbce1beb4")
 		(property "Reference" "R37"
-			(at 134.874 102.87 0)
+			(at 141.224 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7768,7 +7808,7 @@
 			)
 		)
 		(property "Value" "5k1"
-			(at 134.874 105.41 0)
+			(at 141.224 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7777,7 +7817,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 131.572 104.14 90)
+			(at 137.922 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7786,7 +7826,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 104.14 0)
+			(at 139.7 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7795,7 +7835,7 @@
 			)
 		)
 		(property "Description" "-55℃~+155℃ 5.1kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 133.35 104.14 0)
+			(at 139.7 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7804,7 +7844,7 @@
 			)
 		)
 		(property "LCSC" "C25905"
-			(at 133.35 104.14 0)
+			(at 139.7 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
