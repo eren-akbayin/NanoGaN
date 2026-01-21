@@ -8036,6 +8036,17 @@
 		)
 		(uuid "3012425d-d61a-42ad-9244-884150649dea")
 	)
+	(hierarchical_label "EN_FILTER_U"
+		(shape output)
+		(at 34.29 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "32b5cd67-428f-413f-916f-cfa6e71c841d")
+	)
 	(hierarchical_label "SWCLK"
 		(shape input)
 		(at 121.92 67.31 0)
@@ -8190,7 +8201,7 @@
 		)
 		(uuid "9cb39916-ec7a-430c-a63e-ba98138dd059")
 	)
-	(hierarchical_label "ENABLE_CURR_FILTER"
+	(hierarchical_label "EN_FILTER_I"
 		(shape output)
 		(at 52.07 72.39 180)
 		(effects
@@ -10412,7 +10423,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "71f63618-b763-4fb5-966a-8b4ec80abf0e")
 		(property "Reference" "#PWR04"
 			(at 93.98 172.72 0)
@@ -10423,12 +10433,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDA"
-			(at 93.98 171.45 0)
+		(property "Value" "AGND"
+			(at 91.186 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -11355,12 +11366,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDA"
-			(at 102.87 190.5 0)
+		(property "Value" "AGND"
+			(at 105.41 186.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -12912,7 +12924,7 @@
 			)
 		)
 		(property "Value" "STM32H723VGTx"
-			(at 95.504 25.4 0)
+			(at 96.266 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
