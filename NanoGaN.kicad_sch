@@ -537,6 +537,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 88.9) (xy 99.06 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "294d90ee-a5e1-486d-a9f5-7f52be76df27")
+	)
+	(wire
+		(pts
 			(xy 149.86 39.37) (xy 165.1 39.37)
 		)
 		(stroke
@@ -2164,26 +2174,6 @@
 				(justify right)
 			)
 		)
-		(pin "EXT_TEMP1" input
-			(at 83.82 50.8 0)
-			(uuid "3a0e1950-a418-4456-96b9-dbcee326e6e0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "EXT_TEMP2" input
-			(at 83.82 53.34 0)
-			(uuid "9813ad12-8ce5-42c1-9906-7058c668ba69")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "SWO" input
 			(at 83.82 43.18 0)
 			(uuid "b2a353a7-e887-4278-a848-88876fcc6aca")
@@ -2317,6 +2307,36 @@
 		(pin "VBUS" output
 			(at 83.82 86.36 0)
 			(uuid "6d2ac783-1658-49eb-ad55-7bd69cd33bf6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EXT_TEMP1" output
+			(at 83.82 50.8 0)
+			(uuid "6ddd016e-9b25-42ee-82a4-a93d33c5525b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EXT_TEMP2" output
+			(at 83.82 53.34 0)
+			(uuid "db3ccb17-c133-4444-9810-982259c04b7a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FAN_PWM" input
+			(at 83.82 88.9 0)
+			(uuid "ad75b8d8-9772-4235-a747-ed0ecccbf3a7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2724,6 +2744,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "FAN_PWM" output
+			(at 99.06 88.9 180)
+			(uuid "c83a12e0-fd65-4de7-b909-29a5ec275fbb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

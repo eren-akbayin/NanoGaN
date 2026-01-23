@@ -8355,6 +8355,17 @@
 		)
 		(uuid "f968325c-3f93-4cbd-aaee-9303ca8ccdce")
 	)
+	(hierarchical_label "FAN_PWM"
+		(shape output)
+		(at 29.21 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fc9fb8e0-f4ae-44c6-8850-c957ae4b7c51")
+	)
 	(symbol
 		(lib_id "power:+3V3")
 		(at 160.02 68.58 0)
