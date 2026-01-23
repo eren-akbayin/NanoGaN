@@ -3465,6 +3465,18 @@
 		(uuid 93c5f2fa-2223-4acf-bb37-9c27f00c84f7)
 	)
 	(rectangle
+		(start 104.14 130.81)
+		(end 203.2 152.4)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c3ff762b-d38e-4bdd-8f79-b260584df1d2)
+	)
+	(rectangle
 		(start 104.14 53.34)
 		(end 203.2 128.27)
 		(stroke
@@ -3547,6 +3559,16 @@
 			)
 		)
 		(uuid "9b475f62-9390-4207-9d45-5c1dc0792d60")
+	)
+	(text "Fan connector"
+		(exclude_from_sim no)
+		(at 110.744 130.048 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e42d2f92-921b-4e5f-8857-47f08238e4ee")
 	)
 	(text "SPI/I2C/USART connection"
 		(exclude_from_sim no)
@@ -4020,6 +4042,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 143.51) (xy 121.92 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34ccd04e-32d4-4584-bc63-1ea8f34e6025")
+	)
+	(wire
+		(pts
 			(xy 26.67 67.31) (xy 26.67 71.12)
 		)
 		(stroke
@@ -4280,6 +4312,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 140.97) (xy 121.92 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64aea311-ceb9-48ec-9d5f-879f5a47ed8a")
+	)
+	(wire
+		(pts
 			(xy 67.31 149.86) (xy 71.12 149.86)
 		)
 		(stroke
@@ -4327,6 +4369,16 @@
 			(type default)
 		)
 		(uuid "6f801c58-9f0a-47d8-87d5-a429549a5d01")
+	)
+	(wire
+		(pts
+			(xy 119.38 140.97) (xy 121.92 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71d002b3-4d0a-4277-a932-c1526a171e98")
 	)
 	(wire
 		(pts
@@ -4727,6 +4779,16 @@
 			(type default)
 		)
 		(uuid "b7d74dec-95e1-4a52-9e9e-a632c218bd7e")
+	)
+	(wire
+		(pts
+			(xy 121.92 144.78) (xy 121.92 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b87f2098-70a8-455f-9391-245f45026538")
 	)
 	(wire
 		(pts
@@ -6117,6 +6179,70 @@
 			(project ""
 				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/7b588d7e-2cba-479c-b934-83f1a7363076"
 					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 121.92 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "39a77267-7122-498e-bc56-f9c7664eb992")
+		(property "Reference" "#PWR0126"
+			(at 121.92 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 121.92 136.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "25e16ba8-c8e8-4b90-9aba-133dda82985b")
+		)
+		(instances
+			(project "NanoGaN"
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/7b588d7e-2cba-479c-b934-83f1a7363076"
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -8248,6 +8374,70 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 121.92 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b947f025-6a3a-413a-b0e2-f30e15829192")
+		(property "Reference" "#PWR0127"
+			(at 121.92 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 121.92 148.844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c5c9b660-8364-4102-9abf-06c24398b724")
+		)
+		(instances
+			(project "NanoGaN"
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/7b588d7e-2cba-479c-b934-83f1a7363076"
+					(reference "#PWR0127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 63.5 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8702,6 +8892,75 @@
 			(project "NanoGaN"
 				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/7b588d7e-2cba-479c-b934-83f1a7363076"
 					(reference "C60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 114.3 140.97 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e187c1e4-584b-46d2-9992-454904f92e72")
+		(property "Reference" "J8"
+			(at 110.49 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 103.632 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
+			(at 114.3 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 114.3 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ed606334-14b1-4131-8c46-ce6c1fa0d3ea")
+		)
+		(pin "1"
+			(uuid "905ce2c9-1884-4cac-b5e0-5fd96c35f2d7")
+		)
+		(instances
+			(project ""
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/7b588d7e-2cba-479c-b934-83f1a7363076"
+					(reference "J8")
 					(unit 1)
 				)
 			)
