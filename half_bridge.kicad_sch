@@ -2246,7 +2246,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 83.82) (xy 57.15 83.82)
+			(xy 44.45 83.82) (xy 48.26 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2566,6 +2566,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 22.86) (xy 71.12 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5527769a-ff56-4a7e-9f11-93a6e1a1b5be")
+	)
+	(wire
+		(pts
 			(xy 26.67 33.02) (xy 26.67 34.29)
 		)
 		(stroke
@@ -2653,6 +2663,16 @@
 			(type default)
 		)
 		(uuid "6d40fce0-8f7b-400e-aa07-7c5fe780d667")
+	)
+	(wire
+		(pts
+			(xy 55.88 111.76) (xy 57.15 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6faef1d1-eafb-4d06-85ae-68bc42d03a57")
 	)
 	(wire
 		(pts
@@ -2756,6 +2776,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 22.86) (xy 67.31 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fcaac09-eb14-47a0-940c-bd00571dabc4")
+	)
+	(wire
+		(pts
 			(xy 30.48 162.56) (xy 30.48 161.29)
 		)
 		(stroke
@@ -2796,16 +2826,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 22.86) (xy 67.31 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "968a0c7f-467b-442d-90b6-41b3cf2616b0")
-	)
-	(wire
-		(pts
 			(xy 76.2 158.75) (xy 76.2 161.29)
 		)
 		(stroke
@@ -2816,7 +2836,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 111.76) (xy 57.15 111.76)
+			(xy 44.45 111.76) (xy 48.26 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3086,6 +3106,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 83.82) (xy 57.15 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cead6844-64ca-427d-9e37-1b37c41fd763")
+	)
+	(wire
+		(pts
 			(xy 34.29 34.29) (xy 34.29 33.02)
 		)
 		(stroke
@@ -3166,7 +3196,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 22.86) (xy 77.47 22.86)
+			(xy 78.74 22.86) (xy 81.28 22.86)
 		)
 		(stroke
 			(width 0)
@@ -3344,6 +3374,16 @@
 		)
 		(uuid "ffa339bb-e1aa-4cf7-909b-ee5bba85e9cc")
 	)
+	(label "HB"
+		(at 67.31 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8dc0b525-b62a-4544-b514-036773b9c819")
+	)
 	(label "LOW_GATE"
 		(at 55.88 109.22 0)
 		(effects
@@ -3352,7 +3392,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "76471645-97f2-4dd9-8e48-4481ad87f4c2")
+		(uuid "cfdf6129-ad0d-4422-8af0-f70b60c3a417")
 	)
 	(label "HIGH_GATE"
 		(at 55.88 81.28 0)
@@ -3362,7 +3402,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "e1d99d63-4f06-4543-8ce1-454a080ab2be")
+		(uuid "e1cdde19-d59e-4d72-b06f-a439835f2b9d")
 	)
 	(hierarchical_label "HOH"
 		(shape bidirectional)
@@ -3476,7 +3516,7 @@
 	)
 	(hierarchical_label "HS"
 		(shape bidirectional)
-		(at 77.47 22.86 0)
+		(at 81.28 22.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4053,7 +4093,7 @@
 		(dnp no)
 		(uuid "16578833-1487-419e-8160-35c8a814d2bb")
 		(property "Reference" "R9"
-			(at 50.8 107.442 90)
+			(at 46.99 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4129,7 +4169,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 71.12 22.86 90)
+		(at 74.93 22.86 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4137,7 +4177,7 @@
 		(dnp no)
 		(uuid "19b67b9e-f3b6-4536-b486-54946bebeda4")
 		(property "Reference" "C21"
-			(at 69.85 20.32 0)
+			(at 73.66 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4147,7 +4187,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 72.644 19.558 90)
+			(at 76.454 19.558 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4156,7 +4196,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 74.93 21.8948 0)
+			(at 78.74 21.8948 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4165,7 +4205,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 22.86 0)
+			(at 74.93 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4174,7 +4214,7 @@
 			)
 		)
 		(property "Description" "100nF 6.3V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 71.12 22.86 0)
+			(at 74.93 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4183,7 +4223,7 @@
 			)
 		)
 		(property "LCSC" "C424821"
-			(at 71.12 22.86 0)
+			(at 74.93 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4192,7 +4232,7 @@
 			)
 		)
 		(property "Voltage Rating" "6.3V"
-			(at 70.358 26.416 90)
+			(at 74.168 26.416 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5546,7 +5586,7 @@
 		(dnp no)
 		(uuid "75d3d736-b51a-4716-b229-27db08123ceb")
 		(property "Reference" "R8"
-			(at 50.8 79.502 90)
+			(at 46.99 82.804 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5942,7 +5982,7 @@
 		(dnp no)
 		(uuid "825fcb66-2d08-46df-9bcf-b0b122811689")
 		(property "Reference" "U16"
-			(at 48.514 158.75 0)
+			(at 41.656 159.004 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6191,6 +6231,90 @@
 				)
 				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/e0a1170f-dabd-4224-bbe3-5bcec1b89854"
 					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 52.07 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a87cf01-d598-4c1a-837d-7c6e299afe7b")
+		(property "Reference" "R44"
+			(at 46.99 85.344 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 52.07 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 52.07 85.598 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 0Ω 50V 62.5mW Thick Film Resistor ±1% ±800ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 52.07 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17168"
+			(at 52.07 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "08390739-49c6-41da-80e7-1281d473e0e2")
+		)
+		(pin "1"
+			(uuid "86c03553-2662-422a-b649-f87172fed3e0")
+		)
+		(instances
+			(project "NanoGaN"
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/47075a52-6063-4b82-8884-2b908f359801"
+					(reference "R45")
+					(unit 1)
+				)
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/6f3a55d2-28c8-407e-8c9d-28f4ee320cbb"
+					(reference "R44")
+					(unit 1)
+				)
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/e0a1170f-dabd-4224-bbe3-5bcec1b89854"
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -6540,7 +6664,7 @@
 		(dnp no)
 		(uuid "baf3ea14-4c35-4d5d-928e-99b1373458d0")
 		(property "Reference" "U6"
-			(at 187.706 114.554 0)
+			(at 180.34 114.554 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6620,6 +6744,90 @@
 				)
 				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/e0a1170f-dabd-4224-bbe3-5bcec1b89854"
 					(reference "U18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 52.07 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb8d70c6-3fee-4460-84eb-efa46169ad62")
+		(property "Reference" "R47"
+			(at 46.99 113.284 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 52.07 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 52.07 113.538 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 0Ω 50V 62.5mW Thick Film Resistor ±1% ±800ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 52.07 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17168"
+			(at 52.07 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "14d025d2-276f-47e9-a546-7ae6781794c6")
+		)
+		(pin "1"
+			(uuid "a0a5a887-a481-455e-bfdd-a902aa25d562")
+		)
+		(instances
+			(project "NanoGaN"
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/47075a52-6063-4b82-8884-2b908f359801"
+					(reference "R48")
+					(unit 1)
+				)
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/6f3a55d2-28c8-407e-8c9d-28f4ee320cbb"
+					(reference "R47")
+					(unit 1)
+				)
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/e0a1170f-dabd-4224-bbe3-5bcec1b89854"
+					(reference "R49")
 					(unit 1)
 				)
 			)

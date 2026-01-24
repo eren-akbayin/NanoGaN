@@ -477,6 +477,25 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "line_style": 0,
+        "name": "HV_DC",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "HV_GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "HV_PHASE",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
     "meta": {
@@ -484,7 +503,44 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "HV_PHASE",
+        "pattern": "/HalfBridge*/PHASE"
+      },
+      {
+        "netclass": "HV_PHASE",
+        "pattern": "/HalfBridge*/HS"
+      },
+      {
+        "netclass": "HV_PHASE",
+        "pattern": "/HalfBridge*/HO*"
+      },
+      {
+        "netclass": "HV_PHASE",
+        "pattern": "/HalfBridge*/HB"
+      },
+      {
+        "netclass": "HV_GND",
+        "pattern": "/HalfBridge*/LO*"
+      },
+      {
+        "netclass": "HV_PHASE",
+        "pattern": "/HalfBridge*/HIGH_GATE"
+      },
+      {
+        "netclass": "HV_GND",
+        "pattern": "/HalfBridge*/LOW_GATE"
+      },
+      {
+        "netclass": "HV_DC",
+        "pattern": "U_DC"
+      },
+      {
+        "netclass": "HV_GND",
+        "pattern": "PGND"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {

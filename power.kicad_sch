@@ -7409,7 +7409,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0831ec12-a72d-4c54-b258-a546cd27c5eb")
 		(property "Reference" "#PWR05"
 			(at 144.78 27.94 0)
@@ -7420,12 +7419,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 144.78 19.05 0)
+		(property "Value" "+5V_SMPS"
+			(at 139.192 20.066 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -7629,7 +7629,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "16d69f37-9da9-4381-9f9e-14cf54bfff2b")
 		(property "Reference" "#FLG02"
 			(at 102.87 75.565 0)
@@ -7641,7 +7640,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 102.87 72.39 0)
+			(at 103.124 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7825,10 +7824,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1ada6298-9556-43ce-a230-0ff95ff044c5")
 		(property "Reference" "U2"
-			(at 74.93 17.78 0)
+			(at 66.04 21.59 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7836,7 +7834,7 @@
 			)
 		)
 		(property "Value" "LMR51635XDDCR"
-			(at 74.93 20.32 0)
+			(at 74.168 44.45 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11615,10 +11613,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fcd3ab00-e275-4bae-ae00-960156e05cef")
 		(property "Reference" "U3"
-			(at 57.15 74.93 0)
+			(at 53.086 78.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11626,7 +11623,7 @@
 			)
 		)
 		(property "Value" "AMS1117"
-			(at 57.15 77.47 0)
+			(at 61.976 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
