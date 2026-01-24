@@ -1,6 +1,10 @@
 # Backup folders
 NanoGaN-backups/
 *-bak/
+*auto_saved_files*
+
+# KiCad lock files
+*.lck
 
 # KiCad backup files
 *.kicad_sch-bak

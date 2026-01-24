@@ -4882,7 +4882,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 149.86) (xy 146.05 149.86)
+			(xy 143.51 149.86) (xy 153.67 149.86)
 		)
 		(stroke
 			(width 0)
@@ -5610,17 +5610,37 @@
 		)
 		(uuid "fca838c3-4201-496f-a307-15caf659bd2a")
 	)
-	(label "D-"
-		(at 162.56 85.09 0)
+	(label "USBD-"
+		(at 161.29 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "14183add-7a08-48c5-b437-405f85c5e6f7")
+		(uuid "028de868-725f-4246-8965-ffc145b682c9")
 	)
-	(label "D-"
+	(label "USBCC1"
+		(at 130.81 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "07d093e2-93b4-4466-9971-a07484b896c0")
+	)
+	(label "FANN"
+		(at 119.38 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3841f004-5d92-4aef-9cac-8a7e6b23e5f2")
+	)
+	(label "USBD-"
 		(at 140.97 85.09 0)
 		(effects
 			(font
@@ -5630,17 +5650,57 @@
 		)
 		(uuid "396e1383-f67e-4a6a-b397-25f64cf25921")
 	)
-	(label "D+"
-		(at 162.56 87.63 0)
+	(label "FAN_PWM"
+		(at 143.51 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "7fac5657-82e1-457e-85ee-37a27de445d0")
+		(uuid "637d801c-c474-492d-a3f3-480593616ff6")
 	)
-	(label "D+"
+	(label "USBVBUS"
+		(at 130.81 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "92b7c2ea-c452-47f2-9052-504086c0f3c0")
+	)
+	(label "FANP"
+		(at 119.38 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a3a99a11-0e0d-4e27-a801-0e6c8e670213")
+	)
+	(label "USBCC2"
+		(at 130.81 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb426283-444d-4a72-8e10-e3f27ccbd46c")
+	)
+	(label "USBD-"
+		(at 161.29 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d58b4df3-5663-4f0b-8c60-5222b185b9fe")
+	)
+	(label "USBD+"
 		(at 140.97 87.63 0)
 		(effects
 			(font
@@ -5806,7 +5866,7 @@
 	)
 	(hierarchical_label "FAN_PWM"
 		(shape input)
-		(at 146.05 149.86 0)
+		(at 153.67 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -5019,6 +5019,16 @@
 		)
 		(uuid "e3bce339-57b9-443d-800f-d67574048159")
 	)
+	(text "Maybe add some more GPIO headers and LEDs for additional usage."
+		(exclude_from_sim no)
+		(at 86.106 192.786 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e75bb5a2-0ff2-48ab-b1bd-b20a206cedcd")
+	)
 	(text "RST and BOOT0"
 		(exclude_from_sim no)
 		(at 162.306 132.588 0)
@@ -7309,6 +7319,66 @@
 			(type default)
 		)
 		(uuid "ff74f143-719e-4ea2-9d96-ca02f33a847b")
+	)
+	(label "CAN-"
+		(at 261.62 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "06d1d371-02c0-48f8-adca-ecb296c15274")
+	)
+	(label "VCAP2"
+		(at 46.99 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "06e539e0-9beb-47dd-9b4a-1eb8e6cf2a76")
+	)
+	(label "VCAP1"
+		(at 46.99 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5f062a40-8f26-488c-ab03-23d3ee182ca0")
+	)
+	(label "HSE_OUT"
+		(at 44.45 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6374f2fa-f9c3-4faf-979f-ebd37722cdb4")
+	)
+	(label "HSE_IN"
+		(at 44.45 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f45e570-006e-4fb6-ab89-263fc339a4d4")
+	)
+	(label "CAN+"
+		(at 261.62 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ec190fc2-6537-4efd-be13-c0dee21cd658")
 	)
 	(global_label "SPI4_MOSI"
 		(shape input)

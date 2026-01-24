@@ -3344,6 +3344,26 @@
 		)
 		(uuid "ffa339bb-e1aa-4cf7-909b-ee5bba85e9cc")
 	)
+	(label "LOW_GATE"
+		(at 55.88 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "76471645-97f2-4dd9-8e48-4481ad87f4c2")
+	)
+	(label "HIGH_GATE"
+		(at 55.88 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e1d99d63-4f06-4543-8ce1-454a080ab2be")
+	)
 	(hierarchical_label "HOH"
 		(shape bidirectional)
 		(at 82.55 34.29 0)

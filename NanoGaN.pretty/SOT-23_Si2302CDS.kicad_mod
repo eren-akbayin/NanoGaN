@@ -305,21 +305,21 @@
 			)
 		)
 	)
-	(pad "D" smd roundrect
+	(pad "1" smd roundrect
 		(at 0.9375 0)
 		(size 1.475 0.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "93d9fbd6-a8cf-4d81-8379-44c61cb7dfdd")
 	)
-	(pad "G" smd roundrect
+	(pad "2" smd roundrect
 		(at -0.9375 -0.95)
 		(size 1.475 0.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "e5afaa7c-3278-40d3-aa9c-02877208afe8")
 	)
-	(pad "S" smd roundrect
+	(pad "3" smd roundrect
 		(at -0.9375 0.95)
 		(size 1.475 0.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
