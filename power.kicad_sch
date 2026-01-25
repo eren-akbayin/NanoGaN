@@ -7302,6 +7302,36 @@
 			"AAAAwEjUAwAAAAAAAMBI1AMAAAAAAADAKKFsPsnO7K4YAAAAAElFTkSuQmCC"
 		)
 	)
+	(label "SW_FB"
+		(at 101.6 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7117358c-762f-4f31-8e9e-cf51bd9c9cbc")
+	)
+	(label "SW_CB"
+		(at 91.44 25.4 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "93ae14d8-48e7-4890-a084-c714a4f34b0f")
+	)
+	(label "SW_SMPS"
+		(at 101.6 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb8cdfb9-7bb1-4cdd-bf91-0e684159a092")
+	)
 	(hierarchical_label "U_DC_SENS"
 		(shape input)
 		(at 55.88 173.99 0)

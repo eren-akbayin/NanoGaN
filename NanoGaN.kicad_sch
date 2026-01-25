@@ -91,14 +91,11 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
+		(symbol "Mechanical:Fiducial"
+			(exclude_from_sim yes)
+			(in_bom no)
 			(on_board yes)
-			(property "Reference" "H"
+			(property "Reference" "FID"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -106,7 +103,7 @@
 					)
 				)
 			)
-			(property "Value" "MountingHole"
+			(property "Value" "Fiducial"
 				(at 0 3.175 0)
 				(effects
 					(font
@@ -132,7 +129,94 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Mounting Hole without connection"
+			(property "Description" "Fiducial Marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fiducial marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Fiducial*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fiducial_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
 				(at 0 0 0)
 				(effects
 					(font
@@ -150,7 +234,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "MountingHole*"
+			(property "ki_fp_filters" "MountingHole*Pad*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -159,9 +243,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "MountingHole_0_1"
+			(symbol "MountingHole_Pad_0_1"
 				(circle
-					(center 0 0)
+					(center 0 1.27)
 					(radius 1.27)
 					(stroke
 						(width 1.27)
@@ -169,6 +253,26 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -402,6 +506,12 @@
 		)
 	)
 	(junction
+		(at 228.6 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f46b4d9-c185-4467-9794-fe46b7dad18b")
+	)
+	(junction
 		(at 160.02 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -420,6 +530,30 @@
 		(uuid "855b89d0-dd43-4d61-b37e-a3154b8e0864")
 	)
 	(junction
+		(at 245.11 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9cd34b8-5f11-4347-b167-387fb9a9d68c")
+	)
+	(junction
+		(at 237.49 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9c831d2-6554-4b1a-8fcd-60d687c8eca2")
+	)
+	(junction
+		(at 210.82 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2b11aa3-7f25-4d60-a60a-c4b8266d4760")
+	)
+	(junction
+		(at 219.71 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef79cbf0-fa3d-48ca-9653-60eec51248f8")
+	)
+	(junction
 		(at 160.02 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -434,6 +568,16 @@
 			(type default)
 		)
 		(uuid "00027c2d-3baa-4870-a839-e0a0f6bf494a")
+	)
+	(wire
+		(pts
+			(xy 254 157.48) (xy 245.11 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01689787-40b5-4334-83ce-b7ffd2652e50")
 	)
 	(wire
 		(pts
@@ -497,6 +641,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 157.48) (xy 228.6 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11810ad6-d9a9-401b-a095-75036c7d43f7")
+	)
+	(wire
+		(pts
 			(xy 83.82 60.96) (xy 99.06 60.96)
 		)
 		(stroke
@@ -524,6 +678,16 @@
 			(type default)
 		)
 		(uuid "1c2a3917-3491-409c-9f35-21447cf8fc95")
+	)
+	(wire
+		(pts
+			(xy 83.82 91.44) (xy 99.06 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c2ebbc4-fa45-4eb0-b2e3-3cd107992910")
 	)
 	(wire
 		(pts
@@ -587,6 +751,26 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 156.21) (xy 237.49 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "424410fb-7527-4b88-b973-0e9f81a30951")
+	)
+	(wire
+		(pts
+			(xy 219.71 156.21) (xy 219.71 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43661b8e-3692-4db6-8c3a-6f2cd29e238e")
+	)
+	(wire
+		(pts
 			(xy 83.82 53.34) (xy 99.06 53.34)
 		)
 		(stroke
@@ -594,6 +778,16 @@
 			(type default)
 		)
 		(uuid "46abbb2a-b1fe-4dda-9927-776af15385f7")
+	)
+	(wire
+		(pts
+			(xy 219.71 157.48) (xy 210.82 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "476fec5f-2367-4a62-b5c3-e80ac21b6898")
 	)
 	(wire
 		(pts
@@ -707,6 +901,26 @@
 	)
 	(wire
 		(pts
+			(xy 254 156.21) (xy 254 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e188aa6-73f1-455f-aa1a-6d5022b23926")
+	)
+	(wire
+		(pts
+			(xy 210.82 157.48) (xy 210.82 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8050a9ad-ae93-4e4e-9113-511b4deb1dba")
+	)
+	(wire
+		(pts
 			(xy 83.82 86.36) (xy 99.06 86.36)
 		)
 		(stroke
@@ -797,6 +1011,26 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 156.21) (xy 210.82 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac48023e-24af-49c1-a360-b3c86c82c887")
+	)
+	(wire
+		(pts
+			(xy 245.11 157.48) (xy 237.49 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad6d85ca-f46f-410b-a4f9-63964c731215")
+	)
+	(wire
+		(pts
 			(xy 149.86 66.04) (xy 165.1 66.04)
 		)
 		(stroke
@@ -867,6 +1101,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 156.21) (xy 228.6 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3c4dc73-1776-4a9b-a1fa-51bffb3ddf41")
+	)
+	(wire
+		(pts
 			(xy 203.2 127) (xy 204.47 127)
 		)
 		(stroke
@@ -907,6 +1151,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 156.21) (xy 245.11 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da87daf1-22a2-4b54-8678-e6d3fab9e6f2")
+	)
+	(wire
+		(pts
 			(xy 203.2 139.7) (xy 203.2 142.24)
 		)
 		(stroke
@@ -914,6 +1168,16 @@
 			(type default)
 		)
 		(uuid "dc913f21-4dec-4862-adb6-f940de07d24e")
+	)
+	(wire
+		(pts
+			(xy 228.6 157.48) (xy 219.71 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4acfa6f-0dee-4054-b17b-f432db090430")
 	)
 	(wire
 		(pts
@@ -964,6 +1228,137 @@
 			(type default)
 		)
 		(uuid "ffa0b5fc-c3a4-4f5c-ad59-72694e9814ae")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 219.71 153.67 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ba9ae21-2472-406a-96af-8f1997e26dd1")
+		(property "Reference" "MH2"
+			(at 222.25 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2"
+			(at 222.25 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
+			(at 219.71 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 219.71 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7277f56f-aceb-4a95-892c-f9d4c4f2b510")
+		)
+		(instances
+			(project "NanoGaN"
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb"
+					(reference "MH2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 261.62 118.11 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11f715aa-81f2-4152-b14f-90b8aff82d9c")
+		(property "Reference" "FM2"
+			(at 264.16 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 264.16 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 261.62 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 261.62 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "NanoGaN"
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb"
+					(reference "FM2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector_Generic:Power_Welding_PAD")
@@ -1032,69 +1427,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 261.62 160.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1c8f2c76-80d9-49d3-a0a9-21902d7bfb2d")
-		(property "Reference" "H6"
-			(at 264.795 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 264.795 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 261.62 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 261.62 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 261.62 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "NanoGaN"
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb"
-					(reference "H6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 203.2 142.24 0)
 		(unit 1)
@@ -1153,6 +1485,70 @@
 			(project "NanoGaN"
 				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb"
 					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 261.62 123.19 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "242f2c80-2b20-4898-937f-b71fd315f3c2")
+		(property "Reference" "FM3"
+			(at 264.16 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 264.16 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 261.62 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 261.62 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "NanoGaN"
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb"
+					(reference "FM3")
 					(unit 1)
 				)
 			)
@@ -1291,6 +1687,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 237.49 153.67 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4cca5fee-a497-4768-91ad-f0ead9c2d4a1")
+		(property "Reference" "MH4"
+			(at 240.03 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2"
+			(at 240.03 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
+			(at 237.49 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 237.49 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e38bc48-03cb-4517-be63-16a93797a30e")
+		)
+		(instances
+			(project "NanoGaN"
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb"
+					(reference "MH4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Power_Welding_PAD")
 		(at 215.9 127 0)
 		(unit 1)
@@ -1363,17 +1826,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 261.62 149.86 0)
+		(lib_id "Mechanical:Fiducial")
+		(at 261.62 113.03 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5bd030cd-1c23-463f-a9ad-be832210b11c")
-		(property "Reference" "H4"
-			(at 264.795 148.59 0)
+		(uuid "85b2ac86-874c-453c-97d0-a85de2c6e1cc")
+		(property "Reference" "FM1"
+			(at 264.16 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1381,8 +1844,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 264.795 151.13 0)
+		(property "Value" "Fiducial"
+			(at 264.16 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1390,8 +1853,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 261.62 149.86 0)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 261.62 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1400,7 +1863,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 261.62 149.86 0)
+			(at 261.62 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1408,81 +1871,19 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 261.62 149.86 0)
+		(property "Description" "Fiducial Marker"
+			(at 261.62 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(instances
 			(project "NanoGaN"
 				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb"
-					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 261.62 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7d07824b-35f9-4706-83e0-4c36b43cae06")
-		(property "Reference" "H5"
-			(at 264.795 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 264.795 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 261.62 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 261.62 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 261.62 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "NanoGaN"
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb"
-					(reference "H5")
+					(reference "FM1")
 					(unit 1)
 				)
 			)
@@ -1553,17 +1954,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 261.62 133.35 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 254 153.67 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "898d32cc-245a-4b00-a953-22e14c97caa5")
-		(property "Reference" "H1"
-			(at 264.795 132.08 0)
+		(uuid "9036049a-83b3-4efd-9ada-63c74502c2ff")
+		(property "Reference" "MH6"
+			(at 256.54 151.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1571,8 +1972,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 264.795 134.62 0)
+		(property "Value" "M2"
+			(at 256.54 153.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1580,8 +1981,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 261.62 133.35 0)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
+			(at 254 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1590,7 +1991,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 261.62 133.35 0)
+			(at 254 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1598,18 +1999,156 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 261.62 133.35 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 254 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "758805b1-565e-44ac-8554-87c3ab084037")
 		)
 		(instances
 			(project "NanoGaN"
 				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb"
-					(reference "H1")
+					(reference "MH6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 210.82 153.67 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "985ba802-f180-47fb-bde1-6294b07abbc0")
+		(property "Reference" "MH1"
+			(at 213.36 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2"
+			(at 213.36 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
+			(at 210.82 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 210.82 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "339f5baa-ded1-413e-aae7-a38c2a594642")
+		)
+		(instances
+			(project "NanoGaN"
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb"
+					(reference "MH1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 245.11 153.67 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aeb550ba-8201-4800-99b5-81543bd60aa2")
+		(property "Reference" "MH5"
+			(at 247.65 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2"
+			(at 247.65 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
+			(at 245.11 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 245.11 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48bbbcec-c70d-4a0d-b4df-1789acb8866b")
+		)
+		(instances
+			(project "NanoGaN"
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb"
+					(reference "MH5")
 					(unit 1)
 				)
 			)
@@ -1682,35 +2221,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 261.62 139.065 0)
+		(lib_id "power:GND")
+		(at 210.82 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c83c75aa-25f0-4d66-bb4c-187f71e11066")
-		(property "Reference" "H2"
-			(at 264.795 137.795 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 264.795 140.335 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 261.62 139.065 0)
+		(uuid "b9e640a0-1e9e-4e7b-b26f-4a7a6b194f40")
+		(property "Reference" "#PWR0131"
+			(at 210.82 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1718,8 +2238,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 261.62 139.065 0)
+		(property "Value" "GND"
+			(at 210.82 162.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1727,35 +2247,57 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 261.62 139.065 0)
+		(property "Footprint" ""
+			(at 210.82 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 210.82 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e8ba24e-728a-4194-9261-0082b05c56f1")
 		)
 		(instances
 			(project "NanoGaN"
 				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb"
-					(reference "H2")
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 261.62 144.78 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 228.6 153.67 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fd29133c-740e-487c-ba8e-234e6b305992")
-		(property "Reference" "H3"
-			(at 264.795 143.51 0)
+		(uuid "ffb24f5d-968f-4e08-a541-fc185a30fc29")
+		(property "Reference" "MH3"
+			(at 231.14 151.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1763,8 +2305,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 264.795 146.05 0)
+		(property "Value" "M2"
+			(at 231.14 153.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1772,8 +2314,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 261.62 144.78 0)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
+			(at 228.6 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1782,7 +2324,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 261.62 144.78 0)
+			(at 228.6 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1790,18 +2332,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 261.62 144.78 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 228.6 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "597d89e4-70e4-4142-a52b-41b53beafa56")
 		)
 		(instances
 			(project "NanoGaN"
 				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb"
-					(reference "H3")
+					(reference "MH3")
 					(unit 1)
 				)
 			)
@@ -2344,6 +2890,16 @@
 				(justify right)
 			)
 		)
+		(pin "SERVO" output
+			(at 83.82 91.44 0)
+			(uuid "14abb1d8-adb2-48cf-88f1-e16569eab739")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "NanoGaN"
 				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb"
@@ -2749,6 +3305,16 @@
 		(pin "FAN_PWM" output
 			(at 99.06 88.9 180)
 			(uuid "c83a12e0-fd65-4de7-b909-29a5ec275fbb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SERVO" input
+			(at 99.06 91.44 180)
+			(uuid "7618aea9-378e-490d-9cbf-589f791ccc20")
 			(effects
 				(font
 					(size 1.27 1.27)
