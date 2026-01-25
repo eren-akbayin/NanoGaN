@@ -4049,16 +4049,6 @@
 		)
 		(uuid "98e9d2e6-c890-412e-9555-757afcec7a73")
 	)
-	(text "todo: check JST connectors for pitch and consider changing them to SMD and include it in assembly."
-		(exclude_from_sim no)
-		(at 232.156 174.752 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "99a0f7da-f19d-4961-80af-390e45965fe8")
-	)
 	(text "Can also be used for UART/USART"
 		(exclude_from_sim no)
 		(at 82.55 139.192 0)
