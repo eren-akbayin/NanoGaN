@@ -512,12 +512,6 @@
 		(uuid "0e235a9c-8c01-456a-a36d-c351cfb0f5a5")
 	)
 	(junction
-		(at 252.73 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0f46b4d9-c185-4467-9794-fe46b7dad18b")
-	)
-	(junction
 		(at 160.02 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -540,6 +534,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7bb29abe-6d6a-4231-80c8-3f8fadce2f3e")
+	)
+	(junction
+		(at 252.73 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e78e309-5446-4835-89d6-e1632eab3dbb")
 	)
 	(junction
 		(at 269.24 157.48)
@@ -576,12 +576,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d728e973-7e31-409a-a395-057968d37a9a")
-	)
-	(junction
-		(at 243.84 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ef79cbf0-fa3d-48ca-9653-60eec51248f8")
 	)
 	(wire
 		(pts
@@ -655,6 +649,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 74.93) (xy 99.06 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a1677b1-2911-4779-9c6b-a6ba1b3da068")
+	)
+	(wire
+		(pts
 			(xy 88.9 72.39) (xy 99.06 72.39)
 		)
 		(stroke
@@ -715,7 +719,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 80.01) (xy 99.06 80.01)
+			(xy 88.9 77.47) (xy 99.06 77.47)
 		)
 		(stroke
 			(width 0)
@@ -752,16 +756,6 @@
 			(type default)
 		)
 		(uuid "277cf03e-3cc5-4757-881c-1f117a59322c")
-	)
-	(wire
-		(pts
-			(xy 88.9 77.47) (xy 99.06 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "294d90ee-a5e1-486d-a9f5-7f52be76df27")
 	)
 	(wire
 		(pts
@@ -842,6 +836,16 @@
 			(type default)
 		)
 		(uuid "43661b8e-3692-4db6-8c3a-6f2cd29e238e")
+	)
+	(wire
+		(pts
+			(xy 252.73 157.48) (xy 252.73 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4456439c-def5-464d-b8bb-2b3e5aa4304f")
 	)
 	(wire
 		(pts
@@ -1062,16 +1066,6 @@
 			(type default)
 		)
 		(uuid "8050a9ad-ae93-4e4e-9113-511b4deb1dba")
-	)
-	(wire
-		(pts
-			(xy 88.9 74.93) (xy 99.06 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8216e2e5-8cc1-4fbb-8c9b-cd7a981e2616")
 	)
 	(wire
 		(pts
@@ -1332,16 +1326,6 @@
 			(type default)
 		)
 		(uuid "dc913f21-4dec-4862-adb6-f940de07d24e")
-	)
-	(wire
-		(pts
-			(xy 252.73 157.48) (xy 243.84 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4acfa6f-0dee-4054-b17b-f432db090430")
 	)
 	(wire
 		(pts
@@ -2448,7 +2432,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -2485,6 +2468,71 @@
 			(project "NanoGaN"
 				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb"
 					(reference "#PWR0131")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 252.73 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dbb1094c-5fd4-4f13-ba9d-c3380dd23763")
+		(property "Reference" "#PWR0111"
+			(at 252.73 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PGND"
+			(at 252.73 162.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 252.73 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d249da3-dcb7-42ff-8b9c-b284cc7f836f")
+		)
+		(instances
+			(project "NanoGaN"
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb"
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -3134,16 +3182,6 @@
 				(justify right)
 			)
 		)
-		(pin "VBUS" output
-			(at 88.9 74.93 0)
-			(uuid "6d2ac783-1658-49eb-ad55-7bd69cd33bf6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "EXT_TEMP1" output
 			(at 88.9 39.37 0)
 			(uuid "6ddd016e-9b25-42ee-82a4-a93d33c5525b")
@@ -3165,7 +3203,7 @@
 			)
 		)
 		(pin "FAN_PWM" input
-			(at 88.9 77.47 0)
+			(at 88.9 74.93 0)
 			(uuid "ad75b8d8-9772-4235-a747-ed0ecccbf3a7")
 			(effects
 				(font
@@ -3175,7 +3213,7 @@
 			)
 		)
 		(pin "SERVO" output
-			(at 88.9 80.01 0)
+			(at 88.9 77.47 0)
 			(uuid "14abb1d8-adb2-48cf-88f1-e16569eab739")
 			(effects
 				(font
@@ -3546,16 +3584,6 @@
 				(justify left)
 			)
 		)
-		(pin "VBUS" input
-			(at 99.06 74.93 180)
-			(uuid "d3495dae-0bf0-47bc-a2fd-47ca8b85d08b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "D-" bidirectional
 			(at 99.06 72.39 180)
 			(uuid "12d237d0-a91b-44a6-a774-a3a97786825e")
@@ -3587,7 +3615,7 @@
 			)
 		)
 		(pin "FAN_PWM" output
-			(at 99.06 77.47 180)
+			(at 99.06 74.93 180)
 			(uuid "c83a12e0-fd65-4de7-b909-29a5ec275fbb")
 			(effects
 				(font
@@ -3597,7 +3625,7 @@
 			)
 		)
 		(pin "SERVO" input
-			(at 99.06 80.01 180)
+			(at 99.06 77.47 180)
 			(uuid "7618aea9-378e-490d-9cbf-589f791ccc20")
 			(effects
 				(font

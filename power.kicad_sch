@@ -7449,8 +7449,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V_SMPS"
-			(at 139.192 20.066 0)
+		(property "Value" "+5V"
+			(at 142.748 20.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)

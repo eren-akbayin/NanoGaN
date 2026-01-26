@@ -4008,16 +4008,6 @@
 		)
 		(uuid "091a0470-7455-403a-b0c8-b7ed509dda89")
 	)
-	(text "Header might be to weak for 3.5A"
-		(exclude_from_sim no)
-		(at 167.64 58.674 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "63618111-0e42-4361-b9c8-ca97b75c7703")
-	)
 	(text "External Temp. Readings"
 		(exclude_from_sim no)
 		(at 27.178 52.578 0)
@@ -4027,16 +4017,6 @@
 			)
 		)
 		(uuid "7d1cd5c6-5556-4028-b086-9b587dfdcf2d")
-	)
-	(text "Header for \nselecting +5V supply"
-		(exclude_from_sim no)
-		(at 192.532 80.518 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "886c0668-825f-4ec2-a54e-27d20f25cb84")
 	)
 	(text "Servo"
 		(exclude_from_sim no)
@@ -4125,12 +4105,6 @@
 		(uuid "37da66f0-2e5b-48c8-a149-186826c73dd5")
 	)
 	(junction
-		(at 153.67 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3fd4655c-ca0a-4d53-928c-7f7cf6abb75c")
-	)
-	(junction
 		(at 78.74 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4147,12 +4121,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e0f318e-2188-4f01-b237-2394b9c4aa25")
-	)
-	(junction
-		(at 187.96 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6b3d1585-c6aa-4e11-9139-f69e0a2af62d")
 	)
 	(junction
 		(at 50.8 154.94)
@@ -4177,12 +4145,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78c113c0-a4a3-430b-9f62-07fb528c49f4")
-	)
-	(junction
-		(at 160.02 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7f9c17d0-8d4a-4dc2-9578-fbb4b8861721")
 	)
 	(junction
 		(at 38.1 149.86)
@@ -4221,12 +4183,6 @@
 		(uuid "a6750077-0dc4-4d23-8005-d095e5129d4f")
 	)
 	(junction
-		(at 146.05 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a82b7acb-c8c3-470f-adf4-9a5f43075be2")
-	)
-	(junction
 		(at 44.45 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4257,12 +4213,6 @@
 		(uuid "c2d58122-beb3-4e5d-9162-9a41cd2c6bbf")
 	)
 	(junction
-		(at 179.07 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ce398207-faad-4e4e-99ba-41b029db3dd9")
-	)
-	(junction
 		(at 129.54 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4274,12 +4224,6 @@
 		(color 0 0 0 0)
 		(uuid "e186fc25-97e8-4bff-b850-d545d798b1ac")
 	)
-	(junction
-		(at 163.83 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ff3bc82d-054c-4d71-8fc3-87d7507a27a9")
-	)
 	(no_connect
 		(at 34.29 22.86)
 		(uuid "018922d1-bc1f-4fb4-9f3d-5be64114beb6")
@@ -4289,12 +4233,24 @@
 		(uuid "09f4ee04-c399-41e2-8a2c-39d052c04851")
 	)
 	(no_connect
+		(at 130.81 69.85)
+		(uuid "53ab897c-5397-48f8-9c24-04129b3d575d")
+	)
+	(no_connect
+		(at 153.67 80.01)
+		(uuid "644ecfeb-b960-452a-802b-b48f255aab4e")
+	)
+	(no_connect
 		(at 52.07 33.02)
 		(uuid "8560e798-bd8d-464a-90ee-0c58e07aba50")
 	)
 	(no_connect
 		(at 52.07 22.86)
 		(uuid "a6e0f701-190d-44f1-bef7-20b0ef431ee0")
+	)
+	(no_connect
+		(at 153.67 92.71)
+		(uuid "b8471c80-0bc4-41c2-8173-30fe76b96ef5")
 	)
 	(wire
 		(pts
@@ -4355,16 +4311,6 @@
 			(type default)
 		)
 		(uuid "080cd843-64a3-4596-9e0d-3ae0f547362f")
-	)
-	(wire
-		(pts
-			(xy 160.02 69.85) (xy 160.02 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09001e4f-c41f-40bc-a749-f27d4a3b1b83")
 	)
 	(wire
 		(pts
@@ -4498,16 +4444,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 91.44) (xy 171.45 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d6b11f2-651f-41dc-ae8c-4b214b760cbe")
-	)
-	(wire
-		(pts
 			(xy 29.21 167.64) (xy 29.21 157.48)
 		)
 		(stroke
@@ -4588,16 +4524,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 92.71) (xy 153.67 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bd2379a-23f8-4529-bac9-86514dca3338")
-	)
-	(wire
-		(pts
 			(xy 19.05 27.94) (xy 34.29 27.94)
 		)
 		(stroke
@@ -4668,16 +4594,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 69.85) (xy 160.02 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fd6e26f-4eb4-496f-93d7-93cc6b9cc472")
-	)
-	(wire
-		(pts
 			(xy 118.11 26.67) (xy 118.11 25.4)
 		)
 		(stroke
@@ -4715,16 +4631,6 @@
 			(type default)
 		)
 		(uuid "45ed9944-5d83-4c27-af3a-f3471a4371ad")
-	)
-	(wire
-		(pts
-			(xy 163.83 69.85) (xy 163.83 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46aa3c83-ba86-4259-b1fe-4255b268387d")
 	)
 	(wire
 		(pts
@@ -4798,16 +4704,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 91.44) (xy 194.31 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5220beba-1e02-4c74-8771-3fc1fc31f4ed")
-	)
-	(wire
-		(pts
 			(xy 44.45 135.89) (xy 44.45 137.16)
 		)
 		(stroke
@@ -4825,26 +4721,6 @@
 			(type default)
 		)
 		(uuid "543f211f-70b9-4624-90c3-c12bc1fd83fb")
-	)
-	(wire
-		(pts
-			(xy 163.83 69.85) (xy 168.91 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "569f7a71-d96c-457e-ba8c-f940d2f76127")
-	)
-	(wire
-		(pts
-			(xy 193.04 68.58) (xy 193.04 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56c4642a-1999-41cc-9c75-6ae8df6573ba")
 	)
 	(wire
 		(pts
@@ -4895,26 +4771,6 @@
 			(type default)
 		)
 		(uuid "6380dd81-ae86-42e8-bd58-62f957857912")
-	)
-	(wire
-		(pts
-			(xy 190.5 62.23) (xy 190.5 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63b2ca8d-1940-4a78-a9b0-a4e361a5fb6b")
-	)
-	(wire
-		(pts
-			(xy 179.07 80.01) (xy 179.07 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63e5ac1a-4e18-4e8a-84e5-60750784df41")
 	)
 	(wire
 		(pts
@@ -5078,16 +4934,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 69.85) (xy 179.07 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b9514b5-eabb-43b6-b5ab-eb2379601893")
-	)
-	(wire
-		(pts
 			(xy 130.81 85.09) (xy 133.35 85.09)
 		)
 		(stroke
@@ -5178,16 +5024,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 69.85) (xy 163.83 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a28293e-1789-4d80-ab54-6cf43587a902")
-	)
-	(wire
-		(pts
 			(xy 158.75 87.63) (xy 194.31 87.63)
 		)
 		(stroke
@@ -5268,16 +5104,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 69.85) (xy 153.67 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b27e8d9-299f-4d0f-be51-df7d9bae2086")
-	)
-	(wire
-		(pts
 			(xy 36.83 83.82) (xy 26.67 83.82)
 		)
 		(stroke
@@ -5305,16 +5131,6 @@
 			(type default)
 		)
 		(uuid "a0dbc3df-365d-41dc-9e58-803f91a0b678")
-	)
-	(wire
-		(pts
-			(xy 187.96 68.58) (xy 187.96 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a21693dc-9b72-4931-807b-c0b8bd5cc557")
 	)
 	(wire
 		(pts
@@ -5365,16 +5181,6 @@
 			(type default)
 		)
 		(uuid "a906c3e0-80c1-464c-a02a-11c976b2e924")
-	)
-	(wire
-		(pts
-			(xy 146.05 111.76) (xy 153.67 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9ecbb1e-7648-4b89-9745-ea024daf77b8")
 	)
 	(wire
 		(pts
@@ -5468,16 +5274,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 80.01) (xy 163.83 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7d74dec-95e1-4a52-9e9e-a632c218bd7e")
-	)
-	(wire
-		(pts
 			(xy 33.02 107.95) (xy 26.67 107.95)
 		)
 		(stroke
@@ -5505,26 +5301,6 @@
 			(type default)
 		)
 		(uuid "bcf401a3-ba4f-44a9-800e-23d84d53c9a0")
-	)
-	(wire
-		(pts
-			(xy 179.07 69.85) (xy 179.07 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdda03ef-9479-4a78-b45d-f72a199f652a")
-	)
-	(wire
-		(pts
-			(xy 179.07 69.85) (xy 187.96 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bebda3af-1d5e-47a5-9a23-3e6fe3080532")
 	)
 	(wire
 		(pts
@@ -5688,16 +5464,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 69.85) (xy 153.67 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f222a8f0-4d86-41b8-b06b-7231b47489c0")
-	)
-	(wire
-		(pts
 			(xy 71.12 149.86) (xy 87.63 149.86)
 		)
 		(stroke
@@ -5805,16 +5571,6 @@
 			(justify left bottom)
 		)
 		(uuid "8fb302de-ff19-482b-8c54-5b2858d06567")
-	)
-	(label "USBVBUS"
-		(at 130.81 69.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "92b7c2ea-c452-47f2-9052-504086c0f3c0")
 	)
 	(label "FANP"
 		(at 119.38 137.16 0)
@@ -5986,17 +5742,6 @@
 			(justify left)
 		)
 		(uuid "4b594035-1384-47cb-a552-1162c014a5d9")
-	)
-	(hierarchical_label "VBUS"
-		(shape output)
-		(at 194.31 91.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4d99fe01-4f53-460c-bd02-1b4d88b15345")
 	)
 	(hierarchical_label "HALL1"
 		(shape output)
@@ -6490,93 +6235,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 163.83 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "13692523-89a9-4986-aecd-c730d15e9af0")
-		(property "Reference" "C67"
-			(at 166.37 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "1u"
-			(at 164.846 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 164.7952 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 163.83 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1uF 6.3V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 163.83 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C307427"
-			(at 163.83 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rating" "6.3V"
-			(at 166.624 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5455693a-44c7-4607-97c8-474822a3acfa")
-		)
-		(pin "2"
-			(uuid "19256a72-3aeb-4c2b-8aee-2648b291cc51")
-		)
-		(instances
-			(project "NanoGaN"
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/7b588d7e-2cba-479c-b934-83f1a7363076"
-					(reference "C67")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 26.67 77.47 0)
 		(unit 1)
@@ -7046,72 +6704,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 193.04 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2dcd68ed-b28c-41cb-a33a-2f9fb318db0a")
-		(property "Reference" "#PWR0129"
-			(at 193.04 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V_SMPS"
-			(at 190.754 65.024 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 193.04 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 193.04 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2dedf942-6334-4f2d-afaf-a252565e5575")
-		)
-		(instances
-			(project "NanoGaN"
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/7b588d7e-2cba-479c-b934-83f1a7363076"
-					(reference "#PWR0129")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 44.45 135.89 0)
 		(unit 1)
@@ -7352,72 +6944,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 187.96 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3e47b902-8f84-42f9-809f-3c32791b2c24")
-		(property "Reference" "#PWR0130"
-			(at 187.96 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V_USB"
-			(at 181.102 65.024 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 187.96 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "33b243b3-ba38-4b77-a51d-b85cb7ea63d8")
-		)
-		(instances
-			(project "NanoGaN"
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/7b588d7e-2cba-479c-b934-83f1a7363076"
-					(reference "#PWR0130")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x07")
 		(at 21.59 113.03 0)
 		(mirror y)
@@ -7498,73 +7024,6 @@
 			(project ""
 				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/7b588d7e-2cba-479c-b934-83f1a7363076"
 					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 179.07 80.01 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4035514f-9964-4c8d-93f7-aedd042c89f9")
-		(property "Reference" "#PWR0113"
-			(at 179.07 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 179.07 84.074 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 179.07 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4ac29c66-5bd9-48f3-b095-5fc1d6d4f13a")
-		)
-		(instances
-			(project "NanoGaN"
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/7b588d7e-2cba-479c-b934-83f1a7363076"
-					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -7860,169 +7319,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 172.72 69.85 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "50a29c95-6590-4db7-8061-2570e66c3fc1")
-		(property "Reference" "R39"
-			(at 171.958 67.818 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 172.72 70.104 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 172.72 71.628 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 172.72 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C21189"
-			(at 172.72 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "913462ff-fd03-4aeb-88c9-7c816bb1bf1e")
-		)
-		(pin "1"
-			(uuid "6f99edd0-3af2-4721-bedd-70e8958e6963")
-		)
-		(instances
-			(project "NanoGaN"
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/7b588d7e-2cba-479c-b934-83f1a7363076"
-					(reference "R39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 179.07 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "52afbe95-3f64-4030-8aa2-af78662f471d")
-		(property "Reference" "C68"
-			(at 181.61 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "1u"
-			(at 180.086 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 180.0352 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 179.07 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1uF 6.3V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 179.07 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C307427"
-			(at 179.07 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rating" "6.3V"
-			(at 181.864 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d2ef7e96-42b7-4979-ba98-af731e490f01")
-		)
-		(pin "2"
-			(uuid "197509ec-5cbb-4ec0-bec3-d74bd10d498c")
-		)
-		(instances
-			(project "NanoGaN"
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/7b588d7e-2cba-479c-b934-83f1a7363076"
-					(reference "C68")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 27.94 104.14 0)
 		(unit 1)
@@ -8081,73 +7377,6 @@
 			(project "NanoGaN"
 				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/7b588d7e-2cba-479c-b934-83f1a7363076"
 					(reference "#PWR096")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 163.83 80.01 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "586dd380-99bf-4d17-8796-6f01c4aae05b")
-		(property "Reference" "#PWR0111"
-			(at 163.83 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 163.83 84.074 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 163.83 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "85aabe9c-8e2e-4f36-aef1-206ccf1d3a16")
-		)
-		(instances
-			(project "NanoGaN"
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/7b588d7e-2cba-479c-b934-83f1a7363076"
-					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -8486,70 +7715,6 @@
 			(project ""
 				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/7b588d7e-2cba-479c-b934-83f1a7363076"
 					(reference "Q7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 190.5 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7600d24c-0e82-4026-8b02-74e2ccd4c5f4")
-		(property "Reference" "#PWR0128"
-			(at 190.5 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 190.5 58.674 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 190.5 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "de4e1b0d-1f2e-44c1-8941-353a9d5a1672")
-		)
-		(instances
-			(project "NanoGaN"
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/7b588d7e-2cba-479c-b934-83f1a7363076"
-					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -9075,82 +8240,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 175.26 91.44 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(uuid "91e659d3-199b-46e6-aa1d-c2934124c2f1")
-		(property "Reference" "R40"
-			(at 174.498 89.408 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 175.26 91.694 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 175.26 93.218 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 175.26 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 175.26 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C21189"
-			(at 175.26 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b3bb8404-4bdb-4afa-8326-6bdb3f7f4f12")
-		)
-		(pin "1"
-			(uuid "0b756f76-7733-46b0-ba57-a2c2975b6848")
-		)
-		(instances
-			(project "NanoGaN"
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/7b588d7e-2cba-479c-b934-83f1a7363076"
-					(reference "R40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 78.74 167.64 0)
 		(unit 1)
@@ -9502,80 +8591,6 @@
 			(project "NanoGaN"
 				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/7b588d7e-2cba-479c-b934-83f1a7363076"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 190.5 74.93 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a4ded5a8-e739-4a2a-bd03-08eda4ebcc68")
-		(property "Reference" "J13"
-			(at 190.246 77.216 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x03"
-			(at 199.136 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Vertical"
-			(at 190.5 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 190.5 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 190.5 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "84a6049d-1a3d-4b5a-949b-ff133f208c44")
-		)
-		(pin "1"
-			(uuid "df13fe0f-eb93-4177-aefb-5ef4da63feca")
-		)
-		(pin "3"
-			(uuid "1d256ae4-eef1-4d46-84b4-039ef05f4b84")
-		)
-		(instances
-			(project ""
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/7b588d7e-2cba-479c-b934-83f1a7363076"
-					(reference "J13")
 					(unit 1)
 				)
 			)

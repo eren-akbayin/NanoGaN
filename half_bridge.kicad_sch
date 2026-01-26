@@ -2482,7 +2482,7 @@
 	)
 	(rectangle
 		(start 106.68 67.31)
-		(end 269.24 162.56)
+		(end 270.51 165.1)
 		(stroke
 			(width 0)
 			(type default)
@@ -2526,9 +2526,9 @@
 		)
 		(uuid "4917fc3d-110e-4f42-b0e6-0106f65786ac")
 	)
-	(text "Not functional in this case, Hysteresis circuit needed.\nhttps://www.ti.com/lit/ug/tidu020a/tidu020a.pdf"
+	(text "See OCP.asc for LTspice sim. of the trigger."
 		(exclude_from_sim no)
-		(at 236.474 101.092 0)
+		(at 184.912 159.004 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2556,9 +2556,19 @@
 		)
 		(uuid "78eee24c-b406-4110-838a-bf3e5c9547b7")
 	)
+	(text "V_Hysteresis = (3.3V x 10kohm) / ( 39kohm + 10kohm) = 0.67V"
+		(exclude_from_sim no)
+		(at 191.77 162.814 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "891dade1-8fa4-45c3-9293-073c0b5fc18e")
+	)
 	(text "Gain 20V/V"
 		(exclude_from_sim no)
-		(at 132.842 132.842 0)
+		(at 132.588 127.762 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2607,12 +2617,6 @@
 		(uuid "f428c9d4-f796-4d77-b6fc-862b783b1ed6")
 	)
 	(junction
-		(at 195.58 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "004b3d5f-786e-43fc-b42f-68c0b37d899d")
-	)
-	(junction
 		(at 26.67 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2637,7 +2641,7 @@
 		(uuid "07043db9-ec5c-4a9f-bc58-f68107869959")
 	)
 	(junction
-		(at 215.9 144.78)
+		(at 209.55 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "07b1f354-2615-4905-a9e8-51c8b655a1be")
@@ -2649,13 +2653,25 @@
 		(uuid "1693e996-2a2b-43b2-9f74-02510e9d7380")
 	)
 	(junction
-		(at 116.84 142.24)
+		(at 214.63 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20105544-1b4f-4aaf-af6d-43f4c6ef1a86")
+	)
+	(junction
+		(at 194.31 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20a72229-e67d-488d-b928-69f1959e175d")
+	)
+	(junction
+		(at 116.84 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "28f0b8e0-151e-43ca-bcf5-423116b4208f")
 	)
 	(junction
-		(at 144.78 116.84)
+		(at 144.78 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c758a61-53f6-4a7d-8bfb-45708dd55242")
@@ -2671,12 +2687,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "32b6089d-cac5-404f-b5cd-30e5b2e9721b")
-	)
-	(junction
-		(at 222.25 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4030acef-2efa-4486-b20e-4bc765fb6ad9")
 	)
 	(junction
 		(at 57.15 81.28)
@@ -2709,6 +2719,18 @@
 		(uuid "66e8ab31-7103-4f1a-9506-02a833bd9503")
 	)
 	(junction
+		(at 251.46 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8447d2c7-d4c4-4ae5-9533-9629877fcb77")
+	)
+	(junction
+		(at 214.63 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86479fa7-9c36-481d-8190-7ba05181a528")
+	)
+	(junction
 		(at 58.42 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2727,7 +2749,13 @@
 		(uuid "93ebace4-e668-45ab-a6f0-bd9f0be3a90a")
 	)
 	(junction
-		(at 149.86 109.22)
+		(at 224.79 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9757ed18-625e-4d1f-92a2-2fa48c5d1a5e")
+	)
+	(junction
+		(at 149.86 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a523f29-ee72-42f3-b31e-540a572136d5")
@@ -2745,40 +2773,34 @@
 		(uuid "a57a7555-6cf9-468b-98e0-880459194a2e")
 	)
 	(junction
-		(at 251.46 118.11)
+		(at 251.46 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7f9ff17-2b92-426b-9dba-a278fb92d891")
 	)
 	(junction
-		(at 116.84 152.4)
+		(at 116.84 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac95bfe9-60ce-4c41-a99f-9ae465b13360")
-	)
-	(junction
-		(at 215.9 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "affc0874-dd91-4db9-87b8-a3e0c23745c7")
-	)
-	(junction
-		(at 116.84 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b081e5f6-22a7-4ff5-9849-97ced177bc58")
-	)
-	(junction
-		(at 222.25 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b5b80e07-5c20-44b2-8daf-f3cf8613c855")
 	)
 	(junction
 		(at 27.94 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b74c9138-79b4-4991-bbcf-59c6f242daff")
+	)
+	(junction
+		(at 209.55 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfe47ed1-e55d-4073-8bf6-f799c34f9444")
+	)
+	(junction
+		(at 224.79 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6aac85c-e5fc-4642-81e3-22b1ef7022bf")
 	)
 	(junction
 		(at 81.28 39.37)
@@ -2793,16 +2815,10 @@
 		(uuid "cae98eb9-e40c-46ef-ace8-f0ce067a4cf1")
 	)
 	(junction
-		(at 116.84 111.76)
+		(at 116.84 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1b2a6e4-3d60-4367-90c8-361df80d481d")
-	)
-	(junction
-		(at 251.46 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e551752a-42f7-4604-8605-2eaf400b0c7c")
 	)
 	(junction
 		(at 19.05 86.36)
@@ -2811,7 +2827,7 @@
 		(uuid "f05fa326-1d67-4a93-91f3-c7aa1e87a000")
 	)
 	(junction
-		(at 116.84 114.3)
+		(at 116.84 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb80ad38-ea86-435f-8c8a-6f5628d585c0")
@@ -2825,6 +2841,16 @@
 	(no_connect
 		(at 241.3 24.13)
 		(uuid "a69f4104-daa9-4cc2-9c27-2394d2dffdeb")
+	)
+	(wire
+		(pts
+			(xy 251.46 143.51) (xy 261.62 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00176092-74a6-48c7-86a0-d65e7803f028")
 	)
 	(wire
 		(pts
@@ -2858,7 +2884,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 125.73) (xy 160.02 128.27)
+			(xy 158.75 123.19) (xy 158.75 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2868,7 +2894,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 151.13) (xy 116.84 152.4)
+			(xy 116.84 148.59) (xy 116.84 149.86)
 		)
 		(stroke
 			(width 0)
@@ -2888,7 +2914,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 115.57) (xy 215.9 115.57)
+			(xy 208.28 121.92) (xy 209.55 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2898,7 +2924,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 124.46) (xy 215.9 125.73)
+			(xy 209.55 130.81) (xy 209.55 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2908,7 +2934,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 114.3) (xy 121.92 114.3)
+			(xy 116.84 111.76) (xy 121.92 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2918,7 +2944,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 151.13) (xy 109.22 152.4)
+			(xy 109.22 148.59) (xy 109.22 149.86)
 		)
 		(stroke
 			(width 0)
@@ -2948,23 +2974,23 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 128.27) (xy 195.58 125.73)
+			(xy 231.14 128.27) (xy 224.79 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c43fbc0-7762-49a1-81b3-631a2b3883c1")
+	)
+	(wire
+		(pts
+			(xy 194.31 125.73) (xy 194.31 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1c9cccce-7cd8-4827-9546-ac83979c7270")
-	)
-	(wire
-		(pts
-			(xy 109.22 115.57) (xy 109.22 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d07f8e9-490b-4510-b33a-09a61fb8bd25")
 	)
 	(wire
 		(pts
@@ -2978,7 +3004,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 147.32) (xy 153.67 147.32)
+			(xy 154.94 144.78) (xy 153.67 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2988,13 +3014,23 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 107.95) (xy 222.25 109.22)
+			(xy 194.31 106.68) (xy 214.63 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1f51effa-b177-4ad1-9d46-2c196e5a47d4")
+		(uuid "1dbd0fa2-bc6c-4851-8146-08b208d98841")
+	)
+	(wire
+		(pts
+			(xy 214.63 106.68) (xy 214.63 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e76afc5-bc95-4e57-8683-7fa1c8ad336b")
 	)
 	(wire
 		(pts
@@ -3018,43 +3054,23 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 109.22) (xy 252.73 109.22)
+			(xy 223.52 121.92) (xy 224.79 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "235ebfc1-5e28-4760-8bd0-7f143c672ec8")
+		(uuid "266a8d3a-22ab-4972-a897-ce188a9ddbdf")
 	)
 	(wire
 		(pts
-			(xy 195.58 109.22) (xy 222.25 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "241ab6f0-eed9-4bf4-ab97-6e849ada0924")
-	)
-	(wire
-		(pts
-			(xy 109.22 143.51) (xy 109.22 142.24)
+			(xy 109.22 140.97) (xy 109.22 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "291d31dd-65aa-4cc1-be5c-d26704eb5c3a")
-	)
-	(wire
-		(pts
-			(xy 109.22 124.46) (xy 116.84 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2921d567-6f5b-4400-8b33-ad814d75ea39")
 	)
 	(wire
 		(pts
@@ -3068,16 +3084,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 115.57) (xy 224.79 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bd8a52a-b32f-4c31-b50f-00844ae44965")
-	)
-	(wire
-		(pts
 			(xy 26.67 33.02) (xy 34.29 33.02)
 		)
 		(stroke
@@ -3088,7 +3094,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 125.73) (xy 161.29 125.73)
+			(xy 158.75 123.19) (xy 160.02 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3098,17 +3104,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 151.13) (xy 251.46 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30814e58-d667-4fb1-a3cb-f97164af2567")
-	)
-	(wire
-		(pts
-			(xy 194.31 118.11) (xy 195.58 118.11)
+			(xy 193.04 115.57) (xy 194.31 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3138,7 +3134,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 124.46) (xy 144.78 116.84)
+			(xy 144.78 121.92) (xy 144.78 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3168,7 +3164,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 124.46) (xy 132.08 119.38)
+			(xy 132.08 121.92) (xy 132.08 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3178,7 +3174,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 152.4) (xy 127 151.13)
+			(xy 127 149.86) (xy 127 148.59)
 		)
 		(stroke
 			(width 0)
@@ -3208,7 +3204,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 144.78) (xy 224.79 144.78)
+			(xy 209.55 146.05) (xy 215.9 146.05)
 		)
 		(stroke
 			(width 0)
@@ -3228,7 +3224,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 151.13) (xy 128.27 151.13)
+			(xy 127 148.59) (xy 128.27 148.59)
 		)
 		(stroke
 			(width 0)
@@ -3248,13 +3244,23 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 99.06) (xy 137.16 93.98)
+			(xy 137.16 96.52) (xy 137.16 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "49c589d0-1b51-4bb4-b973-81e73756ec3e")
+	)
+	(wire
+		(pts
+			(xy 224.79 128.27) (xy 224.79 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ac8175f-e8cd-4e06-831c-ae00deb93f61")
 	)
 	(wire
 		(pts
@@ -3268,7 +3274,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 125.73) (xy 194.31 125.73)
+			(xy 194.31 123.19) (xy 193.04 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3318,16 +3324,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 123.19) (xy 109.22 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "542e580a-cb7d-4a2d-838a-5fd3ddd96dfb")
-	)
-	(wire
-		(pts
 			(xy 67.31 22.86) (xy 71.12 22.86)
 		)
 		(stroke
@@ -3358,7 +3354,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 143.51) (xy 116.84 142.24)
+			(xy 116.84 140.97) (xy 116.84 139.7)
 		)
 		(stroke
 			(width 0)
@@ -3378,23 +3374,13 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 111.76) (xy 116.84 114.3)
+			(xy 116.84 109.22) (xy 116.84 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5bb02c46-0d03-4bde-86d0-03e17b3a7014")
-	)
-	(wire
-		(pts
-			(xy 222.25 120.65) (xy 224.79 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e76f6a5-bd88-4115-a132-d720f2233e28")
 	)
 	(wire
 		(pts
@@ -3428,13 +3414,33 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 139.7) (xy 116.84 142.24)
+			(xy 116.84 137.16) (xy 116.84 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "629b4592-540d-425f-bd75-9e2ce076e147")
+	)
+	(wire
+		(pts
+			(xy 224.79 152.4) (xy 224.79 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6512e926-3a38-4d2e-9d8a-c3c4c2046291")
+	)
+	(wire
+		(pts
+			(xy 251.46 128.27) (xy 251.46 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67922b93-a064-4171-8d30-c00785f227bd")
 	)
 	(wire
 		(pts
@@ -3458,16 +3464,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 142.24) (xy 251.46 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f7cd4a6-6087-46ef-8c92-4d16bed2030e")
-	)
-	(wire
-		(pts
 			(xy 55.88 111.76) (xy 57.15 111.76)
 		)
 		(stroke
@@ -3478,23 +3474,13 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 115.57) (xy 215.9 116.84)
+			(xy 209.55 121.92) (xy 209.55 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6fec72ad-b6f3-44c0-b26a-a92e5d7d8967")
-	)
-	(wire
-		(pts
-			(xy 251.46 142.24) (xy 252.73 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71bc5d93-04bd-41fb-a979-2e2a60358821")
 	)
 	(wire
 		(pts
@@ -3518,7 +3504,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 144.78) (xy 215.9 146.05)
+			(xy 209.55 146.05) (xy 209.55 147.32)
 		)
 		(stroke
 			(width 0)
@@ -3578,7 +3564,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 118.11) (xy 160.02 116.84)
+			(xy 158.75 115.57) (xy 158.75 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3638,7 +3624,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 109.22) (xy 149.86 109.22)
+			(xy 142.24 106.68) (xy 149.86 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3658,16 +3644,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 120.65) (xy 222.25 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98afb917-6b0a-4578-97e4-a9b1a8a7a511")
-	)
-	(wire
-		(pts
 			(xy 76.2 158.75) (xy 76.2 161.29)
 		)
 		(stroke
@@ -3678,7 +3654,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 152.4) (xy 116.84 152.4)
+			(xy 109.22 149.86) (xy 116.84 149.86)
 		)
 		(stroke
 			(width 0)
@@ -3718,7 +3694,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 142.24) (xy 116.84 142.24)
+			(xy 109.22 139.7) (xy 116.84 139.7)
 		)
 		(stroke
 			(width 0)
@@ -3758,13 +3734,23 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 121.92) (xy 161.29 121.92)
+			(xy 158.75 119.38) (xy 160.02 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a48d84b5-28d9-475a-864c-bc1104f0143b")
+	)
+	(wire
+		(pts
+			(xy 214.63 116.84) (xy 214.63 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5b82fd1-3ee8-4d25-8e85-8f6022bfd331")
 	)
 	(wire
 		(pts
@@ -3775,6 +3761,16 @@
 			(type default)
 		)
 		(uuid "a64636e2-0112-4443-8049-f3e6b7fabf52")
+	)
+	(wire
+		(pts
+			(xy 214.63 106.68) (xy 255.27 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9e15e5f-c741-4fd7-b14d-e3a600dcfb28")
 	)
 	(wire
 		(pts
@@ -3798,6 +3794,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 152.4) (xy 251.46 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad66f503-8612-44f1-a269-47a37596b437")
+	)
+	(wire
+		(pts
 			(xy 34.29 43.18) (xy 34.29 41.91)
 		)
 		(stroke
@@ -3808,6 +3814,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 140.97) (xy 224.79 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0282c17-b6d8-47f8-b7fd-0de42fb56b37")
+	)
+	(wire
+		(pts
 			(xy 19.05 44.45) (xy 19.05 43.18)
 		)
 		(stroke
@@ -3815,26 +3831,6 @@
 			(type default)
 		)
 		(uuid "b0a36ed2-cd2b-4175-a539-74e2359fa187")
-	)
-	(wire
-		(pts
-			(xy 251.46 127) (xy 251.46 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b14c9315-9dae-43df-8e97-368f2bd5b0b8")
-	)
-	(wire
-		(pts
-			(xy 222.25 109.22) (xy 222.25 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b25c8c33-75ce-4377-be91-e1448da00f07")
 	)
 	(wire
 		(pts
@@ -3858,7 +3854,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 144.78) (xy 215.9 144.78)
+			(xy 208.28 146.05) (xy 209.55 146.05)
 		)
 		(stroke
 			(width 0)
@@ -3898,7 +3894,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 109.22) (xy 195.58 109.22)
+			(xy 149.86 106.68) (xy 194.31 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3918,7 +3914,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 93.98) (xy 127 99.06)
+			(xy 127 93.98) (xy 127 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3948,16 +3944,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 118.11) (xy 251.46 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0499c0b-3e47-4899-85ca-919eab29fe38")
-	)
-	(wire
-		(pts
 			(xy 69.85 93.98) (xy 127 93.98)
 		)
 		(stroke
@@ -3968,7 +3954,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 111.76) (xy 144.78 116.84)
+			(xy 144.78 109.22) (xy 144.78 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3998,17 +3984,27 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 114.3) (xy 116.84 114.3)
+			(xy 238.76 128.27) (xy 251.46 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cd09ad23-2321-43fe-a7f4-36b038410a04")
+		(uuid "c5ddf683-7e27-4805-b9de-ed7503d3f1ad")
 	)
 	(wire
 		(pts
-			(xy 251.46 118.11) (xy 252.73 118.11)
+			(xy 238.76 152.4) (xy 251.46 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6d410bf-306d-448b-afcf-a467a227f6af")
+	)
+	(wire
+		(pts
+			(xy 251.46 119.38) (xy 261.62 119.38)
 		)
 		(stroke
 			(width 0)
@@ -4058,7 +4054,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 143.51) (xy 128.27 143.51)
+			(xy 127 140.97) (xy 128.27 140.97)
 		)
 		(stroke
 			(width 0)
@@ -4078,7 +4074,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 139.7) (xy 127 143.51)
+			(xy 127 137.16) (xy 127 140.97)
 		)
 		(stroke
 			(width 0)
@@ -4088,7 +4084,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 149.86) (xy 154.94 147.32)
+			(xy 154.94 147.32) (xy 154.94 144.78)
 		)
 		(stroke
 			(width 0)
@@ -4098,13 +4094,23 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 110.49) (xy 195.58 109.22)
+			(xy 194.31 107.95) (xy 194.31 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d9728b98-3919-4872-b38b-a475085f3b10")
+	)
+	(wire
+		(pts
+			(xy 231.14 152.4) (xy 224.79 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db26297b-74ab-4388-aa8e-afa390a8dcb9")
 	)
 	(wire
 		(pts
@@ -4118,16 +4124,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 139.7) (xy 224.79 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "deced124-9fd6-40e8-9b24-bb316e01757f")
-	)
-	(wire
-		(pts
 			(xy 44.45 81.28) (xy 48.26 81.28)
 		)
 		(stroke
@@ -4138,7 +4134,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 116.84) (xy 149.86 116.84)
+			(xy 144.78 114.3) (xy 149.86 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4168,6 +4164,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 146.05) (xy 223.52 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e821dc1c-1fbc-40d6-aa4e-f1f16925be05")
+	)
+	(wire
+		(pts
 			(xy 31.75 162.56) (xy 30.48 162.56)
 		)
 		(stroke
@@ -4178,7 +4184,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 111.76) (xy 144.78 111.76)
+			(xy 142.24 109.22) (xy 144.78 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4258,7 +4264,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 115.57) (xy 116.84 114.3)
+			(xy 116.84 113.03) (xy 116.84 111.76)
 		)
 		(stroke
 			(width 0)
@@ -4278,7 +4284,17 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 111.76) (xy 121.92 111.76)
+			(xy 214.63 116.84) (xy 224.79 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4b62545-7d07-4939-8c6b-1674fa3688ba")
+	)
+	(wire
+		(pts
+			(xy 116.84 109.22) (xy 121.92 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4288,13 +4304,23 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 153.67) (xy 215.9 154.94)
+			(xy 209.55 154.94) (xy 209.55 156.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f5b07241-72fa-4726-a27b-cc18f19d7027")
+	)
+	(wire
+		(pts
+			(xy 209.55 121.92) (xy 215.9 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9399ef5-90b4-430a-8b90-60cf21ba1241")
 	)
 	(wire
 		(pts
@@ -4318,7 +4344,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 123.19) (xy 116.84 124.46)
+			(xy 116.84 120.65) (xy 116.84 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4328,7 +4354,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 118.11) (xy 160.02 118.11)
+			(xy 160.02 115.57) (xy 158.75 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4411,7 +4437,7 @@
 	)
 	(hierarchical_label "I_CURR_SENS"
 		(shape output)
-		(at 252.73 109.22 0)
+		(at 255.27 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4422,7 +4448,7 @@
 	)
 	(hierarchical_label "OCP_P"
 		(shape output)
-		(at 252.73 118.11 0)
+		(at 261.62 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4433,7 +4459,7 @@
 	)
 	(hierarchical_label "DAC_OCP_P"
 		(shape input)
-		(at 214.63 115.57 180)
+		(at 208.28 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4521,7 +4547,7 @@
 	)
 	(hierarchical_label "OCP_N"
 		(shape output)
-		(at 252.73 142.24 0)
+		(at 261.62 143.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4565,7 +4591,7 @@
 	)
 	(hierarchical_label "EN_FILTER_I"
 		(shape input)
-		(at 158.75 121.92 180)
+		(at 158.75 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4587,7 +4613,7 @@
 	)
 	(hierarchical_label "DAC_OCP_N"
 		(shape input)
-		(at 214.63 144.78 180)
+		(at 208.28 146.05 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4631,7 +4657,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 160.02 128.27 0)
+		(at 158.75 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4639,7 +4665,7 @@
 		(dnp no)
 		(uuid "04b21c65-2a32-4a8b-ac9a-f4d7d0bd2852")
 		(property "Reference" "#PWR060"
-			(at 160.02 134.62 0)
+			(at 158.75 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4648,7 +4674,7 @@
 			)
 		)
 		(property "Value" "PGND"
-			(at 160.02 132.08 0)
+			(at 158.75 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4656,7 +4682,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 128.27 0)
+			(at 158.75 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4665,7 +4691,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 128.27 0)
+			(at 158.75 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4674,7 +4700,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 160.02 128.27 0)
+			(at 158.75 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4703,7 +4729,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VA")
-		(at 116.84 111.76 0)
+		(at 116.84 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4711,7 +4737,7 @@
 		(dnp no)
 		(uuid "08cbc49c-8efb-4c7b-8a2d-41dbe809d79d")
 		(property "Reference" "#PWR029"
-			(at 116.84 115.57 0)
+			(at 116.84 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4720,7 +4746,7 @@
 			)
 		)
 		(property "Value" "+3V3A"
-			(at 116.84 107.95 0)
+			(at 116.84 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4728,7 +4754,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 111.76 0)
+			(at 116.84 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4737,7 +4763,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 111.76 0)
+			(at 116.84 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4746,7 +4772,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 116.84 111.76 0)
+			(at 116.84 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4846,8 +4872,93 @@
 		)
 	)
 	(symbol
+		(lib_id "NanoGaN:R")
+		(at 234.95 152.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "14119939-abed-47cf-939c-322314be4a95")
+		(property "Reference" "R72"
+			(at 234.95 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "39k"
+			(at 234.95 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 234.95 154.178 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 234.95 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 100mW 39kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 234.95 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23153"
+			(at 234.95 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9fb6e157-91d5-4b09-b70d-8cc1e73e6498")
+		)
+		(pin "2"
+			(uuid "7c1183a1-6f6c-4627-812e-b75c6097290a")
+		)
+		(instances
+			(project "NanoGaN"
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/47075a52-6063-4b82-8884-2b908f359801"
+					(reference "R73")
+					(unit 1)
+				)
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/6f3a55d2-28c8-407e-8c9d-28f4ee320cbb"
+					(reference "R72")
+					(unit 1)
+				)
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/e0a1170f-dabd-4224-bbe3-5bcec1b89854"
+					(reference "R74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 116.84 124.46 0)
+		(at 116.84 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4855,7 +4966,7 @@
 		(dnp no)
 		(uuid "141aac7a-8809-4939-9773-ce97f1b299ec")
 		(property "Reference" "#PWR028"
-			(at 116.84 130.81 0)
+			(at 116.84 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4864,7 +4975,7 @@
 			)
 		)
 		(property "Value" "AGND"
-			(at 116.84 128.27 0)
+			(at 116.84 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4872,7 +4983,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 124.46 0)
+			(at 116.84 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4881,7 +4992,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 124.46 0)
+			(at 116.84 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4890,7 +5001,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 116.84 124.46 0)
+			(at 116.84 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5184,6 +5295,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 52.07 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "174d1b59-bd9c-4962-876f-2606d10063f2")
+		(property "Reference" "R44"
+			(at 46.99 85.344 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1"
+			(at 52.07 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 52.07 85.598 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 1Ω 200mW 50V Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 52.07 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2077491"
+			(at 52.07 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ac1cb1d5-0a24-460f-a19e-d24dec40e006")
+		)
+		(pin "1"
+			(uuid "920891b4-23e3-40c5-995a-bbe03fd5905f")
+		)
+		(instances
+			(project "NanoGaN"
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/47075a52-6063-4b82-8884-2b908f359801"
+					(reference "R45")
+					(unit 1)
+				)
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/6f3a55d2-28c8-407e-8c9d-28f4ee320cbb"
+					(reference "R44")
+					(unit 1)
+				)
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/e0a1170f-dabd-4224-bbe3-5bcec1b89854"
+					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 74.93 22.86 90)
 		(unit 1)
@@ -5280,7 +5475,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 215.9 154.94 0)
+		(at 209.55 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5288,7 +5483,7 @@
 		(dnp no)
 		(uuid "1cb84b44-f5e3-4688-a787-17535e370069")
 		(property "Reference" "#PWR0147"
-			(at 215.9 161.29 0)
+			(at 209.55 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5297,7 +5492,7 @@
 			)
 		)
 		(property "Value" "AGND"
-			(at 215.9 158.75 0)
+			(at 209.55 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5305,7 +5500,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 154.94 0)
+			(at 209.55 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5314,7 +5509,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 154.94 0)
+			(at 209.55 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5323,7 +5518,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 215.9 154.94 0)
+			(at 209.55 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5520,7 +5715,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 109.22 147.32 0)
+		(at 109.22 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5528,7 +5723,7 @@
 		(dnp no)
 		(uuid "1ff94472-e25b-40b3-897e-8a99f477918d")
 		(property "Reference" "C100"
-			(at 111.76 146.05 0)
+			(at 111.76 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5538,7 +5733,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 110.236 144.78 0)
+			(at 110.236 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5547,7 +5742,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 110.1852 151.13 0)
+			(at 110.1852 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5556,7 +5751,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 147.32 0)
+			(at 109.22 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5565,7 +5760,7 @@
 			)
 		)
 		(property "Description" "1uF 6.3V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 109.22 147.32 0)
+			(at 109.22 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5574,7 +5769,7 @@
 			)
 		)
 		(property "LCSC" "C307427"
-			(at 109.22 147.32 0)
+			(at 109.22 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5583,7 +5778,7 @@
 			)
 		)
 		(property "Voltage Rating" "6.3V"
-			(at 112.014 149.86 0)
+			(at 112.014 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5615,7 +5810,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Current:AD8418")
-		(at 132.08 109.22 0)
+		(at 132.08 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5623,7 +5818,7 @@
 		(dnp no)
 		(uuid "2818fa47-1404-400b-80e3-377bce518dd8")
 		(property "Reference" "U4"
-			(at 130.556 100.584 0)
+			(at 130.556 98.044 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5632,7 +5827,7 @@
 			)
 		)
 		(property "Value" "AD8418"
-			(at 133.096 118.11 0)
+			(at 133.096 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5641,7 +5836,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 133.35 118.11 0)
+			(at 133.35 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5650,7 +5845,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8418.pdf"
-			(at 148.59 127 0)
+			(at 148.59 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5659,7 +5854,7 @@
 			)
 		)
 		(property "Description" "70V Bidirectional, Zero Drift, Current Sense Amplifier, 20V/V gain, bandwidth 250kHz, VS=2.7V~5.5V, SOIC-8/MSOP-8"
-			(at 132.08 109.22 0)
+			(at 132.08 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5809,7 +6004,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 215.9 120.65 0)
+		(at 209.55 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5817,7 +6012,7 @@
 		(dnp no)
 		(uuid "38461c98-1880-468f-b08e-57094a7a85f6")
 		(property "Reference" "C94"
-			(at 218.44 119.38 0)
+			(at 212.09 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5827,7 +6022,7 @@
 			)
 		)
 		(property "Value" "1n"
-			(at 216.916 118.11 0)
+			(at 210.566 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5836,7 +6031,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 216.8652 124.46 0)
+			(at 210.5152 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5845,7 +6040,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 215.9 120.65 0)
+			(at 209.55 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5854,7 +6049,7 @@
 			)
 		)
 		(property "Description" "1nF 6.3V X7R ±10% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 215.9 120.65 0)
+			(at 209.55 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5863,7 +6058,7 @@
 			)
 		)
 		(property "LCSC" "C541214"
-			(at 215.9 120.65 0)
+			(at 209.55 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5872,7 +6067,7 @@
 			)
 		)
 		(property "Voltage Rating" "6.3V"
-			(at 218.694 123.19 0)
+			(at 212.344 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5904,7 +6099,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VA")
-		(at 116.84 139.7 0)
+		(at 116.84 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5912,7 +6107,7 @@
 		(dnp no)
 		(uuid "3d49aca9-e520-4e28-a3f2-8e69734e1537")
 		(property "Reference" "#PWR0132"
-			(at 116.84 143.51 0)
+			(at 116.84 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5921,7 +6116,7 @@
 			)
 		)
 		(property "Value" "+3V3A"
-			(at 116.84 135.89 0)
+			(at 116.84 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5929,7 +6124,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 139.7 0)
+			(at 116.84 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5938,7 +6133,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 139.7 0)
+			(at 116.84 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5947,7 +6142,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 116.84 139.7 0)
+			(at 116.84 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5969,91 +6164,6 @@
 				)
 				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/e0a1170f-dabd-4224-bbe3-5bcec1b89854"
 					(reference "#PWR0136")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 251.46 123.19 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "469e103a-0106-4d59-af2c-acf62ae97f7d")
-		(property "Reference" "R51"
-			(at 249.428 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "10k"
-			(at 251.46 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 253.238 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 251.46 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "-55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 251.46 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 251.46 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "49c273c3-1ca6-49c9-90f3-2ffa0c91a684")
-		)
-		(pin "2"
-			(uuid "d2d77a4a-aa8d-4167-a241-ede262c36e2f")
-		)
-		(instances
-			(project "NanoGaN"
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/47075a52-6063-4b82-8884-2b908f359801"
-					(reference "R52")
-					(unit 1)
-				)
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/6f3a55d2-28c8-407e-8c9d-28f4ee320cbb"
-					(reference "R51")
-					(unit 1)
-				)
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/e0a1170f-dabd-4224-bbe3-5bcec1b89854"
-					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -6227,6 +6337,175 @@
 	)
 	(symbol
 		(lib_id "NanoGaN:R")
+		(at 234.95 128.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4dea3a2f-2a12-4b54-9128-695f5bf05946")
+		(property "Reference" "R69"
+			(at 234.95 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "39k"
+			(at 234.95 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 234.95 130.048 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 234.95 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 100mW 39kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 234.95 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23153"
+			(at 234.95 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f02ee2e-2d64-4b02-908a-5eed6ec06c48")
+		)
+		(pin "2"
+			(uuid "618c48f8-9da4-4136-b6ff-30aea5ca8004")
+		)
+		(instances
+			(project "NanoGaN"
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/47075a52-6063-4b82-8884-2b908f359801"
+					(reference "R70")
+					(unit 1)
+				)
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/6f3a55d2-28c8-407e-8c9d-28f4ee320cbb"
+					(reference "R69")
+					(unit 1)
+				)
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/e0a1170f-dabd-4224-bbe3-5bcec1b89854"
+					(reference "R71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 52.07 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "56a7b340-00fe-4bd6-bf2d-219b1bcea555")
+		(property "Reference" "R47"
+			(at 46.99 113.284 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1"
+			(at 52.07 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 52.07 113.538 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 1Ω 200mW 50V Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 52.07 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2077491"
+			(at 52.07 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "056f660c-32fa-4a40-be19-29e40071cec4")
+		)
+		(pin "1"
+			(uuid "80d3d4c2-cd1b-4730-a4fb-af9847eb7170")
+		)
+		(instances
+			(project "NanoGaN"
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/47075a52-6063-4b82-8884-2b908f359801"
+					(reference "R48")
+					(unit 1)
+				)
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/6f3a55d2-28c8-407e-8c9d-28f4ee320cbb"
+					(reference "R47")
+					(unit 1)
+				)
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/e0a1170f-dabd-4224-bbe3-5bcec1b89854"
+					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NanoGaN:R")
 		(at 58.42 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6305,7 +6584,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 215.9 149.86 0)
+		(at 209.55 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6313,7 +6592,7 @@
 		(dnp no)
 		(uuid "57354b30-7d12-45fd-b24e-31ebc6618e7f")
 		(property "Reference" "C97"
-			(at 218.44 148.59 0)
+			(at 212.09 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6323,7 +6602,7 @@
 			)
 		)
 		(property "Value" "1n"
-			(at 216.916 147.32 0)
+			(at 210.566 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6332,7 +6611,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 216.8652 153.67 0)
+			(at 210.5152 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6341,7 +6620,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 215.9 149.86 0)
+			(at 209.55 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6350,7 +6629,7 @@
 			)
 		)
 		(property "Description" "1nF 6.3V X7R ±10% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 215.9 149.86 0)
+			(at 209.55 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6359,7 +6638,7 @@
 			)
 		)
 		(property "LCSC" "C541214"
-			(at 215.9 149.86 0)
+			(at 209.55 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6368,7 +6647,7 @@
 			)
 		)
 		(property "Voltage Rating" "6.3V"
-			(at 218.694 152.4 0)
+			(at 212.344 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6731,7 +7010,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 195.58 128.27 0)
+		(at 194.31 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6739,7 +7018,7 @@
 		(dnp no)
 		(uuid "6104167b-892d-44e7-ab96-a80646eea82d")
 		(property "Reference" "#PWR0116"
-			(at 195.58 134.62 0)
+			(at 194.31 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6748,7 +7027,7 @@
 			)
 		)
 		(property "Value" "AGND"
-			(at 195.58 132.08 0)
+			(at 194.31 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6756,7 +7035,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 128.27 0)
+			(at 194.31 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6765,7 +7044,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 128.27 0)
+			(at 194.31 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6774,7 +7053,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 195.58 128.27 0)
+			(at 194.31 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6803,7 +7082,7 @@
 	)
 	(symbol
 		(lib_id "NanoGaN:NCS2220AMUT1G")
-		(at 224.79 135.89 0)
+		(at 224.79 137.16 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6811,7 +7090,7 @@
 		(dnp no)
 		(uuid "610be492-12e0-4714-8df9-b9fe2daf93ec")
 		(property "Reference" "U19"
-			(at 234.95 134.874 0)
+			(at 234.95 136.144 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6819,7 +7098,7 @@
 			)
 		)
 		(property "Value" "NCS2220AMUT1G"
-			(at 238.125 133.35 0)
+			(at 238.125 134.62 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6828,7 +7107,7 @@
 			)
 		)
 		(property "Footprint" "NanoGaN:UDFN8_1P6X1P6_ONS"
-			(at 240.284 155.448 0)
+			(at 240.284 156.718 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6838,7 +7117,7 @@
 			)
 		)
 		(property "Datasheet" "NCS2220AMUT1G"
-			(at 239.014 153.416 0)
+			(at 239.014 154.686 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6848,7 +7127,7 @@
 			)
 		)
 		(property "Description" "-40℃~+105℃ 0.85V~6V 1pA 2 20mV 500ns 500uV 53dB 6V 7.5uA Rail-to-Rail Input, Rail-to-Rail Output UDFN-8-EP(1.6x1.6) Comparators ROHS"
-			(at 221.488 159.004 0)
+			(at 221.488 160.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6857,7 +7136,7 @@
 			)
 		)
 		(property "LCSC" "C464059"
-			(at 240.538 158.242 0)
+			(at 240.538 159.512 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6911,7 +7190,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 144.78 124.46 0)
+		(at 144.78 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6919,7 +7198,7 @@
 		(dnp no)
 		(uuid "61ea2459-9bb4-4701-9b3a-0c9e91bfdd6c")
 		(property "Reference" "#PWR030"
-			(at 144.78 130.81 0)
+			(at 144.78 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6928,7 +7207,7 @@
 			)
 		)
 		(property "Value" "AGND"
-			(at 144.78 128.27 0)
+			(at 144.78 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6936,7 +7215,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 124.46 0)
+			(at 144.78 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6945,7 +7224,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 124.46 0)
+			(at 144.78 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6954,7 +7233,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 144.78 124.46 0)
+			(at 144.78 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6976,91 +7255,6 @@
 				)
 				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/e0a1170f-dabd-4224-bbe3-5bcec1b89854"
 					(reference "#PWR0114")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 251.46 147.32 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "632e495d-5cfd-4e17-a785-e79e5e3a5a4e")
-		(property "Reference" "R54"
-			(at 249.428 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "10k"
-			(at 251.46 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 253.238 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 251.46 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "-55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 251.46 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 251.46 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1aed5a72-457b-400c-9a3a-93dedc7bf3fc")
-		)
-		(pin "2"
-			(uuid "c8ef33d9-ad21-442f-9740-43b3072e3b61")
-		)
-		(instances
-			(project "NanoGaN"
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/47075a52-6063-4b82-8884-2b908f359801"
-					(reference "R55")
-					(unit 1)
-				)
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/6f3a55d2-28c8-407e-8c9d-28f4ee320cbb"
-					(reference "R54")
-					(unit 1)
-				)
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/e0a1170f-dabd-4224-bbe3-5bcec1b89854"
-					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -7378,78 +7572,6 @@
 				)
 				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/e0a1170f-dabd-4224-bbe3-5bcec1b89854"
 					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 251.46 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "76dc9911-4357-4d58-b2c1-2e81e60205dc")
-		(property "Reference" "#PWR0156"
-			(at 251.46 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PGND"
-			(at 251.46 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 251.46 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.46 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 251.46 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6ccb7bc1-83d6-45e8-95ce-90e756c942c9")
-		)
-		(instances
-			(project "NanoGaN"
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/47075a52-6063-4b82-8884-2b908f359801"
-					(reference "#PWR0157")
-					(unit 1)
-				)
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/6f3a55d2-28c8-407e-8c9d-28f4ee320cbb"
-					(reference "#PWR0156")
-					(unit 1)
-				)
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/e0a1170f-dabd-4224-bbe3-5bcec1b89854"
-					(reference "#PWR0158")
 					(unit 1)
 				)
 			)
@@ -7864,7 +7986,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 154.94 149.86 0)
+		(at 154.94 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7872,7 +7994,7 @@
 		(dnp no)
 		(uuid "882dd6e0-8f7a-41c5-a395-d315c0f98c0d")
 		(property "Reference" "#PWR0144"
-			(at 154.94 156.21 0)
+			(at 154.94 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7881,7 +8003,7 @@
 			)
 		)
 		(property "Value" "AGND"
-			(at 154.94 153.67 0)
+			(at 154.94 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7889,7 +8011,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 149.86 0)
+			(at 154.94 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7898,7 +8020,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 149.86 0)
+			(at 154.94 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7907,7 +8029,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.94 149.86 0)
+			(at 154.94 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8104,92 +8226,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 52.07 83.82 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8a87cf01-d598-4c1a-837d-7c6e299afe7b")
-		(property "Reference" "R44"
-			(at 46.99 85.344 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 52.07 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 52.07 85.598 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 52.07 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "-55℃~+155℃ 0Ω 50V 62.5mW Thick Film Resistor ±1% ±800ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 52.07 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C17168"
-			(at 52.07 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "08390739-49c6-41da-80e7-1281d473e0e2")
-		)
-		(pin "1"
-			(uuid "86c03553-2662-422a-b649-f87172fed3e0")
-		)
-		(instances
-			(project "NanoGaN"
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/47075a52-6063-4b82-8884-2b908f359801"
-					(reference "R45")
-					(unit 1)
-				)
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/6f3a55d2-28c8-407e-8c9d-28f4ee320cbb"
-					(reference "R44")
-					(unit 1)
-				)
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/e0a1170f-dabd-4224-bbe3-5bcec1b89854"
-					(reference "R46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 116.84 152.4 0)
+		(at 116.84 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8197,7 +8235,7 @@
 		(dnp no)
 		(uuid "8e6f8491-2bb8-44f0-b29b-68c5a514d762")
 		(property "Reference" "#PWR0133"
-			(at 116.84 158.75 0)
+			(at 116.84 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8206,7 +8244,7 @@
 			)
 		)
 		(property "Value" "AGND"
-			(at 116.84 156.21 0)
+			(at 116.84 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8214,7 +8252,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 152.4 0)
+			(at 116.84 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8223,7 +8261,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 152.4 0)
+			(at 116.84 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8232,7 +8270,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 116.84 152.4 0)
+			(at 116.84 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8261,7 +8299,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VA")
-		(at 160.02 116.84 0)
+		(at 158.75 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8269,7 +8307,7 @@
 		(dnp no)
 		(uuid "96a27500-d8e6-469f-9a6d-0fe243db7f59")
 		(property "Reference" "#PWR057"
-			(at 160.02 120.65 0)
+			(at 158.75 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8278,7 +8316,7 @@
 			)
 		)
 		(property "Value" "+3V3A"
-			(at 160.02 113.03 0)
+			(at 158.75 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8286,7 +8324,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 116.84 0)
+			(at 158.75 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8295,7 +8333,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 116.84 0)
+			(at 158.75 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8304,7 +8342,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 160.02 116.84 0)
+			(at 158.75 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8333,7 +8371,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 127 152.4 0)
+		(at 127 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8341,7 +8379,7 @@
 		(dnp no)
 		(uuid "9b7fab31-f043-4705-9667-80a785a401d9")
 		(property "Reference" "#PWR0141"
-			(at 127 158.75 0)
+			(at 127 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8350,7 +8388,7 @@
 			)
 		)
 		(property "Value" "AGND"
-			(at 127 156.21 0)
+			(at 127 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8358,7 +8396,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 152.4 0)
+			(at 127 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8367,7 +8405,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 152.4 0)
+			(at 127 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8376,7 +8414,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 152.4 0)
+			(at 127 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8477,7 +8515,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VA")
-		(at 127 139.7 0)
+		(at 127 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8485,7 +8523,7 @@
 		(dnp no)
 		(uuid "a6e53526-19cb-441f-ac3f-3f9bb55ce03d")
 		(property "Reference" "#PWR0138"
-			(at 127 143.51 0)
+			(at 127 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8494,7 +8532,7 @@
 			)
 		)
 		(property "Value" "+3V3A"
-			(at 127 135.89 0)
+			(at 127 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8502,7 +8540,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 139.7 0)
+			(at 127 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8511,7 +8549,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 139.7 0)
+			(at 127 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8520,7 +8558,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 139.7 0)
+			(at 127 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8549,174 +8587,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 109.22 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "aa846e16-3c5d-4e38-9c20-7fb7333df92b")
-		(property "Reference" "C26"
-			(at 111.76 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "1u"
-			(at 110.236 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 110.1852 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 109.22 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1uF 6.3V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 109.22 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C307427"
-			(at 109.22 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rating" "6.3V"
-			(at 112.014 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "43a12dc5-69d2-452d-a7c5-0f8ac038c5c1")
-		)
-		(pin "2"
-			(uuid "02df414c-c18d-45d8-8ad7-4a5db4da283f")
-		)
-		(instances
-			(project "NanoGaN"
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/47075a52-6063-4b82-8884-2b908f359801"
-					(reference "C37")
-					(unit 1)
-				)
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/6f3a55d2-28c8-407e-8c9d-28f4ee320cbb"
-					(reference "C26")
-					(unit 1)
-				)
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/e0a1170f-dabd-4224-bbe3-5bcec1b89854"
-					(reference "C88")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 251.46 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ac2c6858-ebd3-4dcf-81c7-90284726b638")
-		(property "Reference" "#PWR0153"
-			(at 251.46 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PGND"
-			(at 251.46 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 251.46 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.46 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 251.46 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e913687b-667e-4a68-92e2-4d04805788ba")
-		)
-		(instances
-			(project "NanoGaN"
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/47075a52-6063-4b82-8884-2b908f359801"
-					(reference "#PWR0154")
-					(unit 1)
-				)
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/6f3a55d2-28c8-407e-8c9d-28f4ee320cbb"
-					(reference "#PWR0153")
-					(unit 1)
-				)
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/e0a1170f-dabd-4224-bbe3-5bcec1b89854"
-					(reference "#PWR0155")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 116.84 147.32 0)
+		(at 116.84 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8724,7 +8595,7 @@
 		(dnp no)
 		(uuid "af8cb87f-0d4e-44b8-8840-228a9cbddf3d")
 		(property "Reference" "C101"
-			(at 119.38 146.05 0)
+			(at 119.38 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8734,7 +8605,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 117.856 144.78 0)
+			(at 117.856 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8743,7 +8614,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 117.8052 151.13 0)
+			(at 117.8052 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8752,7 +8623,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 116.84 147.32 0)
+			(at 116.84 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8761,7 +8632,7 @@
 			)
 		)
 		(property "Description" "100nF 6.3V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 116.84 147.32 0)
+			(at 116.84 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8770,7 +8641,7 @@
 			)
 		)
 		(property "LCSC" "C424821"
-			(at 116.84 147.32 0)
+			(at 116.84 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8779,7 +8650,7 @@
 			)
 		)
 		(property "Voltage Rating" "6.3V"
-			(at 119.634 149.86 0)
+			(at 119.634 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8811,7 +8682,7 @@
 	)
 	(symbol
 		(lib_id "NanoGaN:NCS2220AMUT1G")
-		(at 224.79 111.76 0)
+		(at 224.79 113.03 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8819,7 +8690,7 @@
 		(dnp no)
 		(uuid "b1b830de-6411-4064-846d-08f224c7173e")
 		(property "Reference" "U19"
-			(at 235.204 110.744 0)
+			(at 235.204 112.014 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8827,7 +8698,7 @@
 			)
 		)
 		(property "Value" "NCS2220AMUT1G"
-			(at 238.125 109.22 0)
+			(at 238.125 110.49 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8836,7 +8707,7 @@
 			)
 		)
 		(property "Footprint" "NanoGaN:UDFN8_1P6X1P6_ONS"
-			(at 240.284 131.318 0)
+			(at 240.284 132.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8846,7 +8717,7 @@
 			)
 		)
 		(property "Datasheet" "NCS2220AMUT1G"
-			(at 239.014 129.286 0)
+			(at 239.014 130.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8856,7 +8727,7 @@
 			)
 		)
 		(property "Description" "-40℃~+105℃ 0.85V~6V 1pA 2 20mV 500ns 500uV 53dB 6V 7.5uA Rail-to-Rail Input, Rail-to-Rail Output UDFN-8-EP(1.6x1.6) Comparators ROHS"
-			(at 221.488 134.874 0)
+			(at 221.488 136.144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8865,7 +8736,7 @@
 			)
 		)
 		(property "LCSC" "C464059"
-			(at 240.538 134.112 0)
+			(at 240.538 135.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8874,31 +8745,31 @@
 			)
 		)
 		(pin "8"
-			(uuid "b0121826-9d61-4b5a-a9d7-bc3167ef6143")
+			(uuid "b0121826-9d61-4b5a-a9d7-bc3167ef6144")
 		)
 		(pin "2"
-			(uuid "5083e8e0-a186-4ef5-8e2b-61bec9c5cd56")
+			(uuid "5083e8e0-a186-4ef5-8e2b-61bec9c5cd57")
 		)
 		(pin "4"
-			(uuid "9854e3b8-2f33-49ad-b257-2b4f151fa607")
+			(uuid "9854e3b8-2f33-49ad-b257-2b4f151fa608")
 		)
 		(pin "3"
-			(uuid "98f98220-32f3-4c8d-95c9-bb19d7b34a20")
+			(uuid "98f98220-32f3-4c8d-95c9-bb19d7b34a21")
 		)
 		(pin "1"
-			(uuid "6b2ce35e-634c-4948-b51f-b65c6f2982cc")
+			(uuid "6b2ce35e-634c-4948-b51f-b65c6f2982cd")
 		)
 		(pin "6"
-			(uuid "dd0d8465-dfdc-4fb3-b618-7f0b83b81dac")
+			(uuid "dd0d8465-dfdc-4fb3-b618-7f0b83b81dad")
 		)
 		(pin "5"
-			(uuid "4425c838-007e-4c13-9a4d-743221b01281")
+			(uuid "4425c838-007e-4c13-9a4d-743221b01282")
 		)
 		(pin "9"
-			(uuid "0395d335-57ce-4e5a-b48d-92da6ef2613d")
+			(uuid "0395d335-57ce-4e5a-b48d-92da6ef2613e")
 		)
 		(pin "7"
-			(uuid "7df916f4-f97a-4f0e-9321-b651b12af6ef")
+			(uuid "7df916f4-f97a-4f0e-9321-b651b12af6f0")
 		)
 		(instances
 			(project ""
@@ -8919,7 +8790,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 215.9 125.73 0)
+		(at 209.55 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8927,7 +8798,7 @@
 		(dnp no)
 		(uuid "b75115cc-b658-4b79-943d-d77d81085fc9")
 		(property "Reference" "#PWR0150"
-			(at 215.9 132.08 0)
+			(at 209.55 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8936,7 +8807,7 @@
 			)
 		)
 		(property "Value" "AGND"
-			(at 215.9 129.54 0)
+			(at 209.55 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8944,7 +8815,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 125.73 0)
+			(at 209.55 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8953,7 +8824,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 125.73 0)
+			(at 209.55 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8962,7 +8833,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 215.9 125.73 0)
+			(at 209.55 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9086,7 +8957,7 @@
 	)
 	(symbol
 		(lib_id "NanoGaN:SN74LVC1G66DCKR")
-		(at 161.29 121.92 0)
+		(at 160.02 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9094,7 +8965,7 @@
 		(dnp no)
 		(uuid "baf3ea14-4c35-4d5d-928e-99b1373458d0")
 		(property "Reference" "U6"
-			(at 170.18 114.554 0)
+			(at 168.91 112.014 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9102,7 +8973,7 @@
 			)
 		)
 		(property "Value" "SN74LVC1G66DCKR"
-			(at 177.038 129.794 0)
+			(at 175.768 127.254 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9110,7 +8981,7 @@
 			)
 		)
 		(property "Footprint" "NanoGaN:DCK5"
-			(at 161.29 121.92 0)
+			(at 160.02 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9120,7 +8991,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/sn74lvc1g66"
-			(at 161.29 121.92 0)
+			(at 160.02 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9130,7 +9001,7 @@
 			)
 		)
 		(property "Description" "-40℃~+85℃ 1 1.65V~5.5V 13pF 195MHz 1:1 4.2ns 5.5Ω 5ns 600ps SC-70-5 Analog Switches, Multiplexers ROHS"
-			(at 161.29 121.92 0)
+			(at 160.02 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9139,7 +9010,7 @@
 			)
 		)
 		(property "LCSC" "C113518"
-			(at 161.29 121.92 0)
+			(at 160.02 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9174,90 +9045,6 @@
 				)
 				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/e0a1170f-dabd-4224-bbe3-5bcec1b89854"
 					(reference "U18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 52.07 111.76 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bb8d70c6-3fee-4460-84eb-efa46169ad62")
-		(property "Reference" "R47"
-			(at 46.99 113.284 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 52.07 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 52.07 113.538 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 52.07 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "-55℃~+155℃ 0Ω 50V 62.5mW Thick Film Resistor ±1% ±800ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 52.07 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C17168"
-			(at 52.07 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "14d025d2-276f-47e9-a546-7ae6781794c6")
-		)
-		(pin "1"
-			(uuid "a0a5a887-a481-455e-bfdd-a902aa25d562")
-		)
-		(instances
-			(project "NanoGaN"
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/47075a52-6063-4b82-8884-2b908f359801"
-					(reference "R48")
-					(unit 1)
-				)
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/6f3a55d2-28c8-407e-8c9d-28f4ee320cbb"
-					(reference "R47")
-					(unit 1)
-				)
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/e0a1170f-dabd-4224-bbe3-5bcec1b89854"
-					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -9530,7 +9317,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 132.08 124.46 0)
+		(at 132.08 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9538,7 +9325,7 @@
 		(dnp no)
 		(uuid "c7307a48-d32e-4ac3-91ee-832a7a76c7fb")
 		(property "Reference" "#PWR032"
-			(at 132.08 130.81 0)
+			(at 132.08 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9547,7 +9334,7 @@
 			)
 		)
 		(property "Value" "AGND"
-			(at 132.08 128.27 0)
+			(at 132.08 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9555,7 +9342,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 124.46 0)
+			(at 132.08 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9564,7 +9351,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 124.46 0)
+			(at 132.08 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9573,7 +9360,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 132.08 124.46 0)
+			(at 132.08 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9601,9 +9388,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 219.71 121.92 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e0954328-65ec-45e2-930b-89661e16e6e8")
+		(property "Reference" "R63"
+			(at 219.71 123.952 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "10k"
+			(at 219.71 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 219.71 120.142 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 219.71 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 219.71 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "204c9e64-6803-4daa-b572-3effe6e56ff3")
+		)
+		(pin "2"
+			(uuid "88f63f9e-231e-4f3b-a9f1-aeead3b7dd54")
+		)
+		(instances
+			(project "NanoGaN"
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/47075a52-6063-4b82-8884-2b908f359801"
+					(reference "R64")
+					(unit 1)
+				)
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/6f3a55d2-28c8-407e-8c9d-28f4ee320cbb"
+					(reference "R63")
+					(unit 1)
+				)
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/e0a1170f-dabd-4224-bbe3-5bcec1b89854"
+					(reference "R65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "NCS2220AMUT1G_1")
 		(lib_id "NanoGaN:NCS2220AMUT1G")
-		(at 135.89 140.97 0)
+		(at 135.89 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9611,7 +9483,7 @@
 		(dnp no)
 		(uuid "e0e3bebb-e978-4d09-be24-9513a73e9bc6")
 		(property "Reference" "U19"
-			(at 140.462 139.954 0)
+			(at 140.462 137.414 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9620,17 +9492,16 @@
 			)
 		)
 		(property "Value" "NCS2220AMUT1G"
-			(at 134.62 148.5899 0)
+			(at 150.622 152.654 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "NanoGaN:UDFN8_1P6X1P6_ONS"
-			(at 151.384 160.528 0)
+			(at 151.384 157.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9640,7 +9511,7 @@
 			)
 		)
 		(property "Datasheet" "NCS2220AMUT1G"
-			(at 150.114 158.496 0)
+			(at 150.114 155.956 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9650,7 +9521,7 @@
 			)
 		)
 		(property "Description" "-40℃~+105℃ 0.85V~6V 1pA 2 20mV 500ns 500uV 53dB 6V 7.5uA Rail-to-Rail Input, Rail-to-Rail Output UDFN-8-EP(1.6x1.6) Comparators ROHS"
-			(at 132.588 164.084 0)
+			(at 132.588 161.544 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9659,7 +9530,7 @@
 			)
 		)
 		(property "LCSC" "C464059"
-			(at 151.638 163.322 0)
+			(at 151.638 160.782 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9668,31 +9539,31 @@
 			)
 		)
 		(pin "8"
-			(uuid "b0121826-9d61-4b5a-a9d7-bc3167ef6143")
+			(uuid "b0121826-9d61-4b5a-a9d7-bc3167ef6145")
 		)
 		(pin "2"
-			(uuid "5083e8e0-a186-4ef5-8e2b-61bec9c5cd56")
+			(uuid "5083e8e0-a186-4ef5-8e2b-61bec9c5cd58")
 		)
 		(pin "4"
-			(uuid "9854e3b8-2f33-49ad-b257-2b4f151fa607")
+			(uuid "9854e3b8-2f33-49ad-b257-2b4f151fa609")
 		)
 		(pin "3"
-			(uuid "98f98220-32f3-4c8d-95c9-bb19d7b34a20")
+			(uuid "98f98220-32f3-4c8d-95c9-bb19d7b34a22")
 		)
 		(pin "1"
-			(uuid "6b2ce35e-634c-4948-b51f-b65c6f2982cc")
+			(uuid "6b2ce35e-634c-4948-b51f-b65c6f2982ce")
 		)
 		(pin "6"
-			(uuid "dd0d8465-dfdc-4fb3-b618-7f0b83b81dac")
+			(uuid "dd0d8465-dfdc-4fb3-b618-7f0b83b81dae")
 		)
 		(pin "5"
-			(uuid "4425c838-007e-4c13-9a4d-743221b01281")
+			(uuid "4425c838-007e-4c13-9a4d-743221b01283")
 		)
 		(pin "9"
-			(uuid "0395d335-57ce-4e5a-b48d-92da6ef2613d")
+			(uuid "0395d335-57ce-4e5a-b48d-92da6ef2613f")
 		)
 		(pin "7"
-			(uuid "7df916f4-f97a-4f0e-9321-b651b12af6ef")
+			(uuid "7df916f4-f97a-4f0e-9321-b651b12af6f1")
 		)
 		(instances
 			(project ""
@@ -9713,7 +9584,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 149.86 113.03 0)
+		(at 149.86 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9721,7 +9592,7 @@
 		(dnp no)
 		(uuid "e161dc49-d6f4-4b9d-b499-ede009ae4ba7")
 		(property "Reference" "C28"
-			(at 152.4 111.76 0)
+			(at 152.4 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9731,7 +9602,7 @@
 			)
 		)
 		(property "Value" "1n"
-			(at 150.876 110.49 0)
+			(at 150.876 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9740,7 +9611,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 150.8252 116.84 0)
+			(at 150.8252 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9749,7 +9620,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.86 113.03 0)
+			(at 149.86 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9758,7 +9629,7 @@
 			)
 		)
 		(property "Description" "1nF 6.3V X7R ±10% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 149.86 113.03 0)
+			(at 149.86 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9767,7 +9638,7 @@
 			)
 		)
 		(property "LCSC" "C541214"
-			(at 149.86 113.03 0)
+			(at 149.86 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9776,7 +9647,7 @@
 			)
 		)
 		(property "Voltage Rating" "6.3V"
-			(at 152.654 115.57 0)
+			(at 152.654 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9808,7 +9679,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 116.84 119.38 0)
+		(at 116.84 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9816,7 +9687,7 @@
 		(dnp no)
 		(uuid "e74cc464-d00c-40e8-b6de-99228f60cc0d")
 		(property "Reference" "C24"
-			(at 119.38 118.11 0)
+			(at 119.38 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9826,7 +9697,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 117.856 116.84 0)
+			(at 117.856 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9835,7 +9706,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 117.8052 123.19 0)
+			(at 117.8052 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9844,7 +9715,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 116.84 119.38 0)
+			(at 116.84 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9853,7 +9724,7 @@
 			)
 		)
 		(property "Description" "100nF 6.3V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 116.84 119.38 0)
+			(at 116.84 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9862,7 +9733,7 @@
 			)
 		)
 		(property "LCSC" "C424821"
-			(at 116.84 119.38 0)
+			(at 116.84 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9871,7 +9742,7 @@
 			)
 		)
 		(property "Voltage Rating" "6.3V"
-			(at 119.634 121.92 0)
+			(at 119.634 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9903,7 +9774,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 195.58 114.3 0)
+		(at 194.31 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9911,7 +9782,7 @@
 		(dnp no)
 		(uuid "eb5db305-5a7b-43d3-9cb2-05d9a104166a")
 		(property "Reference" "C90"
-			(at 199.39 113.0299 0)
+			(at 198.12 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9921,7 +9792,7 @@
 			)
 		)
 		(property "Value" "15n"
-			(at 195.58 112.268 0)
+			(at 194.31 109.728 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9930,7 +9801,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 196.5452 118.11 0)
+			(at 195.2752 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9939,7 +9810,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 195.58 114.3 0)
+			(at 194.31 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9948,7 +9819,7 @@
 			)
 		)
 		(property "Description" "10V 15nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 195.58 114.3 0)
+			(at 194.31 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9957,7 +9828,7 @@
 			)
 		)
 		(property "Voltage Rating" "10V"
-			(at 197.866 116.332 0)
+			(at 196.596 113.792 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9965,7 +9836,7 @@
 			)
 		)
 		(property "LCSC" "C387942"
-			(at 195.58 114.3 0)
+			(at 194.31 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10160,6 +10031,91 @@
 				)
 				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/e0a1170f-dabd-4224-bbe3-5bcec1b89854"
 					(reference "C48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 219.71 146.05 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f31c1313-4d49-47f1-8c50-554ac9a46161")
+		(property "Reference" "R66"
+			(at 219.71 148.082 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "10k"
+			(at 219.71 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 219.71 144.272 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 219.71 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 219.71 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83c9e478-1799-4b64-bcd5-ffd177499c77")
+		)
+		(pin "2"
+			(uuid "59a59465-d325-46a8-ad45-3ae46fa6fa0c")
+		)
+		(instances
+			(project "NanoGaN"
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/47075a52-6063-4b82-8884-2b908f359801"
+					(reference "R67")
+					(unit 1)
+				)
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/6f3a55d2-28c8-407e-8c9d-28f4ee320cbb"
+					(reference "R66")
+					(unit 1)
+				)
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/e0a1170f-dabd-4224-bbe3-5bcec1b89854"
+					(reference "R68")
 					(unit 1)
 				)
 			)
