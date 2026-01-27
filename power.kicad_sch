@@ -1077,6 +1077,70 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "NanoGaN:CoolingChannel"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CoolingChannel_0_1"
+				(polyline
+					(pts
+						(xy -3.81 -1.27) (xy -3.81 2.54) (xy 3.81 2.54) (xy 3.81 -1.27) (xy 2.54 -1.27) (xy 2.54 1.27)
+						(xy -2.54 1.27) (xy -2.54 -1.27) (xy -3.81 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "NanoGaN:PLMR51635XDDCR"
 			(pin_names
 				(offset 0.254)
@@ -7342,6 +7406,70 @@
 			(justify left)
 		)
 		(uuid "45fa6691-9924-464f-9213-29494ef9cef8")
+	)
+	(symbol
+		(lib_id "NanoGaN:CoolingChannel")
+		(at 259.08 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03b6d64e-5edf-411d-a867-4692ce3b3678")
+		(property "Reference" "CC1"
+			(at 264.16 28.5749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 264.16 31.1149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "NanoGaN:CoolingChannel"
+			(at 259.08 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/2aff88eb-0d92-4253-8876-ba05112be4d6"
+					(reference "CC1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "NanoGaN:C_Polarized_FZ1J221M1313")
