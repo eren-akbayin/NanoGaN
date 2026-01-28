@@ -1,16 +1,16 @@
 (version 1)
-; =====================================
-; 60V Motor Driver - IPC-2221B Clearances
-; Netclasses:
-;   HV_PHASE
-;   HV_DC
-;   HV_GND
-;   Default (LV)
-; =====================================
+# =====================================
+# 60V Motor Driver - IPC-2221B Clearances
+# Netclasses:
+#   HV_PHASE
+#   HV_DC
+#   HV_GND
+#   Default (LV)
+# =====================================
 
-; -----------------------------
-; HV to HV clearances
-; -----------------------------
+# -----------------------------
+# HV to HV clearances
+# -----------------------------
 (rule HV_to_HV_Clearance
   (constraint clearance (min 0.25mm))
   (condition
@@ -25,9 +25,9 @@
   )
 )
 
-; -----------------------------
-; HV to Default clearances
-; -----------------------------
+# -----------------------------
+# HV to Default clearances
+# -----------------------------
 (rule HV_to_Default_Clearance
   (constraint clearance (min 0.25mm))
   (condition

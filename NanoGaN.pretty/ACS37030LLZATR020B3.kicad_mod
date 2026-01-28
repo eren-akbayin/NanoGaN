@@ -1,0 +1,227 @@
+(footprint "ACS37030LLZATR020B3"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "LZ_1")
+	(tags "Integrated Circuit")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e52c1afb-309f-419d-86e1-cce63f8f70a5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "ACS37030LLZATR020B3"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "01e143ee-d94a-4800-8e32-78392db0a348")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "16a70176-5c33-48b8-babf-2c8a91bd3f54")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3104d18b-cae3-46b4-8657-431c05ac024e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.445 -1.8)
+		(end -2.445 1.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bbe2ec7f-3b66-4564-aaa2-7ca0af4188bd")
+	)
+	(fp_line
+		(start 2.445 -1.8)
+		(end 2.445 1.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a0908488-e23b-4efe-a75b-6977666eea7e")
+	)
+	(fp_circle
+		(center 1.27 -1.5)
+		(end 1.52 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "2541730d-2fb2-48ee-9f23-1e542f931c21")
+	)
+	(fp_line
+		(start -3.445 -4.68)
+		(end 3.445 -4.68)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d050d44d-38c4-45e6-9f5e-ecbc87272874")
+	)
+	(fp_line
+		(start -3.445 4.68)
+		(end -3.445 -4.68)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "95bb7280-7ffe-40ca-a71e-56cba5f107da")
+	)
+	(fp_line
+		(start 3.445 -4.68)
+		(end 3.445 4.68)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3548d7da-691d-4d69-a49e-72fbe75ed94c")
+	)
+	(fp_line
+		(start 3.445 4.68)
+		(end -3.445 4.68)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "601d8026-a35c-448d-b7fb-e0aa175ea890")
+	)
+	(fp_line
+		(start -2.445 -1.95)
+		(end 2.445 -1.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d46cce00-d33f-41c1-8ddb-7f68631bad0e")
+	)
+	(fp_line
+		(start -2.445 1.95)
+		(end -2.445 -1.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "35ebac01-72d3-46cb-ab3e-e9c540df7807")
+	)
+	(fp_line
+		(start 2.445 -1.95)
+		(end 2.445 1.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d48487a4-3e2b-4ca6-8a2b-1158826fb037")
+	)
+	(fp_line
+		(start 2.445 1.95)
+		(end -2.445 1.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c08531e8-1fe3-42ad-ac2d-dccdc31d025a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "304d4c09-f0ae-4270-81cf-c9bafe1a38bc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 1.27 -2.89 90)
+		(size 1.58 1.92)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5094cc92-5fa9-400a-9839-b3c7caca5b96")
+	)
+	(pad "2" smd rect
+		(at -1.27 -2.89 90)
+		(size 1.58 1.92)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5484f08a-56ac-42b7-9490-6521b137e879")
+	)
+	(pad "3" smd rect
+		(at -1.905 2.89)
+		(size 0.65 1.58)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "47617a92-771b-4ec9-924a-7b5a1b1c799e")
+	)
+	(pad "4" smd rect
+		(at -0.635 2.89)
+		(size 0.65 1.58)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1f4f03b9-0b73-411d-a5a3-6f78a0600fd4")
+	)
+	(pad "5" smd rect
+		(at 0.635 2.89)
+		(size 0.65 1.58)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ffdc2bab-6ca5-4c5f-9aa0-8236a65efd56")
+	)
+	(pad "6" smd rect
+		(at 1.905 2.89)
+		(size 0.65 1.58)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "be9d294b-3ac2-4776-9fb3-3684ba9d6799")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/NanoGaN_3D_models/ACS37030LLZATR-065B3.stp"
+		(offset
+			(xyz 0 0.1399999985 0.8899999723)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -180)
+		)
+	)
+)
