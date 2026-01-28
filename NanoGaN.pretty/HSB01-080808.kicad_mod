@@ -1,0 +1,116 @@
+(footprint "HSB01-080808"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f38c4097-9e9c-4807-ad87-6972a119d9e2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "HSB01-080808"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2b5e9b3f-4716-4cdb-8f63-f725e71b6b6c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1bbd2354-235c-4d4e-916d-7648be8c1165")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7220d407-4a00-49c0-b253-2b460bff7df7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.25 -4.25)
+		(end 4.25 -4.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8b4b6f9b-ad39-4875-866d-095efe6defc3")
+	)
+	(fp_line
+		(start -4.25 4.25)
+		(end -4.25 -4.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b56c6b40-6dae-4b72-9a2d-6b7c95e0565e")
+	)
+	(fp_line
+		(start 4.25 -4.25)
+		(end 4.25 4.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "52560cb6-1cd6-4cbf-9bd1-a6579de8455a")
+	)
+	(fp_line
+		(start 4.25 4.25)
+		(end -4.25 4.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d4c83596-d8ca-456c-b58a-fd9c5d84b46b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1ba1ec33-290e-4bdc-bfcb-1e13c20c4dad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(group ""
+		(uuid "9a42b72b-b514-4ee2-8ffe-f3da0fe783a6")
+		(members "52560cb6-1cd6-4cbf-9bd1-a6579de8455a" "8b4b6f9b-ad39-4875-866d-095efe6defc3"
+			"b56c6b40-6dae-4b72-9a2d-6b7c95e0565e" "d4c83596-d8ca-456c-b58a-fd9c5d84b46b"
+		)
+	)
+	(embedded_fonts no)
+)
