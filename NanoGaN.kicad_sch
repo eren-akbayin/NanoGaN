@@ -870,6 +870,12 @@
 		(uuid "b505a368-f848-42ed-b9ae-64640c81d654")
 	)
 	(junction
+		(at 88.9 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d23fb820-7c25-48f2-95f7-bd80471afab0")
+	)
+	(junction
 		(at 33.02 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1315,16 +1321,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 187.96) (xy 88.9 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73806047-a30f-4d11-9c40-1346dae12f58")
-	)
-	(wire
-		(pts
 			(xy 88.9 54.61) (xy 99.06 54.61)
 		)
 		(stroke
@@ -1412,6 +1408,16 @@
 			(type default)
 		)
 		(uuid "8e37e560-e60d-4a12-a9e0-1dbdfb7b99a0")
+	)
+	(wire
+		(pts
+			(xy 88.9 187.96) (xy 80.01 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "903a21b6-ad39-45cc-879a-28f73e8f5649")
 	)
 	(wire
 		(pts
@@ -1585,6 +1591,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 189.23) (xy 80.01 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca0b0610-d958-4aaa-9879-a88e04772b85")
+	)
+	(wire
+		(pts
 			(xy 88.9 24.13) (xy 99.06 24.13)
 		)
 		(stroke
@@ -1592,6 +1608,16 @@
 			(type default)
 		)
 		(uuid "d08b094c-fb4e-4555-a1f8-640b28432c66")
+	)
+	(wire
+		(pts
+			(xy 88.9 189.23) (xy 88.9 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6f3c2df-4b26-47c5-af9f-acae8111152e")
 	)
 	(wire
 		(pts
@@ -1662,6 +1688,73 @@
 			(type default)
 		)
 		(uuid "fed27f1e-fb7f-4f0f-84fa-8bdf8e9d9520")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 80.01 191.77 180)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00fb947a-2287-4a7b-823b-7836171bc1f8")
+		(property "Reference" "MH9"
+			(at 77.47 194.3101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3"
+			(at 77.47 191.7701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 80.01 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 80.01 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3bee11d-7d9f-4c74-9a97-6b26ab5381e1")
+		)
+		(instances
+			(project "NanoGaN"
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb"
+					(reference "MH9")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "NanoGaN:CoolingChannel")
@@ -2285,134 +2378,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:Heatsink")
-		(at 66.04 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "45032cf3-58f2-4412-9d18-becdaf40ea69")
-		(property "Reference" "HS2"
-			(at 69.85 174.6249 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Heatsink"
-			(at 69.85 177.1649 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "NanoGaN:HSB01-080808"
-			(at 66.3448 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 66.3448 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Heatsink"
-			(at 66.04 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "NanoGaN"
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb"
-					(reference "HS2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:Heatsink")
-		(at 81.28 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4568ce39-b86e-4ef2-a034-085b86ee654d")
-		(property "Reference" "HS3"
-			(at 85.09 174.6249 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Heatsink"
-			(at 85.09 177.1649 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "NanoGaN:HSB01-080808"
-			(at 81.5848 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 81.5848 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Heatsink"
-			(at 81.28 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "NanoGaN"
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb"
-					(reference "HS3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 62.23 184.15 0)
 		(unit 1)
@@ -2845,6 +2810,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 88.9 191.77 180)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5a531db-903e-4c57-b2d2-415273592e85")
+		(property "Reference" "MH8"
+			(at 86.36 194.3101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3"
+			(at 86.36 191.7701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 88.9 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 88.9 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42d0d763-d54c-46b3-92e0-8232fc958e22")
+		)
+		(instances
+			(project "NanoGaN"
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb"
+					(reference "MH8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 33.02 189.23 0)
 		(unit 1)
@@ -2984,7 +3016,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c96f57be-3279-4d5e-9379-edf3149da828")
 		(property "Reference" "HS1"
 			(at 54.61 174.6249 0)
@@ -3004,8 +3035,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "NanoGaN:HSB01-080808"
-			(at 51.1048 177.8 0)
+		(property "Footprint" "NanoGaN:ICK_S"
+			(at 74.676 177.292 0)
 			(effects
 				(font
 					(size 1.27 1.27)
