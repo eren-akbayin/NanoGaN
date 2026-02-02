@@ -55,44 +55,44 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -20 0)
-		(end -20 41)
+		(start -20 54)
+		(end -20 0)
 		(stroke
 			(width 0.1)
-			(type solid)
+			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "b3c74a53-5187-441e-88c6-93555d8e2a8a")
+		(uuid "934d52ef-72d9-4277-88a7-daf0a949caa0")
 	)
 	(fp_line
-		(start -19 0)
-		(end -19 41)
+		(start -19 54)
+		(end -19 0)
 		(stroke
 			(width 0.1)
-			(type solid)
+			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "0c41653b-d7b7-4fba-a60a-c7d2ae5b7467")
+		(uuid "a2a8cfbf-317b-43fb-9d04-a2c7e1a924c2")
 	)
 	(fp_line
-		(start 19 0)
-		(end 19 41)
+		(start 19 54)
+		(end 19 0)
 		(stroke
 			(width 0.1)
-			(type solid)
+			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "90db5dd7-93c4-49fd-b834-94e3dd1c22da")
+		(uuid "d42c7af6-2373-4ebe-957e-ab87b8f13233")
 	)
 	(fp_line
-		(start 20 0)
-		(end 20 41)
+		(start 20 54)
+		(end 20 0)
 		(stroke
 			(width 0.1)
-			(type solid)
+			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "1b22aa1e-9dff-4751-bc41-317ae6cc610d")
+		(uuid "3e31cbae-0e9b-4aeb-8123-bbccd73dd76d")
 	)
 	(fp_arc
 		(start -20 0)
@@ -117,9 +117,9 @@
 		(uuid "a6ae1bf3-9f57-4b88-8686-d229b280319b")
 	)
 	(fp_arc
-		(start -19 41)
-		(mid -19.5 41.5)
-		(end -20 41)
+		(start -19 54)
+		(mid -19.5 54.5)
+		(end -20 54)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -128,9 +128,9 @@
 		(uuid "84372f82-36f2-481c-af51-2a004a8d5164")
 	)
 	(fp_arc
-		(start 20 41)
-		(mid 19.5 41.5)
-		(end 19 41)
+		(start 20 54)
+		(mid 19.5 54.5)
+		(end 19 54)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -151,4 +151,15 @@
 		)
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/NanoGaN_3D_models/cc_v3.step"
+		(offset
+			(xyz -23.5 23.5 -0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )

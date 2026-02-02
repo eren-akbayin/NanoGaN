@@ -6,7 +6,7 @@
 	(property "Reference" "REF**"
 		(at 0 -0.5 0)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "User.1")
 		(uuid "f38c4097-9e9c-4807-ad87-6972a119d9e2")
 		(effects
 			(font
@@ -61,7 +61,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "User.1")
 		(uuid "8b4b6f9b-ad39-4875-866d-095efe6defc3")
 	)
 	(fp_line
@@ -71,7 +71,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "User.1")
 		(uuid "b56c6b40-6dae-4b72-9a2d-6b7c95e0565e")
 	)
 	(fp_line
@@ -81,7 +81,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "User.1")
 		(uuid "52560cb6-1cd6-4cbf-9bd1-a6579de8455a")
 	)
 	(fp_line
@@ -91,7 +91,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "User.1")
 		(uuid "d4c83596-d8ca-456c-b58a-fd9c5d84b46b")
 	)
 	(fp_text user "${REFERENCE}"
@@ -113,4 +113,15 @@
 		)
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/NanoGaN_3D_models/HSB01-080808.step"
+		(offset
+			(xyz -4.25 4.25 1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )
