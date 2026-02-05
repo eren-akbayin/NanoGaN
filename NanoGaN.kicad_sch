@@ -840,7 +840,7 @@
 		(uuid "1ada41da-f0a4-4052-bcfd-92665b1d0284")
 	)
 	(junction
-		(at 248.92 85.09)
+		(at 247.65 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2f9ec36d-d71c-4669-9840-aa081b906b0a")
@@ -852,7 +852,7 @@
 		(uuid "30b6eb6e-7541-481f-890c-7ecc88429aa1")
 	)
 	(junction
-		(at 248.92 88.9)
+		(at 247.65 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6481b33d-d6d4-4fc1-9d9e-0a35d99c991b")
@@ -961,7 +961,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 88.9) (xy 250.19 88.9)
+			(xy 247.65 71.12) (xy 248.92 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1481,7 +1481,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 81.28) (xy 248.92 85.09)
+			(xy 247.65 63.5) (xy 247.65 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1551,7 +1551,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 93.98) (xy 248.92 88.9)
+			(xy 247.65 76.2) (xy 247.65 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1571,7 +1571,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 85.09) (xy 250.19 85.09)
+			(xy 247.65 67.31) (xy 248.92 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1953,7 +1953,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 248.92 93.98 0)
+		(at 247.65 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1961,7 +1961,7 @@
 		(dnp no)
 		(uuid "1dc3422d-a1f4-4893-b767-f1435b3231b2")
 		(property "Reference" "#PWR068"
-			(at 248.92 100.33 0)
+			(at 247.65 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1970,7 +1970,7 @@
 			)
 		)
 		(property "Value" "PGND"
-			(at 248.92 97.79 0)
+			(at 247.65 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1978,7 +1978,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 248.92 93.98 0)
+			(at 247.65 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1987,7 +1987,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 93.98 0)
+			(at 247.65 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1996,7 +1996,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 248.92 93.98 0)
+			(at 247.65 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2081,7 +2081,7 @@
 	)
 	(symbol
 		(lib_id "power:VDC")
-		(at 248.92 81.28 0)
+		(at 247.65 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2089,7 +2089,7 @@
 		(dnp no)
 		(uuid "24841220-8e25-46eb-adfb-0f50c685e33a")
 		(property "Reference" "#PWR067"
-			(at 248.92 83.82 0)
+			(at 247.65 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2098,7 +2098,7 @@
 			)
 		)
 		(property "Value" "U_DC"
-			(at 246.38 77.47 0)
+			(at 245.11 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2107,7 +2107,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 248.92 81.28 0)
+			(at 247.65 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2116,7 +2116,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 81.28 0)
+			(at 247.65 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2125,7 +2125,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 248.92 81.28 0)
+			(at 247.65 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2213,7 +2213,7 @@
 	)
 	(symbol
 		(lib_id "NanoGaN:XT60-M")
-		(at 255.27 83.82 0)
+		(at 254 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2221,7 +2221,7 @@
 		(dnp no)
 		(uuid "309ab5f8-c91d-4253-8a57-85001ef99e84")
 		(property "Reference" "J1"
-			(at 255.016 82.804 0)
+			(at 253.746 65.024 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2230,7 +2230,7 @@
 			)
 		)
 		(property "Value" "XT60-M"
-			(at 255.27 92.964 0)
+			(at 254 75.184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2239,7 +2239,7 @@
 			)
 		)
 		(property "Footprint" "NanoGaN:AMASS_XT60-M"
-			(at 256.54 100.838 0)
+			(at 255.27 83.058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2249,7 +2249,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 255.27 83.82 0)
+			(at 254 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2258,7 +2258,7 @@
 			)
 		)
 		(property "Description" "Plug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V"
-			(at 259.842 98.044 0)
+			(at 258.572 80.264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2267,7 +2267,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "16.00 mm"
-			(at 250.952 103.124 0)
+			(at 249.682 85.344 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2277,7 +2277,7 @@
 			)
 		)
 		(property "Package" "Package"
-			(at 274.828 101.854 0)
+			(at 273.558 84.074 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2287,7 +2287,7 @@
 			)
 		)
 		(property "MP" "XT60-M"
-			(at 251.714 101.6 0)
+			(at 250.444 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2446,7 +2446,7 @@
 	)
 	(symbol
 		(lib_id "NanoGaN:XT60-M")
-		(at 243.84 83.82 0)
+		(at 242.57 66.04 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2455,7 +2455,7 @@
 		(dnp no)
 		(uuid "56e515d9-86fc-4f1c-8cd9-9a9850b2c35b")
 		(property "Reference" "J2"
-			(at 244.094 82.804 0)
+			(at 242.824 65.024 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2464,7 +2464,7 @@
 			)
 		)
 		(property "Value" "XT60-M"
-			(at 243.84 92.964 0)
+			(at 242.57 75.184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2473,7 +2473,7 @@
 			)
 		)
 		(property "Footprint" "NanoGaN:AMASS_XT60-M"
-			(at 242.57 100.838 0)
+			(at 241.3 83.058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2483,7 +2483,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 83.82 0)
+			(at 242.57 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2492,7 +2492,7 @@
 			)
 		)
 		(property "Description" "Plug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V"
-			(at 239.268 98.044 0)
+			(at 237.998 80.264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2501,7 +2501,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "16.00 mm"
-			(at 248.158 103.124 0)
+			(at 246.888 85.344 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2511,7 +2511,7 @@
 			)
 		)
 		(property "Package" "Package"
-			(at 224.282 101.854 0)
+			(at 223.012 84.074 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2521,7 +2521,7 @@
 			)
 		)
 		(property "MP" "XT60-M"
-			(at 247.396 101.6 0)
+			(at 246.126 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)

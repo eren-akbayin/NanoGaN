@@ -2436,6 +2436,16 @@
 		)
 		(uuid "9bb324e6-89db-45f4-bf34-2d3799df7496")
 	)
+	(text "V_Hysteresis = (3.3V x 10kohm) / ( 39kohm + 10kohm) = 0.67V"
+		(exclude_from_sim no)
+		(at 145.796 151.384 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ba087109-0962-45f2-9c0b-737f7d7c9ea4")
+	)
 	(text "Gate Driver"
 		(exclude_from_sim no)
 		(at 17.78 14.224 0)
@@ -4217,9 +4227,9 @@
 		(at 234.95 146.05 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "14119939-abed-47cf-939c-322314be4a95")
 		(property "Reference" "R72"
 			(at 234.95 139.7 90)
@@ -4747,7 +4757,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 63.1952 168.91 0)
 			(effects
 				(font
@@ -4766,15 +4776,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 62.23 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
 			(at 62.23 165.1 0)
 			(effects
 				(font
@@ -4905,7 +4906,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "AGND"
+		(property "Value" "GND"
 			(at 116.84 138.43 0)
 			(effects
 				(font
@@ -4987,7 +4988,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 160.9852 113.03 0)
 			(effects
 				(font
@@ -5005,16 +5006,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100nF 6.3V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 160.02 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C424821"
+		(property "Description" "100nF 6.3V X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 160.02 109.22 0)
 			(effects
 				(font
@@ -5396,9 +5388,9 @@
 		(at 234.95 121.92 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "4dea3a2f-2a12-4b54-9128-695f5bf05946")
 		(property "Reference" "R69"
 			(at 234.95 115.57 90)
@@ -5887,9 +5879,9 @@
 		(at 224.79 130.81 0)
 		(unit 3)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "610be492-12e0-4714-8df9-b9fe2daf93ec")
 		(property "Reference" "U19"
 			(at 234.95 129.794 0)
@@ -7103,9 +7095,9 @@
 		(at 224.79 106.68 0)
 		(unit 2)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "b1b830de-6411-4064-846d-08f224c7173e")
 		(property "Reference" "U19"
 			(at 235.204 105.664 0)
@@ -7584,7 +7576,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "AGND"
+		(property "Value" "GND"
 			(at 144.78 135.89 0)
 			(effects
 				(font
@@ -7791,9 +7783,9 @@
 		(at 116.84 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "dc0c3cdf-466f-435c-8709-7f9139b6bd1c")
 		(property "Reference" "C92"
 			(at 119.38 128.27 0)
@@ -7886,9 +7878,9 @@
 		(at 219.71 115.57 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "e0954328-65ec-45e2-930b-89661e16e6e8")
 		(property "Reference" "R63"
 			(at 219.71 117.602 90)
@@ -7972,9 +7964,9 @@
 		(at 125.73 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "e0e3bebb-e978-4d09-be24-9513a73e9bc6")
 		(property "Reference" "U19"
 			(at 130.302 122.174 0)
@@ -8104,7 +8096,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 186.3852 109.22 0)
 			(effects
 				(font
@@ -8122,16 +8114,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100pF 50V C0G ±5% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 185.42 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1546"
+		(property "Description" "100pF 50V C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 185.42 105.41 0)
 			(effects
 				(font
@@ -8199,7 +8182,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 111.4552 109.22 0)
 			(effects
 				(font
@@ -8217,16 +8200,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100nF 6.3V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 110.49 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C424821"
+		(property "Description" "100nF 6.3V X7R ±10% Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 110.49 105.41 0)
 			(effects
 				(font
@@ -8512,9 +8486,9 @@
 		(at 219.71 139.7 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "f31c1313-4d49-47f1-8c50-554ac9a46161")
 		(property "Reference" "R66"
 			(at 219.71 141.732 90)
