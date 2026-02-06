@@ -4018,7 +4018,7 @@
 		)
 		(uuid "532ae851-2587-4c68-b115-531074a5610c")
 	)
-	(hierarchical_label "HI"
+	(hierarchical_label "GATE+"
 		(shape input)
 		(at 46.99 38.1 180)
 		(effects
@@ -4062,7 +4062,7 @@
 		)
 		(uuid "97288add-5b91-420e-8325-edc5c432c7f5")
 	)
-	(hierarchical_label "LI"
+	(hierarchical_label "GATE-"
 		(shape input)
 		(at 46.99 43.18 180)
 		(effects

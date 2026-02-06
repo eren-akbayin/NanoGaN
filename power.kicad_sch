@@ -2367,6 +2367,12 @@
 		(uuid "88ad6409-376b-429c-a37c-f05ba675ff99")
 	)
 	(junction
+		(at 38.1 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c85341d-e0b2-4778-b34a-e8ed905d7270")
+	)
+	(junction
 		(at 88.9 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2395,6 +2401,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9d76ad0e-1589-4686-817b-0672c5bcbb86")
+	)
+	(junction
+		(at 38.1 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f20d961-68cb-48e5-b3fb-fb8be7c2f711")
 	)
 	(junction
 		(at 120.65 35.56)
@@ -2445,7 +2457,7 @@
 		(uuid "cce4d9d6-005e-452a-8e29-3de8f116dcfa")
 	)
 	(junction
-		(at 38.1 81.28)
+		(at 45.72 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cfa0cfce-95ae-4810-9788-0a89643b63ba")
@@ -2481,7 +2493,7 @@
 		(uuid "f335cf1e-1959-4f82-8223-be20a8e16ab6")
 	)
 	(junction
-		(at 38.1 93.98)
+		(at 45.72 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4a1a3e0-cfbc-4186-98e5-ea20e35ebe5d")
@@ -3042,13 +3054,23 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 91.44) (xy 38.1 93.98)
+			(xy 45.72 91.44) (xy 45.72 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "70660b73-b750-4f60-882a-d8be7444dd63")
+	)
+	(wire
+		(pts
+			(xy 38.1 81.28) (xy 45.72 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "709c6c0d-6fe8-42ea-b96b-29c288a205c6")
 	)
 	(wire
 		(pts
@@ -3122,6 +3144,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 93.98) (xy 73.66 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b0cf83d-0242-41b0-93cb-b66a92457593")
+	)
+	(wire
+		(pts
 			(xy 144.78 129.54) (xy 144.78 125.73)
 		)
 		(stroke
@@ -3172,17 +3204,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 93.98) (xy 73.66 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "954619e6-745e-4eea-a47f-8e9035e3c5b6")
-	)
-	(wire
-		(pts
-			(xy 38.1 93.98) (xy 57.15 93.98)
+			(xy 45.72 93.98) (xy 57.15 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3229,6 +3251,16 @@
 			(type default)
 		)
 		(uuid "9fec7440-3031-48df-be9d-27c4e77043e9")
+	)
+	(wire
+		(pts
+			(xy 38.1 93.98) (xy 38.1 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a07e54c2-c552-4261-b6b9-b3f0c67e7d55")
 	)
 	(wire
 		(pts
@@ -3282,7 +3314,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 83.82) (xy 38.1 81.28)
+			(xy 45.72 83.82) (xy 45.72 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3302,7 +3334,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 81.28) (xy 49.53 81.28)
+			(xy 45.72 81.28) (xy 49.53 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3482,6 +3514,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 83.82) (xy 38.1 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d318f06f-9a94-4b9c-846a-071744202fdb")
+	)
+	(wire
+		(pts
 			(xy 19.05 35.56) (xy 19.05 33.02)
 		)
 		(stroke
@@ -3619,6 +3661,16 @@
 			(type default)
 		)
 		(uuid "efc2fc32-ce21-4739-a8f9-f9ba0461dc0b")
+	)
+	(wire
+		(pts
+			(xy 45.72 93.98) (xy 38.1 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0c62979-a1ec-435b-bda9-6418d040d608")
 	)
 	(wire
 		(pts
@@ -9347,6 +9399,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 38.1 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6dd08ffa-6caa-4fab-a66e-e321be12943c")
+		(property "Reference" "C79"
+			(at 40.64 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "4u7"
+			(at 39.116 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 39.0652 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10V 4.7uF X5R ±20% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 38.1 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23733"
+			(at 38.1 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "10V"
+			(at 40.894 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a1fd188e-3599-42c9-8c8e-5d0237497d4d")
+		)
+		(pin "2"
+			(uuid "a1819db1-c13b-4830-9fd0-5ad93bc4dd94")
+		)
+		(instances
+			(project "NanoGaN"
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/2aff88eb-0d92-4253-8876-ba05112be4d6"
+					(reference "C79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 120.65 44.45 0)
 		(unit 1)
@@ -10825,7 +10964,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 38.1 87.63 0)
+		(at 45.72 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10833,7 +10972,7 @@
 		(dnp no)
 		(uuid "b124dead-f11c-40f9-bdcd-8d786e9cf894")
 		(property "Reference" "C7"
-			(at 40.64 86.36 0)
+			(at 48.26 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10843,7 +10982,7 @@
 			)
 		)
 		(property "Value" "4u7"
-			(at 39.116 85.09 0)
+			(at 46.736 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10852,7 +10991,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 39.0652 91.44 0)
+			(at 46.6852 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10861,7 +11000,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 87.63 0)
+			(at 45.72 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10870,7 +11009,7 @@
 			)
 		)
 		(property "Description" "10V 4.7uF X5R ±20% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 38.1 87.63 0)
+			(at 45.72 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10879,7 +11018,7 @@
 			)
 		)
 		(property "LCSC" "C23733"
-			(at 38.1 87.63 0)
+			(at 45.72 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10888,7 +11027,7 @@
 			)
 		)
 		(property "Voltage Rating" "10V"
-			(at 40.894 90.17 0)
+			(at 48.514 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -8163,7 +8163,7 @@
 		)
 		(uuid "050f106a-d02b-494f-bade-c801451a205e")
 	)
-	(hierarchical_label "GATE_W_HI"
+	(hierarchical_label "GATE_W+"
 		(shape output)
 		(at 52.07 77.47 180)
 		(effects
@@ -8174,7 +8174,7 @@
 		)
 		(uuid "07e939f6-451f-4df6-a6dd-5e248edc420c")
 	)
-	(hierarchical_label "GATE_V_LI"
+	(hierarchical_label "GATE_V-"
 		(shape output)
 		(at 52.07 80.01 180)
 		(effects
@@ -8515,7 +8515,7 @@
 		)
 		(uuid "b29b6e30-916c-4076-b2e9-896e36b9d9b7")
 	)
-	(hierarchical_label "GATE_V_HI"
+	(hierarchical_label "GATE_V+"
 		(shape output)
 		(at 52.07 82.55 180)
 		(effects
@@ -8559,7 +8559,7 @@
 		)
 		(uuid "bb64a76c-c268-437d-b680-a3ea811d6d2c")
 	)
-	(hierarchical_label "GATE_U_LI"
+	(hierarchical_label "GATE_U-"
 		(shape output)
 		(at 52.07 85.09 180)
 		(effects
@@ -8625,7 +8625,7 @@
 		)
 		(uuid "ec67377d-94ca-4de3-8a88-065f9c1224e1")
 	)
-	(hierarchical_label "GATE_U_HI"
+	(hierarchical_label "GATE_U+"
 		(shape output)
 		(at 52.07 87.63 180)
 		(effects
@@ -8658,7 +8658,7 @@
 		)
 		(uuid "f21cb8b5-cc81-4551-8e0d-2cc84755bd68")
 	)
-	(hierarchical_label "GATE_W_LI"
+	(hierarchical_label "GATE_W-"
 		(shape output)
 		(at 52.07 74.93 180)
 		(effects
