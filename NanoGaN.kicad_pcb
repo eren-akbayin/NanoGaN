@@ -115,7 +115,7 @@
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
 		(aux_axis_origin 115.1651 148)
-		(grid_origin 145.1651 142.6)
+		(grid_origin 145.1651 75)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -17318,7 +17318,7 @@
 	(footprint "NanoGaN:ICK_S"
 		(layer "F.Cu")
 		(uuid "5abbd750-f140-4ce1-a31e-0b82f134a936")
-		(at 259.3651 133)
+		(at 245.1651 131.8)
 		(property "Reference" "HS1"
 			(at 0 -0.5 0)
 			(unlocked yes)
@@ -17430,7 +17430,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/NanoGaN_3D_models/ICK_S.step"
 			(offset
-				(xyz -22.5 -3.75 1.1)
+				(xyz -22.5 -3.75 1.5)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -38099,9 +38099,9 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/NanoGaN_3D_models/cc_v4.step"
+		(model "${KIPRJMOD}/NanoGaN_3D_models/cc_v5.step"
 			(offset
-				(xyz -23.5 23.5 -0.5)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
