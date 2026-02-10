@@ -905,22 +905,20 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 4.826 4.572 0)
+			(property "Reference" "U4"
+				(at 13.716 4.064 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
 			(property "Value" "ACS37030LLZATR-065B3"
-				(at 16.002 -13.97 0)
+				(at 26.416 -13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
 			(property "Footprint" "ACS37030LLZATR020B3"
@@ -1058,14 +1056,14 @@
 				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
-					(name "IP+"
+					(name "IP-"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1112,14 +1110,14 @@
 				(pin passive line
 					(at 27.94 0 180)
 					(length 5.08)
-					(name "IP-"
+					(name "IP+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3941,7 +3939,7 @@
 		)
 		(uuid "15e24af8-4dfe-451f-bcd7-1307efa80a6e")
 	)
-	(hierarchical_label "I_CURR_SENS+"
+	(hierarchical_label "I_CURR_SENS-"
 		(shape output)
 		(at 254 100.33 0)
 		(effects
@@ -4084,7 +4082,7 @@
 		)
 		(uuid "b306e332-45f7-4590-90d3-77fe0c8dd49b")
 	)
-	(hierarchical_label "I_CURR_SENS-"
+	(hierarchical_label "I_CURR_SENS+"
 		(shape output)
 		(at 254 104.14 0)
 		(effects
