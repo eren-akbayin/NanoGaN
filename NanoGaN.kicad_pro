@@ -15,7 +15,7 @@
         "copper_text_upright": false,
         "courtyard_line_width": 0.05,
         "dimension_precision": 4,
-        "dimension_units": 3,
+        "dimension_units": 2,
         "dimensions": {
           "arrow_length": 1270000,
           "extension_offset": 500000,
@@ -66,6 +66,11 @@
           "gap": 0.05,
           "via_gap": 0.2,
           "width": 0.15
+        },
+        {
+          "gap": 0.2,
+          "via_gap": 0.5,
+          "width": 0.1575
         },
         {
           "gap": 0.3,

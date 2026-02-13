@@ -1823,7 +1823,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 17.78 185.42 0)
+		(at 17.78 182.88 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -1832,7 +1832,7 @@
 		(fields_autoplaced yes)
 		(uuid "11f715aa-81f2-4152-b14f-90b8aff82d9c")
 		(property "Reference" "FM2"
-			(at 20.32 184.1499 0)
+			(at 20.32 181.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1841,7 +1841,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 20.32 186.6899 0)
+			(at 20.32 184.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1850,7 +1850,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 17.78 185.42 0)
+			(at 17.78 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1859,7 +1859,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 17.78 185.42 0)
+			(at 17.78 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1868,7 +1868,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 17.78 185.42 0)
+			(at 17.78 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2017,7 +2017,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 17.78 190.5 0)
+		(at 17.78 187.96 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -2026,7 +2026,7 @@
 		(fields_autoplaced yes)
 		(uuid "242f2c80-2b20-4898-937f-b71fd315f3c2")
 		(property "Reference" "FM3"
-			(at 20.32 189.2299 0)
+			(at 20.32 186.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2035,7 +2035,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 20.32 191.7699 0)
+			(at 20.32 189.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2044,7 +2044,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 17.78 190.5 0)
+			(at 17.78 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2053,7 +2053,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 17.78 190.5 0)
+			(at 17.78 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2062,7 +2062,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 17.78 190.5 0)
+			(at 17.78 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2614,7 +2614,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 17.78 180.34 0)
+		(at 17.78 177.8 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -2623,7 +2623,7 @@
 		(fields_autoplaced yes)
 		(uuid "85b2ac86-874c-453c-97d0-a85de2c6e1cc")
 		(property "Reference" "FM1"
-			(at 20.32 179.0699 0)
+			(at 20.32 176.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2632,7 +2632,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 20.32 181.6099 0)
+			(at 20.32 179.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2641,7 +2641,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 17.78 180.34 0)
+			(at 17.78 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2650,7 +2650,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 17.78 180.34 0)
+			(at 17.78 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2659,7 +2659,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 17.78 180.34 0)
+			(at 17.78 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3265,6 +3265,70 @@
 			(project "NanoGaN"
 				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb"
 					(reference "MH2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 17.78 193.04 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd509374-e531-4875-9ff0-6cafb7378bca")
+		(property "Reference" "FM4"
+			(at 20.32 191.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 20.32 194.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 17.78 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 17.78 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 17.78 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "NanoGaN"
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb"
+					(reference "FM4")
 					(unit 1)
 				)
 			)

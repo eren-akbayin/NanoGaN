@@ -4257,20 +4257,12 @@
 		(uuid "53ab897c-5397-48f8-9c24-04129b3d575d")
 	)
 	(no_connect
-		(at 153.67 80.01)
-		(uuid "644ecfeb-b960-452a-802b-b48f255aab4e")
-	)
-	(no_connect
 		(at 52.07 33.02)
 		(uuid "8560e798-bd8d-464a-90ee-0c58e07aba50")
 	)
 	(no_connect
 		(at 52.07 22.86)
 		(uuid "a6e0f701-190d-44f1-bef7-20b0ef431ee0")
-	)
-	(no_connect
-		(at 153.67 92.71)
-		(uuid "b8471c80-0bc4-41c2-8173-30fe76b96ef5")
 	)
 	(no_connect
 		(at 130.81 100.33)
@@ -4339,6 +4331,16 @@
 			(type default)
 		)
 		(uuid "080cd843-64a3-4596-9e0d-3ae0f547362f")
+	)
+	(wire
+		(pts
+			(xy 153.67 93.98) (xy 153.67 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "090934d6-3db7-42a3-872e-091c5ef6c4f5")
 	)
 	(wire
 		(pts
@@ -5279,6 +5281,16 @@
 			(type default)
 		)
 		(uuid "b57ad096-ed89-4ec8-9528-63dbb6dca84c")
+	)
+	(wire
+		(pts
+			(xy 153.67 77.47) (xy 153.67 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5cc690c-9272-4866-8713-7f8920f93363")
 	)
 	(wire
 		(pts
@@ -6306,6 +6318,70 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 115.57 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "094c9016-8f62-4af2-8fa7-53fcba8055c5")
+		(property "Reference" "#PWR080"
+			(at 115.57 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 117.094 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8a4140b8-9d8c-4ac5-8ca1-8b7165eeb573")
+		)
+		(instances
+			(project "NanoGaN"
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/7b588d7e-2cba-479c-b934-83f1a7363076"
+					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Schottky")
 		(at 127 140.97 270)
 		(unit 1)
@@ -6404,7 +6480,7 @@
 			)
 		)
 		(property "Value" "USBLC6-2SC6"
-			(at 160.782 93.218 0)
+			(at 169.672 92.202 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6839,6 +6915,70 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 153.67 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "38e760c8-5448-4d30-8ba8-aff7563cb84b")
+		(property "Reference" "#PWR0113"
+			(at 153.67 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 153.67 73.914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b206cb45-1b03-48b2-b401-b4c478d2d38a")
+		)
+		(instances
+			(project "NanoGaN"
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/7b588d7e-2cba-479c-b934-83f1a7363076"
+					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 119.38 135.89 0)
 		(unit 1)
@@ -7125,70 +7265,6 @@
 			(project "NanoGaN"
 				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/7b588d7e-2cba-479c-b934-83f1a7363076"
 					(reference "R33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 115.57 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4e15db26-ed08-423b-a6f8-02d54bbdc314")
-		(property "Reference" "#PWR0109"
-			(at 115.57 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 115.57 117.094 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 115.57 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 115.57 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5702fc38-0723-4a7a-9c24-3365c3eaa55a")
-		)
-		(instances
-			(project "NanoGaN"
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/7b588d7e-2cba-479c-b934-83f1a7363076"
-					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -9234,6 +9310,70 @@
 			(project "NanoGaN"
 				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/7b588d7e-2cba-479c-b934-83f1a7363076"
 					(reference "C52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 153.67 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cf590291-137d-48ef-ad2d-00dc5bacc708")
+		(property "Reference" "#PWR0109"
+			(at 153.67 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 98.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "71eb7693-ecf9-4be9-bbd7-743e6f7cd016")
+		)
+		(instances
+			(project "NanoGaN"
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/7b588d7e-2cba-479c-b934-83f1a7363076"
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
