@@ -3148,7 +3148,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 158.75) (xy 64.77 158.75)
+			(xy 62.23 158.75) (xy 69.85 158.75)
 		)
 		(stroke
 			(width 0)
@@ -3738,6 +3738,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 158.75) (xy 85.09 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e69ac2a1-c456-49b6-8f03-a247189a73fa")
+	)
+	(wire
+		(pts
 			(xy 224.79 139.7) (xy 223.52 139.7)
 		)
 		(stroke
@@ -4117,7 +4127,7 @@
 	)
 	(hierarchical_label "U_PHASE_SENS"
 		(shape output)
-		(at 64.77 158.75 0)
+		(at 85.09 158.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8147,6 +8157,99 @@
 				)
 				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/e0a1170f-dabd-4224-bbe3-5bcec1b89854"
 					(reference "C91")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NanoGaN:R")
+		(at 73.66 158.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e26b4380-93cf-465d-b77b-f19642e60458")
+		(property "Reference" "R28"
+			(at 73.66 156.718 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0402WGF0000TCE"
+			(at 73.66 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 73.66 160.528 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 0Ω 50V 62.5mW Thick Film Resistor ±1% ±800ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 73.66 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "0"
+			(at 73.66 161.036 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17168"
+			(at 73.66 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "209dfb57-74ae-43cf-b225-e5573e247cc7")
+		)
+		(pin "2"
+			(uuid "e173966e-9436-4173-b0f9-3e3c976981f3")
+		)
+		(instances
+			(project "NanoGaN"
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/47075a52-6063-4b82-8884-2b908f359801"
+					(reference "R30")
+					(unit 1)
+				)
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/6f3a55d2-28c8-407e-8c9d-28f4ee320cbb"
+					(reference "R28")
+					(unit 1)
+				)
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/e0a1170f-dabd-4224-bbe3-5bcec1b89854"
+					(reference "R32")
 					(unit 1)
 				)
 			)

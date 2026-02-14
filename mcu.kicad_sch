@@ -5258,8 +5258,8 @@
 		(uuid "f6287a97-d77c-4118-b86f-8fd0df711dd8")
 	)
 	(no_connect
-		(at 116.84 133.35)
-		(uuid "0a2f1d93-d766-4c1e-a6de-1f520b1ac74f")
+		(at 116.84 100.33)
+		(uuid "0aac4240-0538-48ad-b93f-a411badf8fb5")
 	)
 	(no_connect
 		(at 255.27 82.55)
@@ -5974,6 +5974,16 @@
 			(type default)
 		)
 		(uuid "456b5291-c436-44d0-96c3-a1836038c43a")
+	)
+	(wire
+		(pts
+			(xy 116.84 133.35) (xy 121.92 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46b56079-ea5d-435a-ac2b-8bbdf5089944")
 	)
 	(wire
 		(pts
@@ -7004,16 +7014,6 @@
 			(type default)
 		)
 		(uuid "b9f003b9-e195-4327-8857-3a3064237af7")
-	)
-	(wire
-		(pts
-			(xy 116.84 100.33) (xy 121.92 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc3d74ec-8f49-42c2-96fb-b6cfe29f3164")
 	)
 	(wire
 		(pts
@@ -8647,7 +8647,7 @@
 	)
 	(hierarchical_label "FAN_PWM"
 		(shape output)
-		(at 121.92 100.33 0)
+		(at 121.92 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)

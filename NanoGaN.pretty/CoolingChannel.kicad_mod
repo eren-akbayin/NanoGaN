@@ -7,6 +7,7 @@
 		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "7c130e54-c582-4ece-b65d-287ead62a46c")
 		(effects
 			(font
@@ -151,9 +152,9 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/NanoGaN_3D_models/cc_v3.step"
+	(model "${KIPRJMOD}/NanoGaN_3D_models/cc_v5.step"
 		(offset
-			(xyz -23.5 23.5 -0.5)
+			(xyz 0 0 -1)
 		)
 		(scale
 			(xyz 1 1 1)

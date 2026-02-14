@@ -1,4 +1,4 @@
-(footprint "SOT-23_Si2302CDS"
+(footprint "SOT-23_3"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "SOT-23_Si2302CDS"
+	(property "Value" "SOT-23_3"
 		(at 0 2.4 0)
 		(layer "F.Fab")
 		(uuid "833b14dc-9057-49e9-bf53-987f0d1541eb")

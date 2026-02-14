@@ -2150,9 +2150,9 @@
 		)
 		(uuid bb70b947-30e4-41c9-b803-d630609c2f6d)
 	)
-	(text "Extra capacitors for improving switching performance."
+	(text "Extra ceramic (X7R) capacitors \nfor improving switching performance."
 		(exclude_from_sim no)
-		(at 125.222 149.098 0)
+		(at 130.81 149.352 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2974,7 +2974,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 173.99) (xy 55.88 173.99)
+			(xy 49.53 173.99) (xy 58.42 173.99)
 		)
 		(stroke
 			(width 0)
@@ -3621,6 +3621,16 @@
 			(type default)
 		)
 		(uuid "defb149d-1b27-4c17-bd8b-b50ed5e02d83")
+	)
+	(wire
+		(pts
+			(xy 66.04 173.99) (xy 71.12 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3249aed-5bb9-4f6f-a7c6-78a4c36a5e1f")
 	)
 	(wire
 		(pts
@@ -7446,7 +7456,7 @@
 	)
 	(hierarchical_label "U_DC_SENS"
 		(shape input)
-		(at 55.88 173.99 0)
+		(at 71.12 173.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9105,6 +9115,91 @@
 			(project "NanoGaN"
 				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/2aff88eb-0d92-4253-8876-ba05112be4d6"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NanoGaN:R")
+		(at 62.23 173.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50ccb38e-c45a-4e4f-8972-45240e63dafc")
+		(property "Reference" "R7"
+			(at 62.23 171.958 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0402WGF0000TCE"
+			(at 62.23 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 62.23 175.768 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 0Ω 50V 62.5mW Thick Film Resistor ±1% ±800ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 62.23 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "0"
+			(at 62.23 176.276 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17168"
+			(at 62.23 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7ecf04e-62cf-4fba-af0d-35db6e2c25e2")
+		)
+		(pin "2"
+			(uuid "ca03f594-e71d-4967-b6ff-36c9c49e555e")
+		)
+		(instances
+			(project "NanoGaN"
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/2aff88eb-0d92-4253-8876-ba05112be4d6"
+					(reference "R7")
 					(unit 1)
 				)
 			)
