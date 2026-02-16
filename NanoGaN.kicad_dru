@@ -13,28 +13,48 @@
 # -----------------------------
 (rule HV_to_HV_Clearance
   (constraint clearance (min 0.25mm))
-  (condition
-    (or
-      (and (netclass "HV_PHASE") (netclass "HV_PHASE"))
-      (and (netclass "HV_DC")    (netclass "HV_DC"))
-      (and (netclass "HV_GND")   (netclass "HV_GND"))
-      (and (netclass "HV_PHASE") (netclass "HV_DC"))
-      (and (netclass "HV_PHASE") (netclass "HV_GND"))
-      (and (netclass "HV_DC")    (netclass "HV_GND"))
-    )
-  )
+  (condition "A.NetClass == 'HV_PHASE' && B.NetClass == 'HV_PHASE'")
+)
+
+(rule HV_DC_to_HV_DC_Clearance
+  (constraint clearance (min 0.25mm))
+  (condition "A.NetClass == 'HV_DC' && B.NetClass == 'HV_DC'")
+)
+
+(rule HV_GND_to_HV_GND_Clearance
+  (constraint clearance (min 0.25mm))
+  (condition "A.NetClass == 'HV_GND' && B.NetClass == 'HV_GND'")
+)
+
+(rule HV_PHASE_to_HV_DC_Clearance
+  (constraint clearance (min 0.25mm))
+  (condition "A.NetClass == 'HV_PHASE' && B.NetClass == 'HV_DC'")
+)
+
+(rule HV_PHASE_to_HV_GND_Clearance
+  (constraint clearance (min 0.25mm))
+  (condition "A.NetClass == 'HV_PHASE' && B.NetClass == 'HV_GND'")
+)
+
+(rule HV_DC_to_HV_GND_Clearance
+  (constraint clearance (min 0.25mm))
+  (condition "A.NetClass == 'HV_DC' && B.NetClass == 'HV_GND'")
 )
 
 # -----------------------------
 # HV to Default clearances
 # -----------------------------
-(rule HV_to_Default_Clearance
+(rule HV_PHASE_to_Default_Clearance
   (constraint clearance (min 0.25mm))
-  (condition
-    (or
-      (and (netclass "HV_PHASE") (netclass "Default"))
-      (and (netclass "HV_DC")    (netclass "Default"))
-      (and (netclass "HV_GND")   (netclass "Default"))
-    )
-  )
+  (condition "A.NetClass == 'HV_PHASE' && B.NetClass == 'Default'")
+)
+
+(rule HV_DC_to_Default_Clearance
+  (constraint clearance (min 0.25mm))
+  (condition "A.NetClass == 'HV_DC' && B.NetClass == 'Default'")
+)
+
+(rule HV_GND_to_Default_Clearance
+  (constraint clearance (min 0.25mm))
+  (condition "A.NetClass == 'HV_GND' && B.NetClass == 'Default'")
 )

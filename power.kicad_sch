@@ -1079,6 +1079,26 @@
 					)
 				)
 				(pin power_in line
+					(at 25.4 -17.78 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PLMR51635XDDCR_1_1"
+				(pin passive line
 					(at 25.4 -2.54 180)
 					(length 5.08)
 					(name "CB"
@@ -1096,7 +1116,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 25.4 -7.62 180)
 					(length 5.08)
 					(name "SW"
@@ -1114,7 +1134,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 25.4 -12.7 180)
 					(length 5.08)
 					(name "FB"
@@ -1125,24 +1145,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 25.4 -17.78 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1944,7 +1946,7 @@
 				(pin power_out line
 					(at 0 0 90)
 					(length 0)
-					(name "pwr"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2385,6 +2387,12 @@
 		(uuid "949dee24-e8e9-418b-89c4-924f8718104e")
 	)
 	(junction
+		(at 100.33 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d247e5c-48fc-4abf-ba94-67b10a8e00d7")
+	)
+	(junction
 		(at 73.66 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2804,6 +2812,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 22.86) (xy 137.16 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37b75e4b-a2bb-4cf6-bf57-6fe8165ed379")
+	)
+	(wire
+		(pts
 			(xy 38.1 137.16) (xy 38.1 139.7)
 		)
 		(stroke
@@ -3181,6 +3199,16 @@
 			(type default)
 		)
 		(uuid "8dc939d4-db06-4cc4-9575-111f8ffaa6a8")
+	)
+	(wire
+		(pts
+			(xy 100.33 123.19) (xy 100.33 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90b113cb-11b4-434c-be19-14a48aa49b55")
 	)
 	(wire
 		(pts
@@ -7698,6 +7726,70 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 137.16 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "10154367-9d81-43e7-bdee-5a59c3defce6")
+		(property "Reference" "#FLG03"
+			(at 137.16 20.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 137.414 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b01c6513-6848-499a-b7ca-216e81367451")
+		)
+		(instances
+			(project "NanoGaN"
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/2aff88eb-0d92-4253-8876-ba05112be4d6"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDC")
 		(at 38.1 121.92 0)
 		(unit 1)
@@ -9641,6 +9733,70 @@
 			(project "NanoGaN"
 				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/2aff88eb-0d92-4253-8876-ba05112be4d6"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 100.33 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "74346bce-4669-4981-a7f6-78da3373632c")
+		(property "Reference" "#FLG01"
+			(at 100.33 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 100.584 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "658ba9ac-df9a-4103-bb3f-4ee7873b3102")
+		)
+		(instances
+			(project "NanoGaN"
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/2aff88eb-0d92-4253-8876-ba05112be4d6"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)

@@ -2611,6 +2611,26 @@
 				)
 			)
 			(pin power_in line
+				(at 25.4 -17.78 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PLMR51635XDDCR_1_1"
+			(pin passive line
 				(at 25.4 -2.54 180)
 				(length 5.08)
 				(name "CB"
@@ -2628,7 +2648,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 25.4 -7.62 180)
 				(length 5.08)
 				(name "SW"
@@ -2646,7 +2666,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 25.4 -12.7 180)
 				(length 5.08)
 				(name "FB"
@@ -2657,24 +2677,6 @@
 					)
 				)
 				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 25.4 -17.78 180)
-				(length 5.08)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)

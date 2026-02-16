@@ -5350,6 +5350,10 @@
 		(uuid "96a416c7-d154-4cfc-b3c9-ca125e88b522")
 	)
 	(no_connect
+		(at 55.88 57.15)
+		(uuid "b995c15e-1c6c-48bb-ab54-d2a71173b957")
+	)
+	(no_connect
 		(at 255.27 80.01)
 		(uuid "c5d80685-0eb7-487e-be81-beaf3a01bf53")
 	)
@@ -5525,16 +5529,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 140.97) (xy 240.03 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13e9f16a-bd41-4cb7-ac95-872723dd90f6")
-	)
-	(wire
-		(pts
 			(xy 260.35 74.93) (xy 260.35 69.85)
 		)
 		(stroke
@@ -5685,16 +5679,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 57.15) (xy 55.88 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25683f5c-4c3c-49a1-8fc3-6b679a8b573a")
-	)
-	(wire
-		(pts
 			(xy 116.84 120.65) (xy 121.92 120.65)
 		)
 		(stroke
@@ -5752,16 +5736,6 @@
 			(type default)
 		)
 		(uuid "2e8bd255-2b1d-4d00-b1e5-d997a58d4e05")
-	)
-	(wire
-		(pts
-			(xy 255.27 151.13) (xy 255.27 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f4dc49a-1487-4a4c-9b96-d19b8009c9b9")
 	)
 	(wire
 		(pts
@@ -6355,16 +6329,6 @@
 	)
 	(wire
 		(pts
-			(xy 254 140.97) (xy 255.27 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "727738e6-7ca1-4a74-aefc-c3431de18503")
-	)
-	(wire
-		(pts
 			(xy 210.82 69.85) (xy 214.63 69.85)
 		)
 		(stroke
@@ -6475,16 +6439,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 151.13) (xy 240.03 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b38cd68-a524-4175-8a5d-52e404379aed")
-	)
-	(wire
-		(pts
 			(xy 52.07 107.95) (xy 55.88 107.95)
 		)
 		(stroke
@@ -6552,16 +6506,6 @@
 			(type default)
 		)
 		(uuid "81cc04fa-db72-4407-9e74-2ac551b90113")
-	)
-	(wire
-		(pts
-			(xy 255.27 140.97) (xy 255.27 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8253c32b-e000-4757-a2e7-3d919c328cf4")
 	)
 	(wire
 		(pts
@@ -7142,16 +7086,6 @@
 			(type default)
 		)
 		(uuid "cc2a1796-c0ee-4b46-adb8-c9058c716e4a")
-	)
-	(wire
-		(pts
-			(xy 236.22 140.97) (xy 240.03 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdb9ef70-c817-4f92-a187-891df55a01ce")
 	)
 	(wire
 		(pts
@@ -8300,17 +8234,6 @@
 		)
 		(uuid "4d87e569-be9f-4001-873f-0841359c3297")
 	)
-	(hierarchical_label "DAC_OCP_P"
-		(shape output)
-		(at 236.22 140.97 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4e53b826-83f0-4dc9-9ddf-6cd34e9781db")
-	)
 	(hierarchical_label "U_PHASE_SENS_W"
 		(shape input)
 		(at 121.92 31.75 0)
@@ -8574,17 +8497,6 @@
 			(justify left)
 		)
 		(uuid "ba8cf743-2482-4851-836e-c8bbe93a69e3")
-	)
-	(hierarchical_label "DAC_OCP_N"
-		(shape output)
-		(at 254 140.97 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bb64a76c-c268-437d-b680-a3ea811d6d2c")
 	)
 	(hierarchical_label "GATE_U-"
 		(shape output)
@@ -9217,93 +9129,6 @@
 			(project "NanoGaN"
 				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/ac0a01b7-48dd-40d5-85d0-d2ed24ad85a4"
 					(reference "#PWR0102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 255.27 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
-		(uuid "0dd05ad7-be12-411c-88a6-89ab0e21378b")
-		(property "Reference" "C95"
-			(at 257.81 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "1n"
-			(at 256.286 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 256.2352 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 255.27 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1nF 6.3V X7R ±10% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 255.27 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C541214"
-			(at 255.27 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rating" "6.3V"
-			(at 258.064 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e2152e45-9e9e-415b-b1ed-4e6ccb577dad")
-		)
-		(pin "2"
-			(uuid "5e59b4f7-68df-4be4-93d1-7c03ec28f67c")
-		)
-		(instances
-			(project "NanoGaN"
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/ac0a01b7-48dd-40d5-85d0-d2ed24ad85a4"
-					(reference "C95")
 					(unit 1)
 				)
 			)
@@ -9990,93 +9815,6 @@
 			(project "NanoGaN"
 				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/ac0a01b7-48dd-40d5-85d0-d2ed24ad85a4"
 					(reference "#PWR086")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 240.03 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
-		(uuid "38461c98-1880-468f-b08e-57094a7a85f6")
-		(property "Reference" "C94"
-			(at 242.57 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "1n"
-			(at 241.046 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 240.9952 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 240.03 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1nF 6.3V X7R ±10% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 240.03 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C541214"
-			(at 240.03 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rating" "6.3V"
-			(at 242.824 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e3f152ab-8722-4db5-b292-2d02885b83b8")
-		)
-		(pin "2"
-			(uuid "1bce079f-4bc6-4fdf-af8f-c16e762c4754")
-		)
-		(instances
-			(project "NanoGaN"
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/ac0a01b7-48dd-40d5-85d0-d2ed24ad85a4"
-					(reference "C94")
 					(unit 1)
 				)
 			)
@@ -10962,70 +10700,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 255.27 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6ba7b8ad-c5e6-42b3-90b6-fcf583665e10")
-		(property "Reference" "#PWR064"
-			(at 255.27 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 255.27 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 255.27 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 255.27 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 255.27 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1ae6923c-09ca-493c-81ab-ad0df3402552")
-		)
-		(instances
-			(project "NanoGaN"
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/ac0a01b7-48dd-40d5-85d0-d2ed24ad85a4"
-					(reference "#PWR064")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 19.05 58.42 0)
 		(mirror y)
@@ -11165,70 +10839,6 @@
 			(project "NanoGaN"
 				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/ac0a01b7-48dd-40d5-85d0-d2ed24ad85a4"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 240.03 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "78efbf6a-542a-41ff-9e82-b33dac62d4a5")
-		(property "Reference" "#PWR0115"
-			(at 240.03 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "AGND"
-			(at 240.03 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 240.03 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 240.03 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4f35e6ca-2df1-4114-91a9-9287eee35279")
-		)
-		(instances
-			(project "NanoGaN"
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/ac0a01b7-48dd-40d5-85d0-d2ed24ad85a4"
-					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
