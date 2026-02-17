@@ -1744,28 +1744,22 @@
 		(uuid "27f3e28d-eac6-4143-a69f-b0c24a1f7453")
 	)
 	(junction
+		(at 132.08 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b94c23a-a7cf-41a9-8dfd-8d77dfc984ed")
+	)
+	(junction
 		(at 120.65 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2fd0e6a2-bd41-4a82-a8b2-632e5df78bf4")
 	)
 	(junction
-		(at 135.89 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "312d3577-78a2-4c27-94a9-7100ac0dbf45")
-	)
-	(junction
 		(at 57.15 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "407135ea-6ef7-4649-8b0b-0af342c6d6f2")
-	)
-	(junction
-		(at 135.89 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4b96a3b8-118e-4a0d-b41b-41edca10b971")
 	)
 	(junction
 		(at 129.54 25.4)
@@ -1792,22 +1786,16 @@
 		(uuid "668cdbd8-194b-4c54-82b9-b81f5e794e03")
 	)
 	(junction
-		(at 127 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6d4004a7-23c4-4c37-8549-e49e62b28433")
-	)
-	(junction
-		(at 118.11 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7a059bee-e2f7-4601-b523-6d14fce1dd5f")
-	)
-	(junction
 		(at 38.1 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f503adc-3e75-4c66-8cfb-ef828b8b7963")
+	)
+	(junction
+		(at 114.3 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7fe448ac-9d04-454f-8afb-163127889d3b")
 	)
 	(junction
 		(at 49.53 173.99)
@@ -1826,6 +1814,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8d8fe067-da82-427d-bcc3-c9fe592c620c")
+	)
+	(junction
+		(at 132.08 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ff659ce-0942-4848-8f29-70e0190e029f")
 	)
 	(junction
 		(at 76.2 139.7)
@@ -1894,12 +1888,6 @@
 		(uuid "b644d289-bd5f-47b7-8d42-901909235340")
 	)
 	(junction
-		(at 118.11 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b89c9820-8d08-4e51-9c42-00222410812f")
-	)
-	(junction
 		(at 41.91 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1924,10 +1912,10 @@
 		(uuid "cfa0cfce-95ae-4810-9788-0a89643b63ba")
 	)
 	(junction
-		(at 127 125.73)
+		(at 114.3 127)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d12caf28-e6fc-4c28-a96f-2c88443dd90d")
+		(uuid "d7c9f19e-3563-46da-b6e1-2079afc2e68a")
 	)
 	(junction
 		(at 96.52 93.98)
@@ -1946,6 +1934,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8f9b509-d2c7-4891-93bf-86a9b9a6b309")
+	)
+	(junction
+		(at 123.19 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb515106-3897-489f-b41e-5e1fc8c0ee6a")
+	)
+	(junction
+		(at 123.19 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee206f04-837e-4668-9125-9899311a7d6c")
 	)
 	(junction
 		(at 34.29 36.83)
@@ -2013,6 +2013,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 127) (xy 123.19 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01e3238f-93c2-443f-83b2-096c2ee467f0")
+	)
+	(wire
+		(pts
 			(xy 26.67 36.83) (xy 34.29 36.83)
 		)
 		(stroke
@@ -2020,16 +2030,6 @@
 			(type default)
 		)
 		(uuid "020e2672-ddd7-4ba9-a504-68051696c474")
-	)
-	(wire
-		(pts
-			(xy 118.11 125.73) (xy 118.11 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0254ff21-b517-4ae3-965d-303cc1fe7feb")
 	)
 	(wire
 		(pts
@@ -2073,6 +2073,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 128.27) (xy 140.97 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13a3b91b-c11b-4217-8fd9-c337d84a4c29")
+	)
+	(wire
+		(pts
 			(xy 114.3 91.44) (xy 114.3 93.98)
 		)
 		(stroke
@@ -2110,16 +2120,6 @@
 			(type default)
 		)
 		(uuid "185f17d6-8b5f-44d8-b1c7-8ca063713ff5")
-	)
-	(wire
-		(pts
-			(xy 127 137.16) (xy 127 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "199da9d9-15db-4e8c-bb02-4a590d6d08f7")
 	)
 	(wire
 		(pts
@@ -2163,6 +2163,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 127) (xy 123.19 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23482ee7-ff8d-4861-8994-608d0bb02c89")
+	)
+	(wire
+		(pts
 			(xy 120.65 35.56) (xy 120.65 36.83)
 		)
 		(stroke
@@ -2183,16 +2193,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 137.16) (xy 118.11 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24a6d372-3904-45c6-95ce-51d47ee22fab")
-	)
-	(wire
-		(pts
 			(xy 105.41 25.4) (xy 101.6 25.4)
 		)
 		(stroke
@@ -2200,6 +2200,16 @@
 			(type default)
 		)
 		(uuid "24b22a53-87ee-475c-9296-e87eae9645b8")
+	)
+	(wire
+		(pts
+			(xy 132.08 127) (xy 132.08 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "261285eb-d8f7-433f-8ea7-d443c24b6718")
 	)
 	(wire
 		(pts
@@ -2263,6 +2273,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 135.89) (xy 114.3 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e07d3c3-0b6a-427e-8e10-14b53a2dcbff")
+	)
+	(wire
+		(pts
 			(xy 137.16 30.48) (xy 137.16 25.4)
 		)
 		(stroke
@@ -2310,6 +2330,16 @@
 			(type default)
 		)
 		(uuid "37b75e4b-a2bb-4cf6-bf57-6fe8165ed379")
+	)
+	(wire
+		(pts
+			(xy 123.19 137.16) (xy 132.08 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "395b4430-4c9f-4689-88e9-4bc6425bb358")
 	)
 	(wire
 		(pts
@@ -2423,6 +2453,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 137.16) (xy 114.3 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "574f944e-bf84-47d9-bba9-727864944792")
+	)
+	(wire
+		(pts
 			(xy 120.65 26.67) (xy 120.65 25.4)
 		)
 		(stroke
@@ -2450,16 +2490,6 @@
 			(type default)
 		)
 		(uuid "5d7430f0-810e-4714-8306-e650e5263daf")
-	)
-	(wire
-		(pts
-			(xy 135.89 125.73) (xy 144.78 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f63a5fb-3c57-43cf-a85b-59be773f83a9")
 	)
 	(wire
 		(pts
@@ -2513,13 +2543,23 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 124.46) (xy 118.11 125.73)
+			(xy 114.3 127) (xy 114.3 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "67ee478f-f14e-4270-956f-3ca64d05b0a8")
+		(uuid "66de73e5-3074-40dd-a165-aa18bd9cc25f")
+	)
+	(wire
+		(pts
+			(xy 114.3 125.73) (xy 114.3 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "688f64e9-760d-40ec-944b-2de705111535")
 	)
 	(wire
 		(pts
@@ -2530,16 +2570,6 @@
 			(type default)
 		)
 		(uuid "689a17d0-8cd8-45eb-b565-7fa285b956da")
-	)
-	(wire
-		(pts
-			(xy 127 125.73) (xy 135.89 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68bbad2a-a726-4875-8a88-cd06101f195d")
 	)
 	(wire
 		(pts
@@ -2600,6 +2630,16 @@
 			(type default)
 		)
 		(uuid "709c6c0d-6fe8-42ea-b96b-29c288a205c6")
+	)
+	(wire
+		(pts
+			(xy 114.3 137.16) (xy 123.19 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72227809-4568-475f-9e84-0752ae3d1d1e")
 	)
 	(wire
 		(pts
@@ -2703,16 +2743,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 129.54) (xy 144.78 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d23b4f6-f19b-4a86-8733-3c1803cd3edb")
-	)
-	(wire
-		(pts
 			(xy 100.33 129.54) (xy 100.33 125.73)
 		)
 		(stroke
@@ -2793,16 +2823,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 137.16) (xy 135.89 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9cf55584-36b2-411b-b309-f43611835d18")
-	)
-	(wire
-		(pts
 			(xy 128.27 91.44) (xy 128.27 93.98)
 		)
 		(stroke
@@ -2843,16 +2863,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 125.73) (xy 127 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2593c65-e5ed-47a3-b7d8-ca142691e504")
-	)
-	(wire
-		(pts
 			(xy 90.17 30.48) (xy 105.41 30.48)
 		)
 		(stroke
@@ -2883,13 +2893,23 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 125.73) (xy 135.89 129.54)
+			(xy 132.08 135.89) (xy 132.08 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aa2c9efe-1f6a-40e7-b0ed-d0d43e3bac37")
+		(uuid "a4aa419a-755a-4412-b5cb-ba7c853cfa01")
+	)
+	(wire
+		(pts
+			(xy 123.19 137.16) (xy 123.19 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6b3ab0c-3350-4636-ab8e-04e25d957300")
 	)
 	(wire
 		(pts
@@ -2920,16 +2940,6 @@
 			(type default)
 		)
 		(uuid "afc05604-cac7-472b-bf93-9e3bb1067a1e")
-	)
-	(wire
-		(pts
-			(xy 127 139.7) (xy 135.89 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b105e4c4-0ce5-4120-90a6-b48741a1f3a5")
 	)
 	(wire
 		(pts
@@ -2973,6 +2983,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 127) (xy 140.97 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc36083d-97fe-475e-bc17-a06d921fa2e5")
+	)
+	(wire
+		(pts
 			(xy 34.29 36.83) (xy 41.91 36.83)
 		)
 		(stroke
@@ -3000,6 +3020,16 @@
 			(type default)
 		)
 		(uuid "bf1b7eef-fc12-45c0-b185-58fea295edd1")
+	)
+	(wire
+		(pts
+			(xy 132.08 137.16) (xy 140.97 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2dc2890-d6b0-4310-a68e-09bcf134c545")
 	)
 	(wire
 		(pts
@@ -3063,16 +3093,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 139.7) (xy 144.78 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c99c062e-6827-4bee-a413-59044cd684e7")
-	)
-	(wire
-		(pts
 			(xy 38.1 77.47) (xy 38.1 81.28)
 		)
 		(stroke
@@ -3133,16 +3153,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 139.7) (xy 127 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6aea0f9-c186-4f59-8e36-a7db85b75f04")
-	)
-	(wire
-		(pts
 			(xy 144.78 41.91) (xy 144.78 44.45)
 		)
 		(stroke
@@ -3160,16 +3170,6 @@
 			(type default)
 		)
 		(uuid "d94aa30b-3494-4656-a508-bec94cdf31c1")
-	)
-	(wire
-		(pts
-			(xy 127 125.73) (xy 127 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9ac4944-355a-42ae-8919-59cf7485c032")
 	)
 	(wire
 		(pts
@@ -3193,13 +3193,13 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 137.16) (xy 144.78 139.7)
+			(xy 140.97 137.16) (xy 140.97 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dc950cb0-9c67-41d0-b518-fe0bcd214e6d")
+		(uuid "dca61fc7-0544-443b-85bf-c3db6a363aff")
 	)
 	(wire
 		(pts
@@ -3253,6 +3253,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 127) (xy 132.08 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef5dacab-0b61-48c1-b173-2655dbd5302f")
+	)
+	(wire
+		(pts
 			(xy 114.3 81.28) (xy 114.3 83.82)
 		)
 		(stroke
@@ -3290,16 +3300,6 @@
 			(type default)
 		)
 		(uuid "f42060b2-1d49-49b3-a848-9afa7af6244c")
-	)
-	(wire
-		(pts
-			(xy 118.11 139.7) (xy 118.11 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f95f6dae-f85f-40ea-85c6-b880ed87ad3a")
 	)
 	(wire
 		(pts
@@ -7042,7 +7042,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
+		(property "Footprint" "NanoGaN:CP_Radial_D12.5mm_P5.00mm"
 			(at 101.2952 137.16 0)
 			(effects
 				(font
@@ -7166,6 +7166,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 114.3 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "061b898f-4b4b-4503-bb23-3917d076134d")
+		(property "Reference" "#PWR0115"
+			(at 114.3 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93955a46-aedc-427a-8e0e-6ec83b453a9b")
+		)
+		(instances
+			(project "NanoGaN"
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/2aff88eb-0d92-4253-8876-ba05112be4d6"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "NanoGaN:C_Polarized_FZ1J221M1313")
 		(at 38.1 133.35 0)
 		(unit 1)
@@ -7193,7 +7259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
+		(property "Footprint" "NanoGaN:CP_Radial_D12.5mm_P5.00mm"
 			(at 39.0652 137.16 0)
 			(effects
 				(font
@@ -7313,6 +7379,172 @@
 			(project "NanoGaN"
 				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/2aff88eb-0d92-4253-8876-ba05112be4d6"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 123.19 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b111b70-0b9f-4816-a7ce-a362f1215147")
+		(property "Reference" "C81"
+			(at 119.126 129.286 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "CL21B104KCFNNNE"
+			(at 125.222 130.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 124.1552 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/DKDS-19/374389.pdf"
+			(at 123.19 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "- CAP, 0.1UF, 100V, MLCC, 0805, -SAMSUNG ELECTRO-MECHANICS - CL21B104KCFNNNE"
+			(at 123.19 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "100n"
+			(at 125.984 130.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Name" "CL21B104KCFNNNE"
+			(at 123.19 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.35"
+			(at 123.19 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "187-CL21B104KCFNNNE"
+			(at 123.19 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21B104KCFNNNE?qs=lptGheUA4EwiEGVRX9oguw%3D%3D"
+			(at 123.19 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SAMSUNG"
+			(at 123.19 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL21B104KCFNNNE"
+			(at 123.19 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "100V"
+			(at 123.444 134.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 123.19 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C28233"
+			(at 123.19 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "27c21266-d9d1-441b-ae8a-e2c540bb0045")
+		)
+		(pin "1"
+			(uuid "8ddfd39a-918c-4b99-b57b-ca291c1a85a2")
+		)
+		(instances
+			(project "NanoGaN"
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/2aff88eb-0d92-4253-8876-ba05112be4d6"
+					(reference "C81")
 					(unit 1)
 				)
 			)
@@ -7758,6 +7990,172 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 140.97 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "20712192-e244-48de-a7a9-ed4127b21a90")
+		(property "Reference" "C90"
+			(at 137.16 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "CL21B104KCFNNNE"
+			(at 143.002 130.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 141.9352 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/DKDS-19/374389.pdf"
+			(at 140.97 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "- CAP, 0.1UF, 100V, MLCC, 0805, -SAMSUNG ELECTRO-MECHANICS - CL21B104KCFNNNE"
+			(at 140.97 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "100n"
+			(at 143.51 130.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Name" "CL21B104KCFNNNE"
+			(at 140.97 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.35"
+			(at 140.97 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "187-CL21B104KCFNNNE"
+			(at 140.97 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21B104KCFNNNE?qs=lptGheUA4EwiEGVRX9oguw%3D%3D"
+			(at 140.97 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SAMSUNG"
+			(at 140.97 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL21B104KCFNNNE"
+			(at 140.97 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "100V"
+			(at 141.224 134.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 140.97 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C28233"
+			(at 140.97 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1e2d928a-57a4-4267-8b79-e35b67c8bd7b")
+		)
+		(pin "1"
+			(uuid "1eb00e99-5eec-4aef-8fb6-8c63893f2d0a")
+		)
+		(instances
+			(project "NanoGaN"
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/2aff88eb-0d92-4253-8876-ba05112be4d6"
+					(reference "C90")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 114.3 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8018,164 +8416,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 135.89 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "24b7ac77-73d6-4f86-a697-a3e415adf7be")
-		(property "Reference" "C88"
-			(at 139.7 132.0799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Value" "100n"
-			(at 137.922 131.572 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 136.8552 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/DKDS-19/374389.pdf"
-			(at 135.89 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "- CAP, 0.1UF, 100V, MLCC, 0805, -SAMSUNG ELECTRO-MECHANICS - CL21B104KCFNNNE"
-			(at 135.89 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "CL21B104KCFNNNE"
-			(at 135.89 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.35"
-			(at 135.89 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "187-CL21B104KCFNNNE"
-			(at 135.89 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21B104KCFNNNE?qs=lptGheUA4EwiEGVRX9oguw%3D%3D"
-			(at 135.89 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "SAMSUNG"
-			(at 135.89 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CL21B104KCFNNNE"
-			(at 135.89 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rating" "100V"
-			(at 137.668 135.382 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 135.89 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C28233"
-			(at 135.89 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bb9d2bd2-8798-4272-a6a0-dd3eba643bfe")
-		)
-		(pin "1"
-			(uuid "8b51b49c-e867-4348-93ec-bc8a96137b2e")
-		)
-		(instances
-			(project "NanoGaN"
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/2aff88eb-0d92-4253-8876-ba05112be4d6"
-					(reference "C88")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 38.1 187.96 0)
 		(unit 1)
@@ -8236,6 +8476,172 @@
 			(project "NanoGaN"
 				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/2aff88eb-0d92-4253-8876-ba05112be4d6"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 132.08 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2aefee99-7dbe-4472-99a7-3d0addb3f4c6")
+		(property "Reference" "C88"
+			(at 128.27 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "CL21B104KCFNNNE"
+			(at 134.112 130.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 133.0452 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/DKDS-19/374389.pdf"
+			(at 132.08 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "- CAP, 0.1UF, 100V, MLCC, 0805, -SAMSUNG ELECTRO-MECHANICS - CL21B104KCFNNNE"
+			(at 132.08 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "100n"
+			(at 134.62 130.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Name" "CL21B104KCFNNNE"
+			(at 132.08 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.35"
+			(at 132.08 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "187-CL21B104KCFNNNE"
+			(at 132.08 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21B104KCFNNNE?qs=lptGheUA4EwiEGVRX9oguw%3D%3D"
+			(at 132.08 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SAMSUNG"
+			(at 132.08 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL21B104KCFNNNE"
+			(at 132.08 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "100V"
+			(at 132.08 134.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 132.08 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C28233"
+			(at 132.08 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f3ea66f3-63dd-46e7-8d9b-45cfd90e88ff")
+		)
+		(pin "1"
+			(uuid "8f78c297-7a5b-4177-b2ba-5be2f0281ee5")
+		)
+		(instances
+			(project "NanoGaN"
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/2aff88eb-0d92-4253-8876-ba05112be4d6"
+					(reference "C88")
 					(unit 1)
 				)
 			)
@@ -8737,164 +9143,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 127 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "498471d2-662c-4ae4-9655-ee705370fc8e")
-		(property "Reference" "C81"
-			(at 130.81 132.0799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Value" "100n"
-			(at 129.032 131.572 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 127.9652 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/DKDS-19/374389.pdf"
-			(at 127 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "- CAP, 0.1UF, 100V, MLCC, 0805, -SAMSUNG ELECTRO-MECHANICS - CL21B104KCFNNNE"
-			(at 127 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "CL21B104KCFNNNE"
-			(at 127 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.35"
-			(at 127 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "187-CL21B104KCFNNNE"
-			(at 127 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21B104KCFNNNE?qs=lptGheUA4EwiEGVRX9oguw%3D%3D"
-			(at 127 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "SAMSUNG"
-			(at 127 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CL21B104KCFNNNE"
-			(at 127 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rating" "100V"
-			(at 128.778 135.382 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 127 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C28233"
-			(at 127 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d09e937a-3cf1-4a14-88e1-53878077a9c2")
-		)
-		(pin "1"
-			(uuid "a95bcb47-8813-42cb-8b66-aded730551e5")
-		)
-		(instances
-			(project "NanoGaN"
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/2aff88eb-0d92-4253-8876-ba05112be4d6"
-					(reference "C81")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 19.05 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9087,7 +9335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
+		(property "Footprint" "NanoGaN:CP_Radial_D12.5mm_P5.00mm"
 			(at 64.4652 137.16 0)
 			(effects
 				(font
@@ -9997,6 +10245,71 @@
 	)
 	(symbol
 		(lib_id "power:VDC")
+		(at 114.3 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8b169230-9b74-44f5-8480-07e186b8c548")
+		(property "Reference" "#PWR0106"
+			(at 114.3 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "U_DC"
+			(at 112.268 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "890ea2b6-76d4-4dce-bee1-c5f229cca945")
+		)
+		(instances
+			(project "NanoGaN"
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/2aff88eb-0d92-4253-8876-ba05112be4d6"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDC")
 		(at 38.1 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10056,71 +10369,6 @@
 			(project "NanoGaN"
 				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/2aff88eb-0d92-4253-8876-ba05112be4d6"
 					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDC")
-		(at 118.11 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8e11fa40-862d-4b90-9225-10bea2ebd456")
-		(property "Reference" "#PWR0106"
-			(at 118.11 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "U_DC"
-			(at 116.078 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.11 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 118.11 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e25e799b-6bbd-4516-8568-2592c3a078e7")
-		)
-		(instances
-			(project "NanoGaN"
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/2aff88eb-0d92-4253-8876-ba05112be4d6"
-					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -10326,7 +10574,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
+		(property "Footprint" "NanoGaN:CP_Radial_D12.5mm_P5.00mm"
 			(at 89.8652 137.16 0)
 			(effects
 				(font
@@ -10652,7 +10900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
+		(property "Footprint" "NanoGaN:CP_Radial_D12.5mm_P5.00mm"
 			(at 51.7652 137.16 0)
 			(effects
 				(font
@@ -10957,164 +11205,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 144.78 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c22a1687-2903-474a-81c7-f892298a2014")
-		(property "Reference" "C90"
-			(at 148.59 132.0799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Value" "100n"
-			(at 146.812 131.572 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 145.7452 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/DKDS-19/374389.pdf"
-			(at 144.78 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "- CAP, 0.1UF, 100V, MLCC, 0805, -SAMSUNG ELECTRO-MECHANICS - CL21B104KCFNNNE"
-			(at 144.78 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "CL21B104KCFNNNE"
-			(at 144.78 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.35"
-			(at 144.78 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "187-CL21B104KCFNNNE"
-			(at 144.78 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21B104KCFNNNE?qs=lptGheUA4EwiEGVRX9oguw%3D%3D"
-			(at 144.78 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "SAMSUNG"
-			(at 144.78 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CL21B104KCFNNNE"
-			(at 144.78 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rating" "100V"
-			(at 146.558 135.382 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 144.78 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C28233"
-			(at 144.78 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1ab6ab77-1375-4ba6-abd5-536115a4c94b")
-		)
-		(pin "1"
-			(uuid "457fbd00-f9e6-4e93-9de1-21555e43703b")
-		)
-		(instances
-			(project "NanoGaN"
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/2aff88eb-0d92-4253-8876-ba05112be4d6"
-					(reference "C90")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 45.72 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11304,164 +11394,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 118.11 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cdf5f6c1-cca1-4ddf-9506-a2b006ebb08e")
-		(property "Reference" "C68"
-			(at 121.92 132.0799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Value" "1u"
-			(at 120.396 131.318 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 119.0752 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA8/2461474.pdf"
-			(at 118.11 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP, 1u, 100V, +/-10%, X7R, 1206"
-			(at 118.11 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.8"
-			(at 118.11 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "187-CL31B105KCHNNNE"
-			(at 118.11 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL31B105KCHNNNE?qs=349EhDEZ59qH1i3RhF2lug%3D%3D"
-			(at 118.11 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "SAMSUNG"
-			(at 118.11 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CL31B105KCHNNNE"
-			(at 118.11 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C13832"
-			(at 118.11 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rating" "100V"
-			(at 120.142 135.382 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Package" "1206"
-			(at 118.11 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 118.11 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d8232df2-ad1a-447a-b879-b648d8eca60c")
-		)
-		(pin "1"
-			(uuid "531acde0-e784-4b71-80ff-f188c823dd34")
-		)
-		(instances
-			(project "NanoGaN"
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/2aff88eb-0d92-4253-8876-ba05112be4d6"
-					(reference "C68")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 62.23 173.99 90)
 		(unit 1)
@@ -11574,7 +11506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
+		(property "Footprint" "NanoGaN:CP_Radial_D12.5mm_P5.00mm"
 			(at 77.1652 137.16 0)
 			(effects
 				(font
@@ -11789,6 +11721,172 @@
 			(project "NanoGaN"
 				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/2aff88eb-0d92-4253-8876-ba05112be4d6"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 114.3 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e5be7e68-7464-4a3d-837a-6a69e4b67110")
+		(property "Reference" "C68"
+			(at 110.236 129.286 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "CL31B105KCHNNNE"
+			(at 116.586 130.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 115.2652 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA8/2461474.pdf"
+			(at 114.3 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP, 1u, 100V, +/-10%, X7R, 1206"
+			(at 114.3 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.8"
+			(at 114.3 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "187-CL31B105KCHNNNE"
+			(at 114.3 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL31B105KCHNNNE?qs=349EhDEZ59qH1i3RhF2lug%3D%3D"
+			(at 114.3 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SAMSUNG"
+			(at 114.3 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL31B105KCHNNNE"
+			(at 114.3 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C13832"
+			(at 114.3 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "100V"
+			(at 114.554 134.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "1206"
+			(at 114.3 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 114.3 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "1u"
+			(at 115.824 130.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "74126ec2-845f-4caf-8ce1-bb4e61eb83ef")
+		)
+		(pin "1"
+			(uuid "df775dd8-e95d-4567-a916-9f0856d5abb7")
+		)
+		(instances
+			(project "NanoGaN"
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/2aff88eb-0d92-4253-8876-ba05112be4d6"
+					(reference "C68")
 					(unit 1)
 				)
 			)
@@ -12254,72 +12352,6 @@
 			(project "NanoGaN"
 				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/2aff88eb-0d92-4253-8876-ba05112be4d6"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 118.11 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f4c15ae3-95c4-4141-bb7b-13964b106260")
-		(property "Reference" "#PWR0130"
-			(at 118.11 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 118.11 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.11 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 118.11 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0dd4adc0-01a1-4670-b81c-29c0b6ea24a2")
-		)
-		(instances
-			(project "NanoGaN"
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/2aff88eb-0d92-4253-8876-ba05112be4d6"
-					(reference "#PWR0130")
 					(unit 1)
 				)
 			)

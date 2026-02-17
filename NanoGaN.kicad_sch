@@ -3431,7 +3431,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Phase_U"
+		(property "Value" "Phase_W"
 			(at 209.55 130.8099 0)
 			(effects
 				(font
@@ -3666,7 +3666,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Phase_U"
+		(property "Value" "Phase_V"
 			(at 210.82 86.3599 0)
 			(effects
 				(font

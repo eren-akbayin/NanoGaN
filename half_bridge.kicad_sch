@@ -1009,14 +1009,14 @@
 				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
-					(name "IP+"
+					(name "IP-"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1063,14 +1063,14 @@
 				(pin passive line
 					(at 27.94 0 180)
 					(length 5.08)
-					(name "IP-"
+					(name "IP+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4652,90 +4652,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 64.77 109.22 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "16578833-1487-419e-8160-35c8a814d2bb")
-		(property "Reference" "R9"
-			(at 59.69 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1"
-			(at 64.77 109.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 64.77 110.998 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 64.77 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "-55℃~+155℃ 1Ω 200mW 50V Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 64.77 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2077491"
-			(at 64.77 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "07fadff6-e30c-407f-a95e-77e572b9e71e")
-		)
-		(pin "1"
-			(uuid "7537c6e2-01df-467c-97eb-a496571c781a")
-		)
-		(instances
-			(project "NanoGaN"
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/47075a52-6063-4b82-8884-2b908f359801"
-					(reference "R16")
-					(unit 1)
-				)
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/6f3a55d2-28c8-407e-8c9d-28f4ee320cbb"
-					(reference "R9")
-					(unit 1)
-				)
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/e0a1170f-dabd-4224-bbe3-5bcec1b89854"
-					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 64.77 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4744,19 +4660,20 @@
 		(dnp no)
 		(uuid "174d1b59-bd9c-4962-876f-2606d10063f2")
 		(property "Reference" "R44"
-			(at 59.69 85.344 90)
+			(at 60.198 82.804 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1"
+		(property "Value" "CSR0402FKR500"
 			(at 64.77 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -4777,7 +4694,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 1Ω 200mW 50V Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 125mW 500mΩ Thick Film Resistor ±1% ±200ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 64.77 83.82 0)
 			(effects
 				(font
@@ -4786,7 +4703,15 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2077491"
+		(property "Resistance" "0R5"
+			(at 64.77 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C346785"
 			(at 64.77 83.82 0)
 			(effects
 				(font
@@ -4828,22 +4753,22 @@
 		(dnp no)
 		(uuid "19b67b9e-f3b6-4536-b486-54946bebeda4")
 		(property "Reference" "C21"
-			(at 73.66 20.32 0)
+			(at 74.168 21.336 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "0402B104K6R3CT"
 			(at 76.454 19.558 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -4883,7 +4808,15 @@
 			)
 		)
 		(property "Voltage Rating" "6.3V"
-			(at 74.168 26.416 90)
+			(at 78.232 24.384 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" "100n"
+			(at 78.486 21.336 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5145,22 +5078,22 @@
 		(dnp no)
 		(uuid "2c9d54cd-62ac-46b5-b02b-036d5eac8b21")
 		(property "Reference" "C25"
-			(at 162.56 107.95 0)
+			(at 155.448 107.442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "~"
 			(at 161.036 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
@@ -5188,6 +5121,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Capacitance" "100n"
+			(at 163.068 106.934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Voltage Rating" "6.3V"
@@ -5240,7 +5181,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IGC025S08S1"
+		(property "Value" "IGC019S06S1XTMA1"
 			(at 83.82 82.8039 0)
 			(effects
 				(font
@@ -5267,7 +5208,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CoolGaN™ Transistor 80 V G3 in PQFN 3x5, 1.9 mΩ"
+		(property "Description" "CoolGaN™ Transistor 60 V G3 in PQFN 3x5, 1.9 mΩ"
 			(at 82.296 67.31 0)
 			(effects
 				(font
@@ -5276,7 +5217,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C43313314"
+		(property "LCSC" "C43313313"
 			(at 77.47 78.74 0)
 			(effects
 				(font
@@ -5403,22 +5344,22 @@
 		(dnp no)
 		(uuid "496a808e-9aac-4eff-9e7a-24869011d90e")
 		(property "Reference" "C46"
-			(at 22.86 90.1699 0)
+			(at 14.986 88.646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "CL31B105KCHNNNE"
 			(at 21.336 89.408 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
@@ -5510,7 +5451,7 @@
 			)
 		)
 		(property "Voltage Rating" "100V"
-			(at 21.082 93.472 0)
+			(at 19.304 93.472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5536,6 +5477,14 @@
 				(hide yes)
 			)
 		)
+		(property "Capacitance" "1u"
+			(at 20.574 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bdef9a27-7ed6-471e-a151-9ce1982d266f")
 		)
@@ -5554,90 +5503,6 @@
 				)
 				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/e0a1170f-dabd-4224-bbe3-5bcec1b89854"
 					(reference "C42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 64.77 111.76 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "56a7b340-00fe-4bd6-bf2d-219b1bcea555")
-		(property "Reference" "R47"
-			(at 59.69 113.284 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1"
-			(at 64.77 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 64.77 113.538 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 64.77 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "-55℃~+155℃ 1Ω 200mW 50V Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 64.77 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2077491"
-			(at 64.77 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "056f660c-32fa-4a40-be19-29e40071cec4")
-		)
-		(pin "1"
-			(uuid "80d3d4c2-cd1b-4730-a4fb-af9847eb7170")
-		)
-		(instances
-			(project "NanoGaN"
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/47075a52-6063-4b82-8884-2b908f359801"
-					(reference "R48")
-					(unit 1)
-				)
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/6f3a55d2-28c8-407e-8c9d-28f4ee320cbb"
-					(reference "R47")
-					(unit 1)
-				)
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/e0a1170f-dabd-4224-bbe3-5bcec1b89854"
-					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -5904,22 +5769,22 @@
 		(dnp no)
 		(uuid "5e20a943-5b5c-4cee-aa1f-6199ac893e73")
 		(property "Reference" "C47"
-			(at 31.75 90.1699 0)
+			(at 23.876 88.646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "CL21B104KCFNNNE"
 			(at 29.972 89.662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
@@ -5949,6 +5814,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Capacitance" "100n"
+			(at 30.734 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Name" "CL21B104KCFNNNE"
@@ -6011,7 +5884,7 @@
 			)
 		)
 		(property "Voltage Rating" "100V"
-			(at 29.718 93.472 0)
+			(at 28.194 93.472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6429,19 +6302,20 @@
 		(dnp no)
 		(uuid "75d3d736-b51a-4716-b229-27db08123ceb")
 		(property "Reference" "R8"
-			(at 59.69 82.804 90)
+			(at 60.452 80.264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1"
+		(property "Value" "CRCW04021R00FKEDHP"
 			(at 64.77 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -6469,6 +6343,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Resistance" "1"
+			(at 64.77 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "LCSC" "C2077491"
@@ -6572,6 +6454,99 @@
 				)
 				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/e0a1170f-dabd-4224-bbe3-5bcec1b89854"
 					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 64.77 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b3e8c2b-3833-44d7-979d-f1d9155b0e7e")
+		(property "Reference" "R47"
+			(at 60.198 110.744 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CSR0402FKR500"
+			(at 64.77 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 64.77 113.538 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 125mW 500mΩ Thick Film Resistor ±1% ±200ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 64.77 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "0R5"
+			(at 64.77 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C346785"
+			(at 64.77 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d8248d20-3c1f-4742-ab3b-53a2a06bba7c")
+		)
+		(pin "1"
+			(uuid "43a6d10a-79c0-4c22-9836-a7cb230e8866")
+		)
+		(instances
+			(project "NanoGaN"
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/47075a52-6063-4b82-8884-2b908f359801"
+					(reference "R48")
+					(unit 1)
+				)
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/6f3a55d2-28c8-407e-8c9d-28f4ee320cbb"
+					(reference "R47")
+					(unit 1)
+				)
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/e0a1170f-dabd-4224-bbe3-5bcec1b89854"
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -6831,22 +6806,22 @@
 		(dnp no)
 		(uuid "7f7b83a6-dbf9-48c1-9831-913aa812e1ab")
 		(property "Reference" "C15"
-			(at 40.64 90.1699 0)
+			(at 33.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "CL21B104KCFNNNE"
 			(at 38.862 89.662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
@@ -6876,6 +6851,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Capacitance" "100n"
+			(at 39.37 89.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Name" "CL21B104KCFNNNE"
@@ -6938,7 +6921,7 @@
 			)
 		)
 		(property "Voltage Rating" "100V"
-			(at 38.608 93.472 0)
+			(at 36.83 93.472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7502,22 +7485,22 @@
 		(dnp no)
 		(uuid "b14ad12c-5df8-45c2-9f9b-632f1605267e")
 		(property "Reference" "C44"
-			(at 49.53 90.1699 0)
+			(at 41.91 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "CL21B104KCFNNNE"
 			(at 47.752 89.662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
@@ -7547,6 +7530,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Capacitance" "100n"
+			(at 48.26 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Name" "CL21B104KCFNNNE"
@@ -7609,7 +7600,7 @@
 			)
 		)
 		(property "Voltage Rating" "100V"
-			(at 47.498 93.472 0)
+			(at 45.974 93.472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7768,6 +7759,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 64.77 109.22 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b47b5203-1506-4b4e-a35e-b2d343df29ff")
+		(property "Reference" "R9"
+			(at 60.452 108.204 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CRCW04021R00FKEDHP"
+			(at 64.77 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 64.77 110.998 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 1Ω 200mW 50V Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 64.77 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "1"
+			(at 64.77 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2077491"
+			(at 64.77 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b1b58268-74d2-49a9-8c19-2e28d94884fd")
+		)
+		(pin "1"
+			(uuid "0e26e53a-813e-4521-9790-44f7fe222caf")
+		)
+		(instances
+			(project "NanoGaN"
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/47075a52-6063-4b82-8884-2b908f359801"
+					(reference "R16")
+					(unit 1)
+				)
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/6f3a55d2-28c8-407e-8c9d-28f4ee320cbb"
+					(reference "R9")
+					(unit 1)
+				)
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/e0a1170f-dabd-4224-bbe3-5bcec1b89854"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "NanoGaN:IGC025S08S1")
 		(at 77.47 106.68 0)
 		(unit 1)
@@ -7785,7 +7869,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IGC025S08S1"
+		(property "Value" "IGC019S06S1XTMA1"
 			(at 83.82 110.7439 0)
 			(effects
 				(font
@@ -7812,7 +7896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CoolGaN™ Transistor 80 V G3 in PQFN 3x5, 1.9 mΩ"
+		(property "Description" "CoolGaN™ Transistor 60 V G3 in PQFN 3x5, 1.9 mΩ"
 			(at 82.296 95.25 0)
 			(effects
 				(font
@@ -7821,7 +7905,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C43313314"
+		(property "LCSC" "C43313313"
 			(at 77.47 106.68 0)
 			(effects
 				(font
@@ -8333,22 +8417,22 @@
 		(dnp no)
 		(uuid "e161dc49-d6f4-4b9d-b499-ede009ae4ba7")
 		(property "Reference" "C28"
-			(at 187.96 104.14 0)
+			(at 180.594 103.378 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Value" "100p"
+		(property "Value" "~"
 			(at 186.436 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
@@ -8380,6 +8464,14 @@
 		)
 		(property "Voltage Rating" "6.3V"
 			(at 188.214 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" "100p"
+			(at 189.23 103.378 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8437,7 +8529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 69.342 87.63 90)
 			(effects
 				(font
@@ -8505,22 +8597,22 @@
 		(dnp no)
 		(uuid "e74cc464-d00c-40e8-b6de-99228f60cc0d")
 		(property "Reference" "C24"
-			(at 113.03 104.14 0)
+			(at 106.68 103.378 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "~"
 			(at 111.506 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
@@ -8552,6 +8644,14 @@
 		)
 		(property "Voltage Rating" "6.3V"
 			(at 113.284 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" "100n"
+			(at 113.792 103.124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8609,7 +8709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 69.342 114.3 90)
 			(effects
 				(font

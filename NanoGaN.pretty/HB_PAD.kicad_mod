@@ -55,7 +55,9 @@
 			)
 		)
 	)
-	(attr smd)
+	(attr smd board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard
+		dnp
+	)
 	(pad "1" thru_hole circle
 		(at -0.6 0.3)
 		(size 0.6 0.6)
