@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.3,
-          "height": 0.6,
-          "width": 0.6
+          "drill": 0.0,
+          "height": 2.79,
+          "width": 0.74
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.4
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -129,7 +129,7 @@
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "error",
+        "solder_mask_bridge": "ignore",
         "starved_thermal": "error",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
@@ -148,8 +148,8 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.152,
-        "min_connection": 0.152,
+        "min_clearance": 0.15,
+        "min_connection": 0.15,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.254,
@@ -161,7 +161,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.1,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.152,
+        "min_track_width": 0.1,
         "min_via_annular_width": 0.15,
         "min_via_diameter": 0.6,
         "solder_mask_to_copper_clearance": 0.1,
@@ -511,7 +511,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -530,12 +530,6 @@
       {
         "line_style": 0,
         "name": "HV_DC",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
-      },
-      {
-        "name": "HV_GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
@@ -570,7 +564,7 @@
         "pattern": "/HalfBridge*/HB"
       },
       {
-        "netclass": "HV_GND",
+        "netclass": "Default",
         "pattern": "/HalfBridge*/LO*"
       },
       {
@@ -578,16 +572,12 @@
         "pattern": "/HalfBridge*/HIGH_GATE"
       },
       {
-        "netclass": "HV_GND",
+        "netclass": "Default",
         "pattern": "/HalfBridge*/LOW_GATE"
       },
       {
         "netclass": "HV_DC",
         "pattern": "U_DC"
-      },
-      {
-        "netclass": "HV_GND",
-        "pattern": "PGND"
       }
     ]
   },

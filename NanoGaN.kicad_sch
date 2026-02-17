@@ -11,86 +11,6 @@
 		(company "ErenAkbayin")
 	)
 	(lib_symbols
-		(symbol "Connector_Generic:Power_Welding_PAD"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Power_Welding_PAD_1_1"
-				(circle
-					(center 0 0)
-					(radius 3.81)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin unspecified line
-					(at -11.43 0 0)
-					(length 7.62)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Fiducial_1"
 			(exclude_from_sim yes)
 			(in_bom no)
@@ -1532,6 +1452,87 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "NanoGaN:Power_Welding_PAD"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J3"
+				(at 5.08 1.2701 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Phase_U"
+				(at 5.08 -1.2699 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "TerminalBlock_Wuerth:Wuerth_REDCUBE-THR_WP-THRBU_74650073_THR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Power_Welding_PAD_1_1"
+				(circle
+					(center 0 0)
+					(radius 3.81)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -11.43 0 0)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -2982,17 +2983,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Power_Welding_PAD")
-		(at 204.47 129.54 0)
+		(lib_id "NanoGaN:Power_Welding_PAD")
+		(at 205.74 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "14f140cc-25d4-4a00-9d57-ff56edfcd697")
-		(property "Reference" "J5"
-			(at 209.55 128.2699 0)
+		(uuid "143d2544-a897-401a-a447-b1b9f9a8b4a1")
+		(property "Reference" "J3"
+			(at 210.82 39.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3000,8 +3001,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Phase_W"
-			(at 209.55 130.8099 0)
+		(property "Value" "Phase_U"
+			(at 210.82 41.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3010,7 +3011,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Wuerth:Wuerth_REDCUBE-THR_WP-THRBU_74650073_THR"
-			(at 204.47 129.54 0)
+			(at 205.74 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3019,7 +3020,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 129.54 0)
+			(at 205.74 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3028,7 +3029,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 204.47 129.54 0)
+			(at 205.74 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3036,12 +3037,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "748b8d73-6536-4c1f-ad0f-c3f242af214d")
+			(uuid "2d3f4f93-0884-417b-ada8-4250d444593d")
 		)
 		(instances
-			(project "NanoGaN"
+			(project ""
 				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb"
-					(reference "J5")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -3065,12 +3066,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PGND"
+		(property "Value" "GND"
 			(at 247.65 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -3097,6 +3099,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3410,17 +3413,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Power_Welding_PAD")
-		(at 205.74 85.09 0)
+		(lib_id "NanoGaN:Power_Welding_PAD")
+		(at 204.47 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "30d228e1-6243-4e6a-b3ff-ab8505aa005e")
-		(property "Reference" "J4"
-			(at 210.82 83.8199 0)
+		(uuid "3790eb76-d5d4-41a6-820c-564b05f10cf7")
+		(property "Reference" "J5"
+			(at 209.55 128.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3428,8 +3431,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Phase_V"
-			(at 210.82 86.3599 0)
+		(property "Value" "Phase_U"
+			(at 209.55 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3438,7 +3441,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Wuerth:Wuerth_REDCUBE-THR_WP-THRBU_74650073_THR"
-			(at 205.74 85.09 0)
+			(at 204.47 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3447,7 +3450,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 85.09 0)
+			(at 204.47 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3456,7 +3459,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 205.74 85.09 0)
+			(at 204.47 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3464,12 +3467,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "717e231f-523c-49c5-a407-47f28ac5060a")
+			(uuid "63331db5-36b8-47c8-889b-991bed7765ae")
 		)
 		(instances
 			(project "NanoGaN"
 				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -3639,6 +3642,72 @@
 			(project "NanoGaN"
 				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NanoGaN:Power_Welding_PAD")
+		(at 205.74 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e1c1e6b-3cf7-4516-8091-8e66a03a14ae")
+		(property "Reference" "J4"
+			(at 210.82 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Phase_U"
+			(at 210.82 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Wuerth:Wuerth_REDCUBE-THR_WP-THRBU_74650073_THR"
+			(at 205.74 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "282f963f-1d95-451b-979b-b22092643951")
+		)
+		(instances
+			(project ""
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -3846,72 +3915,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Power_Welding_PAD")
-		(at 205.74 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "afebcff6-c37e-4721-bff6-bc3f9f0d8783")
-		(property "Reference" "J3"
-			(at 210.82 39.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Phase_U"
-			(at 210.82 41.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Wuerth:Wuerth_REDCUBE-THR_WP-THRBU_74650073_THR"
-			(at 205.74 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 205.74 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d37f8f09-695b-4e6c-9d56-459e59fc644a")
-		)
-		(instances
-			(project "NanoGaN"
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "MountingHole_Pad_8")
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 88.9 191.77 180)
@@ -4003,6 +4006,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -4261,12 +4265,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PGND"
+		(property "Value" "GND"
 			(at 62.23 193.294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
