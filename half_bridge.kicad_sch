@@ -5069,100 +5069,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 160.02 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2c9d54cd-62ac-46b5-b02b-036d5eac8b21")
-		(property "Reference" "C25"
-			(at 155.448 107.442 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 161.036 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 160.9852 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100nF 6.3V X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 160.02 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Capacitance" "100n"
-			(at 163.068 106.934 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage Rating" "6.3V"
-			(at 162.814 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bada265c-a445-4226-b2c8-4be4a02b1d63")
-		)
-		(pin "2"
-			(uuid "391c7ec9-ce1f-4874-9bbc-d4945e3a0744")
-		)
-		(instances
-			(project "NanoGaN"
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/47075a52-6063-4b82-8884-2b908f359801"
-					(reference "C26")
-					(unit 1)
-				)
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/6f3a55d2-28c8-407e-8c9d-28f4ee320cbb"
-					(reference "C25")
-					(unit 1)
-				)
-				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/e0a1170f-dabd-4224-bbe3-5bcec1b89854"
-					(reference "C33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "NanoGaN:IGC025S08S1")
 		(at 77.47 78.74 0)
 		(unit 1)
@@ -6213,6 +6119,100 @@
 				)
 				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/e0a1170f-dabd-4224-bbe3-5bcec1b89854"
 					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 160.02 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6fd15bb6-2fb5-4d71-857d-955fd3b22537")
+		(property "Reference" "C25"
+			(at 155.194 107.188 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 161.036 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 160.9852 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100pF 50V C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 160.02 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "6.3V"
+			(at 162.814 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" "100p"
+			(at 163.83 107.188 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "537c27a9-88e2-4c46-95f8-4e3f88b57573")
+		)
+		(pin "2"
+			(uuid "29ce5356-bab3-41ad-b3bf-73d5b6eea416")
+		)
+		(instances
+			(project "NanoGaN"
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/47075a52-6063-4b82-8884-2b908f359801"
+					(reference "C26")
+					(unit 1)
+				)
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/6f3a55d2-28c8-407e-8c9d-28f4ee320cbb"
+					(reference "C25")
+					(unit 1)
+				)
+				(path "/aa8a494f-605e-4a00-9d3c-daec94709fcb/e0a1170f-dabd-4224-bbe3-5bcec1b89854"
+					(reference "C33")
 					(unit 1)
 				)
 			)
