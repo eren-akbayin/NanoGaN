@@ -4963,26 +4963,6 @@
 				(justify right)
 			)
 		)
-		(pin "CANH" bidirectional
-			(at 88.9 64.77 0)
-			(uuid "d8162f37-d435-4650-bac2-1714a0342947")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "CANL" bidirectional
-			(at 88.9 67.31 0)
-			(uuid "55b5427b-4a14-4b2c-a45b-a06c0b90797c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "D-" bidirectional
 			(at 88.9 72.39 0)
 			(uuid "14953805-8f17-43bb-a89e-af3637e207d9")
@@ -5036,6 +5016,26 @@
 		(pin "SERVO" output
 			(at 88.9 77.47 0)
 			(uuid "14abb1d8-adb2-48cf-88f1-e16569eab739")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN+" bidirectional
+			(at 88.9 64.77 0)
+			(uuid "be4fc283-a070-42f3-bc20-aeb85d1d0f95")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN-" bidirectional
+			(at 88.9 67.31 0)
+			(uuid "52242e19-f8c7-48d7-b5da-75abb9919584")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5258,26 +5258,6 @@
 		(pin "HALL1" input
 			(at 99.06 57.15 180)
 			(uuid "af3c031d-46bd-47ce-b94c-106d6dc4f911")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CANH" bidirectional
-			(at 99.06 64.77 180)
-			(uuid "ea2e523f-e820-47e0-bb7d-0496c7605438")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CANL" bidirectional
-			(at 99.06 67.31 180)
-			(uuid "c6389986-764f-4b3e-be80-91536ac880bc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5538,6 +5518,26 @@
 		(pin "UART4_RX" input
 			(at 99.06 36.83 180)
 			(uuid "8d0f7dd7-bd24-4158-9dd8-79ae1b16b7e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN+" bidirectional
+			(at 99.06 64.77 180)
+			(uuid "17636656-1601-4c72-b9be-bb8e0f557e46")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN-" bidirectional
+			(at 99.06 67.31 180)
+			(uuid "57dd390b-0069-4ffb-89e7-3e2bc3edbb7c")
 			(effects
 				(font
 					(size 1.27 1.27)
