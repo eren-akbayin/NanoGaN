@@ -1914,6 +1914,16 @@
 		)
 		(uuid da06f316-29b5-4eda-b390-5f507809a2ca)
 	)
+	(text "U_DC:12V-60V"
+		(exclude_from_sim no)
+		(at 247.142 56.642 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0cdfb924-8dbc-4dfd-90cb-ee489f6690e5")
+	)
 	(text "Mechanical Stuff (no BOM)"
 		(exclude_from_sim no)
 		(at 28.194 171.704 0)
