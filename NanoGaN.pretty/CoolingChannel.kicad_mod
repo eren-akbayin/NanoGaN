@@ -285,7 +285,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/NanoGaN_3D_models/cc_v5.step"
+	(model "${KIPRJMOD}/NanoGaN_3D_models/cc_v6.step"
 		(offset
 			(xyz 0 0 -1)
 		)

@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "804c8695-fb59-42c3-bd44-2860f51acbf2")
 	(paper "A4")
+	(title_block
+		(title "NanoGaN")
+		(date "2026-02-22")
+		(rev "A01")
+		(company "Eren Akbayin")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -2537,15 +2543,15 @@
 		)
 		(uuid e796e4d4-ba15-4550-9c06-68f052a46c82)
 	)
-	(text "to be later adjusted"
+	(text "Due to layout reasons, the current measurement has to be inverted in the software."
 		(exclude_from_sim no)
-		(at 74.422 188.976 0)
+		(at 149.86 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "21e6a857-74e0-492d-b8c7-a2661691756a")
+		(uuid "14f95d38-8707-42d3-ab77-599449e27130")
 	)
 	(text "Current Measurement"
 		(exclude_from_sim no)
@@ -2597,16 +2603,6 @@
 		)
 		(uuid "891dade1-8fa4-45c3-9293-073c0b5fc18e")
 	)
-	(text "Add more capacitors close \nto semiconductor switches\nif there is enough space"
-		(exclude_from_sim no)
-		(at 29.464 107.696 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "9bb324e6-89db-45f4-bf34-2d3799df7496")
-	)
 	(text "V_Hysteresis = (3.3V x 10kohm) / ( 39kohm + 10kohm) = 0.67V"
 		(exclude_from_sim no)
 		(at 145.796 151.384 0)
@@ -2629,7 +2625,7 @@
 	)
 	(text "Current measurement range: +-65A"
 		(exclude_from_sim no)
-		(at 133.604 82.55 0)
+		(at 125.984 85.344 0)
 		(effects
 			(font
 				(size 1.27 1.27)

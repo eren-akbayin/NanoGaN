@@ -108,4 +108,15 @@
 		)
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/NanoGaN_3D_models/ICK_S.step"
+		(offset
+			(xyz -22.5 -3.75 1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )
