@@ -5159,7 +5159,7 @@
 	)
 	(text "Slave SPI/I2C connection\nnot used in this revision"
 		(exclude_from_sim no)
-		(at 265.938 34.798 0)
+		(at 269.494 34.544 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5428,7 +5428,7 @@
 		(uuid "d2711dad-479b-4765-8850-b4cd37c1a99f")
 	)
 	(junction
-		(at 229.87 20.32)
+		(at 233.68 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d43ac434-0684-4e5d-b415-c712ae0f2707")
@@ -5512,11 +5512,11 @@
 		(uuid "1303286c-84cf-4d17-8bb9-f1cf8f668013")
 	)
 	(no_connect
-		(at 251.46 39.37)
+		(at 255.27 39.37)
 		(uuid "1d230167-3550-41bf-9771-2cee5c57411a")
 	)
 	(no_connect
-		(at 251.46 36.83)
+		(at 255.27 36.83)
 		(uuid "2490aa9b-6b62-43dd-83bd-52c5b003417b")
 	)
 	(no_connect
@@ -5588,7 +5588,7 @@
 		(uuid "96a416c7-d154-4cfc-b3c9-ca125e88b522")
 	)
 	(no_connect
-		(at 251.46 31.75)
+		(at 255.27 31.75)
 		(uuid "a71f0eca-74a4-45db-9655-5a7e242f9efc")
 	)
 	(no_connect
@@ -5596,7 +5596,7 @@
 		(uuid "ab70042e-f1c3-4670-8060-d7fe02752d07")
 	)
 	(no_connect
-		(at 251.46 34.29)
+		(at 255.27 34.29)
 		(uuid "af6c2e8d-d44e-40d3-9756-f8f50f00d5cd")
 	)
 	(no_connect
@@ -5661,7 +5661,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 39.37) (xy 210.82 39.37)
+			(xy 210.82 39.37) (xy 214.63 39.37)
 		)
 		(stroke
 			(width 0)
@@ -5991,7 +5991,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 41.91) (xy 210.82 41.91)
+			(xy 210.82 41.91) (xy 214.63 41.91)
 		)
 		(stroke
 			(width 0)
@@ -6461,7 +6461,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 20.32) (xy 233.68 20.32)
+			(xy 233.68 20.32) (xy 237.49 20.32)
 		)
 		(stroke
 			(width 0)
@@ -7161,7 +7161,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 44.45) (xy 256.54 44.45)
+			(xy 255.27 44.45) (xy 260.35 44.45)
 		)
 		(stroke
 			(width 0)
@@ -7321,7 +7321,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 41.91) (xy 256.54 41.91)
+			(xy 255.27 41.91) (xy 260.35 41.91)
 		)
 		(stroke
 			(width 0)
@@ -7911,7 +7911,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 34.29) (xy 210.82 34.29)
+			(xy 210.82 34.29) (xy 214.63 34.29)
 		)
 		(stroke
 			(width 0)
@@ -7921,7 +7921,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 36.83) (xy 210.82 36.83)
+			(xy 210.82 36.83) (xy 214.63 36.83)
 		)
 		(stroke
 			(width 0)
@@ -8051,7 +8051,7 @@
 	)
 	(global_label "SPI4_MOSI"
 		(shape input)
-		(at 207.01 41.91 180)
+		(at 210.82 41.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8061,7 +8061,7 @@
 		)
 		(uuid "056fec31-c38f-4444-a5b8-218de33c59bb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.1672 41.91 0)
+			(at 197.9772 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8117,7 +8117,7 @@
 	)
 	(global_label "IMU_INT2"
 		(shape output)
-		(at 256.54 44.45 0)
+		(at 260.35 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8127,7 +8127,7 @@
 		)
 		(uuid "32d80e22-11e6-4ab8-b956-8458f8ffcd0a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 267.9919 44.45 0)
+			(at 271.8019 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8227,7 +8227,7 @@
 	)
 	(global_label "SPI4_SCK"
 		(shape input)
-		(at 207.01 39.37 180)
+		(at 210.82 39.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8237,7 +8237,7 @@
 		)
 		(uuid "63b99f52-0c77-4cca-b15e-eec024c720b3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.0139 39.37 0)
+			(at 198.8239 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8249,7 +8249,7 @@
 	)
 	(global_label "IMU_INT1"
 		(shape output)
-		(at 256.54 41.91 0)
+		(at 260.35 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8259,7 +8259,7 @@
 		)
 		(uuid "6558833e-ac43-45de-b909-94c28d972e71")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 267.9919 41.91 0)
+			(at 271.8019 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8535,7 +8535,7 @@
 	)
 	(global_label "SPI4_MISO"
 		(shape output)
-		(at 207.01 34.29 180)
+		(at 210.82 34.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8545,7 +8545,7 @@
 		)
 		(uuid "af12de1f-74fd-43c1-b82d-e6606d1de74c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.1672 34.29 0)
+			(at 197.9772 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8689,7 +8689,7 @@
 	)
 	(global_label "SPI4_NSS"
 		(shape input)
-		(at 207.01 36.83 180)
+		(at 210.82 36.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8699,7 +8699,7 @@
 		)
 		(uuid "d8ddf5db-bf73-4c4c-adac-848013996c76")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.0139 36.83 0)
+			(at 198.8239 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10514,7 +10514,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 229.87 20.32 0)
+		(at 233.68 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10522,7 +10522,7 @@
 		(dnp no)
 		(uuid "2ff8ae20-c759-4267-ac37-7c03d5bb7337")
 		(property "Reference" "#PWR0134"
-			(at 229.87 24.13 0)
+			(at 233.68 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10531,7 +10531,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 229.87 17.018 0)
+			(at 233.68 17.018 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10539,7 +10539,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 20.32 0)
+			(at 233.68 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10548,7 +10548,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 20.32 0)
+			(at 233.68 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10557,7 +10557,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 229.87 20.32 0)
+			(at 233.68 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10970,7 +10970,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 229.87 55.88 0)
+		(at 233.68 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10979,7 +10979,7 @@
 		(fields_autoplaced yes)
 		(uuid "468feb40-ed2c-4156-887b-6560d9235f0b")
 		(property "Reference" "#PWR082"
-			(at 229.87 62.23 0)
+			(at 233.68 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10988,7 +10988,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 229.87 60.96 0)
+			(at 233.68 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10997,7 +10997,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 55.88 0)
+			(at 233.68 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11006,7 +11006,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 55.88 0)
+			(at 233.68 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11015,7 +11015,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 229.87 55.88 0)
+			(at 233.68 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12162,7 +12162,7 @@
 	)
 	(symbol
 		(lib_id "NanoGaN:LSM6DSVTR")
-		(at 210.82 30.48 0)
+		(at 214.63 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12170,7 +12170,7 @@
 		(dnp no)
 		(uuid "85cd5792-8cd1-419f-a5a6-b306d72f31b0")
 		(property "Reference" "U9"
-			(at 218.44 26.924 0)
+			(at 222.25 26.924 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12179,7 +12179,7 @@
 			)
 		)
 		(property "Value" "LSM6DSVTR"
-			(at 234.95 49.784 0)
+			(at 238.76 49.784 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12188,7 +12188,7 @@
 			)
 		)
 		(property "Footprint" "NanoGaN:LGA14-L_2P59X3P1X0P5_STM-L"
-			(at 267.462 54.864 0)
+			(at 271.272 54.864 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12198,7 +12198,7 @@
 			)
 		)
 		(property "Datasheet" "LSM6DSVTR"
-			(at 258.572 56.896 0)
+			(at 262.382 56.896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12208,7 +12208,7 @@
 			)
 		)
 		(property "Description" "-40℃~+85℃ 1.71V~3.6V 2.6uA 4.5KB IMU SPI、I2C、I3C X,Y,Z X,Y,Z ±16g ±4000dps LGA-14L(2.5x3) Accelerometers ROHS"
-			(at 307.086 59.436 0)
+			(at 310.896 59.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12217,7 +12217,7 @@
 			)
 		)
 		(property "LCSC" "C41785564"
-			(at 255.524 62.484 0)
+			(at 259.334 62.484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14479,7 +14479,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 233.68 55.88 0)
+		(at 237.49 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14488,7 +14488,7 @@
 		(fields_autoplaced yes)
 		(uuid "d80e6459-ee53-41f6-810e-492be3c806a7")
 		(property "Reference" "#PWR0133"
-			(at 233.68 62.23 0)
+			(at 237.49 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14497,7 +14497,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 233.68 60.96 0)
+			(at 237.49 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14506,7 +14506,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 233.68 55.88 0)
+			(at 237.49 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14515,7 +14515,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 55.88 0)
+			(at 237.49 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14524,7 +14524,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 233.68 55.88 0)
+			(at 237.49 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)

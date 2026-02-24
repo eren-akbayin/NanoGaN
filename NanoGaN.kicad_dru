@@ -30,7 +30,7 @@
 # HV to Default clearances
 # -----------------------------
 (rule HV_PHASE_to_Default_Clearance
-  (constraint clearance (min 0.1880mm))
+  (constraint clearance (min 0.25mm))
 
   (condition "A.NetClass == 'HV_PHASE' && B.NetClass == 'Default'")
 )
