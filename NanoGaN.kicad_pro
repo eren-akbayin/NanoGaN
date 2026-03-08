@@ -275,7 +275,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "label_dangling|673100|495300|4032e919-c6e7-49b1-93ef-da1457583a7e|00000000-0000-0000-0000-000000000000|/aa8a494f-605e-4a00-9d3c-daec94709fcb/6f3a55d2-28c8-407e-8c9d-28f4ee320cbb||",
+        "this is still NC but this pad needed to be in PHASE net class."
+      ]
+    ],
     "meta": {
       "version": 0
     },
