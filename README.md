@@ -3,7 +3,7 @@
 GaN-based motor driver using Infineon's latest GaN switches. Supports up to 60V (depending on GaN device selection).
 
 ![NanoGaN Board](board/NanoGaN.png)
-![NanoGaN Board](board/NanoGaN.jpg)
+![NanoGaN Board](board/NanoGaN.jpeg)
 
 ## Project Structure
 
