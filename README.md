@@ -3,6 +3,7 @@
 GaN-based motor driver using Infineon's latest GaN switches. Supports up to 60V (depending on GaN device selection).
 
 ![NanoGaN Board](board/NanoGaN.png)
+![NanoGaN Board](board/NanoGaN.jpg)
 
 ## Project Structure
 
@@ -49,3 +50,6 @@ Standard manufacturing outputs are in the `production/` folder:
 ## Notes
 
 GaN motor driver with Infineon GaN switches. Supports up to 60V depending on device selection. MCU is configured via `NanoGaN.ioc` (STM32CubeMX format).
+
+## Example HF injection to 24V BLDC Motor
+![NanoGaN Board](measurements/hf_injection.png)
